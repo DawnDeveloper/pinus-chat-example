@@ -2348,3 +2348,472 @@ gate.gateHandler.queryEntry
 [2020-03-02T15:34:54.482] [DEBUG] pinus - [connector-server-1 channelRemote.js] [connector-server-1] pushMessage uids: ["1*a"], msg: {"route":"onLeave","user":"2"}, sids: [1]
 [2020-03-02T15:34:54.482] [DEBUG] pinus - [connector-server-1 connector.js] [connector-server-1] send message reqId: null, route: onLeave, msg: {"route":"onLeave","user":"2"}, receivers: [1], opts: {"type":"push","userOptions":{},"isPush":true}
 [2020-03-02T16:10:18.477] [DEBUG] pinus - [connector-server-1 sessionService.js] session on [connector-server-1] is closed with session id: 1,uid:1*a,reason:1006
+[2020-03-30T21:15:32.254] [INFO] pinus - [connector-server-1 application.js] application inited: "connector-server-1"
+[2020-03-30T21:15:32.263] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" enter before start...
+[2020-03-30T21:15:32.264] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" enter after start...
+[2020-03-30T21:15:32.275] [WARN] logger - [connector-server-1 console] after start all server, use route dictionary :
+ connector.entryHandler.enter
+connector.entryHandler.entry
+connector.entryHandler.onUserLeave
+connector.entryHandler.publish
+connector.entryHandler.subscribe
+game.chatHandler.entry
+game.chatHandler.entry
+game.chatHandler.publish
+game.chatHandler.publish
+game.chatHandler.send
+game.chatHandler.send
+game.chatHandler.subscribe
+game.chatHandler.subscribe
+game.entryHandler.entry
+game.entryHandler.entry
+game.entryHandler.publish
+game.entryHandler.publish
+game.entryHandler.subscribe
+game.entryHandler.subscribe
+gate.gateHandler.queryEntry
+[2020-03-30T21:15:32.329] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" enter after start...
+[2020-03-30T21:15:32.332] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" finish start
+[2020-03-30T21:15:32.333] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" startup in 75 ms
+[2020-03-30T21:15:32.335] [DEBUG] pinus - [connector-server-1 monitorwatcher.js] [connector-server-1] receive addServer signal: {"action":"addServer","server":{"main":"D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app","env":"development","id":"game-server_1","host":"127.0.0.1","port":6050,"args":" --inspect=10002","serverType":"game","remoterPaths":[{"namespace":"sys","serverType":"game","path":"D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\backend"},{"namespace":"user","serverType":"game","path":"D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app\\servers\\game\\remote"}],"handlerPaths":["D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app\\servers\\game\\handler"],"pid":18512}}
+[2020-03-30T21:15:32.367] [DEBUG] pinus - [connector-server-1 monitorwatcher.js] [connector-server-1] receive addServer signal: {"action":"addServer","server":{"main":"D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app","env":"development","id":"gate-server-1","host":"127.0.0.1","port":7050,"clientHost":"127.0.0.1","clientPort":3014,"frontend":"true","serverType":"gate","remoterPaths":[{"namespace":"sys","serverType":"gate","path":"D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\frontend"}],"handlerPaths":["D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app\\servers\\gate\\handler"],"pid":20292}}
+[2020-04-01T11:46:47.889] [INFO] pinus - [connector-server-1 application.js] application inited: "connector-server-1"
+[2020-04-01T11:46:47.898] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" enter before start...
+[2020-04-01T11:46:47.899] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" enter after start...
+[2020-04-01T11:46:47.912] [WARN] logger - [connector-server-1 console] after start all server, use route dictionary :
+ connector.entryHandler.enter
+connector.entryHandler.entry
+connector.entryHandler.onUserLeave
+connector.entryHandler.publish
+connector.entryHandler.subscribe
+game.chatHandler.entry
+game.chatHandler.entry
+game.chatHandler.publish
+game.chatHandler.publish
+game.chatHandler.send
+game.chatHandler.send
+game.chatHandler.subscribe
+game.chatHandler.subscribe
+game.entryHandler.entry
+game.entryHandler.entry
+game.entryHandler.publish
+game.entryHandler.publish
+game.entryHandler.subscribe
+game.entryHandler.subscribe
+gate.gateHandler.queryEntry
+[2020-04-01T11:46:47.966] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" enter after start...
+[2020-04-01T11:46:47.971] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" finish start
+[2020-04-01T11:46:47.971] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" startup in 79 ms
+[2020-04-01T11:46:47.973] [DEBUG] pinus - [connector-server-1 monitorwatcher.js] [connector-server-1] receive addServer signal: {"action":"addServer","server":{"main":"d:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app.js","env":"development","id":"gate-server-1","host":"127.0.0.1","port":7050,"clientHost":"127.0.0.1","clientPort":3014,"frontend":"true","serverType":"gate","remoterPaths":[{"namespace":"sys","serverType":"gate","path":"d:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\frontend"}],"handlerPaths":["d:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app\\servers\\gate\\handler"],"pid":20896}}
+[2020-04-01T11:46:47.978] [DEBUG] pinus - [connector-server-1 monitorwatcher.js] [connector-server-1] receive addServer signal: {"action":"addServer","server":{"main":"d:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app.js","env":"development","id":"game-server_1","host":"127.0.0.1","port":6050,"args":" --inspect=10002","serverType":"game","remoterPaths":[{"namespace":"sys","serverType":"game","path":"d:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\backend"},{"namespace":"user","serverType":"game","path":"d:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app\\servers\\game\\remote"}],"handlerPaths":["d:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app\\servers\\game\\handler"],"pid":23952}}
+[2020-04-01T11:47:09.609] [INFO] pinus - [connector-server-1 application.js] application inited: "connector-server-1"
+[2020-04-01T11:47:09.618] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" enter before start...
+[2020-04-01T11:47:09.618] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" enter after start...
+[2020-04-01T11:47:09.632] [WARN] logger - [connector-server-1 console] after start all server, use route dictionary :
+ connector.entryHandler.enter
+connector.entryHandler.entry
+connector.entryHandler.onUserLeave
+connector.entryHandler.publish
+connector.entryHandler.subscribe
+game.chatHandler.entry
+game.chatHandler.entry
+game.chatHandler.publish
+game.chatHandler.publish
+game.chatHandler.send
+game.chatHandler.send
+game.chatHandler.subscribe
+game.chatHandler.subscribe
+game.entryHandler.entry
+game.entryHandler.entry
+game.entryHandler.publish
+game.entryHandler.publish
+game.entryHandler.subscribe
+game.entryHandler.subscribe
+gate.gateHandler.queryEntry
+[2020-04-01T11:47:09.695] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" enter after start...
+[2020-04-01T11:47:09.697] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" finish start
+[2020-04-01T11:47:09.698] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" startup in 87 ms
+[2020-04-01T11:47:09.713] [DEBUG] pinus - [connector-server-1 monitorwatcher.js] [connector-server-1] receive addServer signal: {"action":"addServer","server":{"main":"d:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app.js","env":"development","id":"gate-server-1","host":"127.0.0.1","port":7050,"clientHost":"127.0.0.1","clientPort":3014,"frontend":"true","serverType":"gate","remoterPaths":[{"namespace":"sys","serverType":"gate","path":"d:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\frontend"}],"handlerPaths":["d:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app\\servers\\gate\\handler"],"pid":23816}}
+[2020-04-09T20:40:53.961] [INFO] pinus - [connector-server-1 application.js] application inited: "connector-server-1"
+[2020-04-09T20:40:53.972] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" enter before start...
+[2020-04-09T20:40:53.973] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" enter after start...
+[2020-04-09T20:40:53.988] [WARN] logger - [connector-server-1 console] after start all server, use route dictionary :
+ connector.entryHandler.enter
+connector.entryHandler.entry
+connector.entryHandler.onUserLeave
+connector.entryHandler.publish
+connector.entryHandler.subscribe
+game.chatHandler.entry
+game.chatHandler.entry
+game.chatHandler.publish
+game.chatHandler.publish
+game.chatHandler.send
+game.chatHandler.send
+game.chatHandler.subscribe
+game.chatHandler.subscribe
+game.entryHandler.entry
+game.entryHandler.entry
+game.entryHandler.publish
+game.entryHandler.publish
+game.entryHandler.subscribe
+game.entryHandler.subscribe
+gate.gateHandler.queryEntry
+[2020-04-09T20:40:54.170] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" enter after start...
+[2020-04-09T20:40:54.172] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" finish start
+[2020-04-09T20:40:54.172] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" startup in 208 ms
+[2020-04-09T20:40:54.191] [DEBUG] pinus - [connector-server-1 monitorwatcher.js] [connector-server-1] receive addServer signal: {"action":"addServer","server":{"main":"D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app","env":"development","id":"gate-server-1","host":"127.0.0.1","port":7050,"clientHost":"127.0.0.1","clientPort":3014,"frontend":"true","serverType":"gate","remoterPaths":[{"namespace":"sys","serverType":"gate","path":"D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\frontend"}],"handlerPaths":["D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app\\servers\\gate\\handler"],"pid":33256}}
+[2020-04-09T20:50:12.087] [DEBUG] pinus - [connector-server-1 connector.js] [connector-server-1] getSession session is created with session id: 1
+[2020-04-09T20:50:12.095] [DEBUG] pinus - [connector-server-1 connector.js] session on [connector-server-1] bind with uid: w1*1
+[2020-04-09T20:50:12.161] [DEBUG] pinus - [connector-server-1 connector.js] [connector-server-1] send message reqId: 2, route: connector.entryHandler.enter, msg: {"code":200,"users":["w1"]}, receivers: [1], opts: {"type":"response"}
+[2020-04-09T20:50:20.235] [DEBUG] pinus - [connector-server-1 switcher.js] connection error:read ECONNRESET, the remote ip is ::ffff:127.0.0.1 && port is 54792
+[2020-04-09T20:50:20.236] [DEBUG] pinus - [connector-server-1 sessionService.js] session on [connector-server-1] is closed with session id: 1,uid:w1*1,reason:1001
+[2020-04-09T20:52:06.445] [DEBUG] pinus - [connector-server-1 connector.js] [connector-server-1] getSession session is created with session id: 2
+[2020-04-09T20:52:06.450] [DEBUG] pinus - [connector-server-1 connector.js] session on [connector-server-1] bind with uid: w1*1
+[2020-04-09T20:52:06.452] [DEBUG] pinus - [connector-server-1 connector.js] [connector-server-1] send message reqId: 2, route: connector.entryHandler.enter, msg: {"code":200,"users":["w1"]}, receivers: [2], opts: {"type":"response"}
+[2020-04-09T20:52:09.424] [DEBUG] pinus - [connector-server-1 switcher.js] connection error:read ECONNRESET, the remote ip is ::ffff:127.0.0.1 && port is 55388
+[2020-04-09T20:52:09.424] [DEBUG] pinus - [connector-server-1 sessionService.js] session on [connector-server-1] is closed with session id: 2,uid:w1*1,reason:1001
+[2020-04-09T20:52:16.773] [DEBUG] pinus - [connector-server-1 connector.js] [connector-server-1] getSession session is created with session id: 3
+[2020-04-09T20:52:16.783] [DEBUG] pinus - [connector-server-1 connector.js] session on [connector-server-1] bind with uid: w1*1
+[2020-04-09T20:52:16.784] [DEBUG] pinus - [connector-server-1 connector.js] [connector-server-1] send message reqId: 2, route: connector.entryHandler.enter, msg: {"code":200,"users":["w1"]}, receivers: [3], opts: {"type":"response"}
+[2020-04-09T20:52:39.885] [INFO] pinus - [connector-server-1 application.js] application inited: "connector-server-1"
+[2020-04-09T20:52:39.893] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" enter before start...
+[2020-04-09T20:52:39.894] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" enter after start...
+[2020-04-09T20:52:39.905] [WARN] logger - [connector-server-1 console] after start all server, use route dictionary :
+ connector.entryHandler.enter
+connector.entryHandler.entry
+connector.entryHandler.onUserLeave
+connector.entryHandler.publish
+connector.entryHandler.subscribe
+game.chatHandler.entry
+game.chatHandler.entry
+game.chatHandler.publish
+game.chatHandler.publish
+game.chatHandler.send
+game.chatHandler.send
+game.chatHandler.subscribe
+game.chatHandler.subscribe
+game.entryHandler.entry
+game.entryHandler.entry
+game.entryHandler.publish
+game.entryHandler.publish
+game.entryHandler.subscribe
+game.entryHandler.subscribe
+gate.gateHandler.queryEntry
+[2020-04-09T20:52:39.958] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" enter after start...
+[2020-04-09T20:52:39.960] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" finish start
+[2020-04-09T20:52:39.960] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" startup in 73 ms
+[2020-04-09T20:52:39.980] [DEBUG] pinus - [connector-server-1 monitorwatcher.js] [connector-server-1] receive addServer signal: {"action":"addServer","server":{"main":"d:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app.js","env":"development","id":"game-server_1","host":"127.0.0.1","port":6050,"args":" --inspect=10002","serverType":"game","remoterPaths":[{"namespace":"sys","serverType":"game","path":"d:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\backend"},{"namespace":"user","serverType":"game","path":"d:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app\\servers\\game\\remote"}],"handlerPaths":["d:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app\\servers\\game\\handler"],"pid":30456}}
+[2020-04-09T20:52:40.020] [DEBUG] pinus - [connector-server-1 monitorwatcher.js] [connector-server-1] receive addServer signal: {"action":"addServer","server":{"main":"d:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app.js","env":"development","id":"gate-server-1","host":"127.0.0.1","port":7050,"clientHost":"127.0.0.1","clientPort":3014,"frontend":"true","serverType":"gate","remoterPaths":[{"namespace":"sys","serverType":"gate","path":"d:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\frontend"}],"handlerPaths":["d:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app\\servers\\gate\\handler"],"pid":35188}}
+[2020-04-09T20:52:48.133] [DEBUG] pinus - [connector-server-1 connector.js] [connector-server-1] getSession session is created with session id: 1
+[2020-04-09T20:52:48.148] [DEBUG] pinus - [connector-server-1 connector.js] session on [connector-server-1] bind with uid: w1*1
+[2020-04-09T20:52:48.202] [DEBUG] pinus - [connector-server-1 connector.js] [connector-server-1] send message reqId: 2, route: connector.entryHandler.enter, msg: {"code":200,"users":["w1"]}, receivers: [1], opts: {"type":"response"}
+[2020-04-09T20:53:00.961] [DEBUG] pinus - [connector-server-1 switcher.js] connection error:read ECONNRESET, the remote ip is ::ffff:127.0.0.1 && port is 55625
+[2020-04-09T20:53:00.963] [DEBUG] pinus - [connector-server-1 sessionService.js] session on [connector-server-1] is closed with session id: 1,uid:w1*1,reason:1001
+[2020-04-09T20:53:05.266] [DEBUG] pinus - [connector-server-1 connector.js] [connector-server-1] getSession session is created with session id: 2
+[2020-04-09T21:01:50.198] [DEBUG] pinus - [connector-server-1 connector.js] session on [connector-server-1] bind with uid: w1*1
+[2020-04-09T21:01:50.199] [INFO] pinus - [connector-server-1 heartbeat.js] client 2 heartbeat timeout.
+[2020-04-09T21:01:50.200] [DEBUG] pinus - [connector-server-1 sessionService.js] session on [connector-server-1] is closed with session id: 2,uid:w1*1,reason:undefined
+[2020-04-09T21:01:50.201] [DEBUG] pinus - [connector-server-1 switcher.js] connection error:read ECONNRESET, the remote ip is ::ffff:127.0.0.1 && port is 55728
+[2020-04-09T21:01:50.202] [DEBUG] pinus - [connector-server-1 connector.js] [connector-server-1] send message reqId: 2, route: connector.entryHandler.enter, msg: {"code":200,"users":["w1"]}, receivers: [2], opts: {"type":"response"}
+[2020-04-09T21:01:50.202] [DEBUG] pinus - [connector-server-1 sessionService.js] Fail to send message for non-existing session, sid: 2 msg: {"code":200,"users":["w1"]}
+[2020-04-10T17:24:56.750] [INFO] pinus - [connector-server-1 application.js] application inited: "connector-server-1"
+[2020-04-10T17:24:56.759] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" enter before start...
+[2020-04-10T17:24:56.760] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" enter after start...
+[2020-04-10T17:24:56.782] [ERROR] logger - [connector-server-1 console] connector-server-1Error: 
+    at Logger.pLogger.(anonymous function) [as error] (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus-logger\lib\logger.ts:70:34)
+    at process.<anonymous> (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\preload.ts:33:17)
+    at process.emit (events.js:189:13)
+    at process._fatalException (internal/bootstrap/node.js:496:27) uncaughtException Caught exception:  D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\dist\app\servers\connector\remote\authRemoter.d.ts:1
+(function (exports, require, module, __filename, __dirname) { import { Application, RemoterClass, FrontendSession } from 'pinus';
+                                                                     ^
+
+SyntaxError: Unexpected token {
+    at new Script (vm.js:80:7)
+    at createScript (vm.js:274:10)
+    at Object.runInThisContext (vm.js:326:10)
+    at Module._compile (internal/modules/cjs/loader.js:664:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:712:10)
+    at Module.load (internal/modules/cjs/loader.js:600:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:539:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:531:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at loadFile (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus-loader\lib\loader.ts:45:44)
+    at loadPath (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus-loader\lib\loader.ts:74:13)
+    at Object.load (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus-loader\lib\loader.ts:41:12)
+    at loadRemoteServices (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus-rpc\lib\rpc-server\server.ts:12:20)
+    at Object.createServer (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus-rpc\lib\rpc-server\server.ts:44:21)
+    at RemoteComponent.genRemote (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus\lib\components\remote.ts:141:20)
+[2020-04-10T17:26:08.119] [INFO] pinus - [connector-server-1 application.js] application inited: "connector-server-1"
+[2020-04-10T17:26:08.128] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" enter before start...
+[2020-04-10T17:26:08.128] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" enter after start...
+[2020-04-10T17:26:08.153] [ERROR] logger - [connector-server-1 console] connector-server-1Error: 
+    at Logger.pLogger.(anonymous function) [as error] (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus-logger\lib\logger.ts:70:34)
+    at process.<anonymous> (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\preload.ts:33:17)
+    at process.emit (events.js:189:13)
+    at process._fatalException (internal/bootstrap/node.js:496:27) uncaughtException Caught exception:  D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\dist\app\servers\connector\remote\authRemoter.d.ts:1
+(function (exports, require, module, __filename, __dirname) { import { Application, RemoterClass, FrontendSession } from 'pinus';
+                                                                     ^
+
+SyntaxError: Unexpected token {
+    at new Script (vm.js:80:7)
+    at createScript (vm.js:274:10)
+    at Object.runInThisContext (vm.js:326:10)
+    at Module._compile (internal/modules/cjs/loader.js:664:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:712:10)
+    at Module.load (internal/modules/cjs/loader.js:600:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:539:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:531:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at loadFile (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus-loader\lib\loader.ts:45:44)
+    at loadPath (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus-loader\lib\loader.ts:74:13)
+    at Object.load (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus-loader\lib\loader.ts:41:12)
+    at loadRemoteServices (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus-rpc\lib\rpc-server\server.ts:12:20)
+    at Object.createServer (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus-rpc\lib\rpc-server\server.ts:44:21)
+    at RemoteComponent.genRemote (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus\lib\components\remote.ts:141:20)
+[2020-04-10T17:26:55.156] [INFO] pinus - [connector-server-1 application.js] application inited: "connector-server-1"
+[2020-04-10T17:26:55.166] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" enter before start...
+[2020-04-10T17:26:55.167] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" enter after start...
+[2020-04-10T17:26:55.180] [WARN] logger - [connector-server-1 console] after start all server, use route dictionary :
+ connector.entryHandler.enter
+connector.entryHandler.entry
+connector.entryHandler.onUserLeave
+connector.entryHandler.publish
+connector.entryHandler.subscribe
+game.chatHandler.entry
+game.chatHandler.publish
+game.chatHandler.send
+game.chatHandler.subscribe
+gate.gateHandler.queryEntry
+[2020-04-10T17:26:55.296] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" enter after start...
+[2020-04-10T17:26:55.298] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" finish start
+[2020-04-10T17:26:55.298] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" startup in 139 ms
+[2020-04-10T17:26:55.304] [DEBUG] pinus - [connector-server-1 monitorwatcher.js] [connector-server-1] receive addServer signal: {"action":"addServer","server":{"main":"D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app","env":"development","id":"gate-server-1","host":"127.0.0.1","port":7050,"clientHost":"127.0.0.1","clientPort":3014,"frontend":"true","serverType":"gate","remoterPaths":[{"namespace":"sys","serverType":"gate","path":"D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\frontend"}],"handlerPaths":["D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app\\servers\\gate\\handler"],"pid":36640}}
+[2020-04-10T18:01:09.634] [DEBUG] pinus - [connector-server-1 connector.js] [connector-server-1] getSession session is created with session id: 1
+[2020-04-10T18:01:09.639] [DEBUG] pinus - [connector-server-1 connector.js] session on [connector-server-1] bind with uid: w1*1
+[2020-04-10T18:01:09.705] [DEBUG] pinus - [connector-server-1 connector.js] [connector-server-1] send message reqId: 2, route: connector.entryHandler.enter, msg: {"code":200,"users":["w1"]}, receivers: [1], opts: {"type":"response"}
+[2020-04-10T18:01:29.070] [DEBUG] pinus - [connector-server-1 connector.js] [connector-server-1] send message reqId: 3, route: game.chatHandler.send, msg: {}, receivers: [1], opts: {"type":"response"}
+[2020-04-10T18:01:29.071] [INFO] logger - [connector-server-1 console] connected
+[2020-04-10T18:01:29.072] [DEBUG] pinus - [connector-server-1 channelRemote.js] [connector-server-1] pushMessage uids: ["w1*1"], msg: {"msg":"的哈居委会杜瓦后端和高德红外就爱国的源文件害得我预定哈借用的无爱而大家客户读完滴啊会与我等哈几万块较好的卡维护的进度瓦库底瓦解低洼肯德基按季度卡芦苇地","from":"w1*1","target":"*"}, sids: [1]
+[2020-04-10T18:01:29.072] [DEBUG] pinus - [connector-server-1 connector.js] [connector-server-1] send message reqId: null, route: onChat, msg: {"msg":"的哈居委会杜瓦后端和高德红外就爱国的源文件害得我预定哈借用的无爱而大家客户读完滴啊会与我等哈几万块较好的卡维护的进度瓦库底瓦解低洼肯德基按季度卡芦苇地","from":"w1*1","target":"*"}, receivers: [1], opts: {"type":"push","userOptions":{},"isPush":true}
+[2020-04-10T18:02:19.373] [DEBUG] pinus - [connector-server-1 channelRemote.js] [connector-server-1] pushMessage uids: ["w1*1"], msg: {"msg":"kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk","from":"w1*1","target":"*"}, sids: [1]
+[2020-04-10T18:02:19.373] [DEBUG] pinus - [connector-server-1 connector.js] [connector-server-1] send message reqId: null, route: onChat, msg: {"msg":"kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk","from":"w1*1","target":"*"}, receivers: [1], opts: {"type":"push","userOptions":{},"isPush":true}
+[2020-04-10T18:02:19.374] [DEBUG] pinus - [connector-server-1 connector.js] [connector-server-1] send message reqId: 4, route: game.chatHandler.send, msg: {}, receivers: [1], opts: {"type":"response"}
+[2020-04-10T18:03:52.941] [DEBUG] pinus - [connector-server-1 channelRemote.js] [connector-server-1] pushMessage uids: ["w1*1"], msg: {"msg":"kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk","from":"w1*1","target":"*"}, sids: [1]
+[2020-04-10T18:03:52.941] [DEBUG] pinus - [connector-server-1 connector.js] [connector-server-1] send message reqId: null, route: onChat, msg: {"msg":"kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk","from":"w1*1","target":"*"}, receivers: [1], opts: {"type":"push","userOptions":{},"isPush":true}
+[2020-04-10T18:03:52.942] [DEBUG] pinus - [connector-server-1 connector.js] [connector-server-1] send message reqId: 5, route: game.chatHandler.send, msg: {}, receivers: [1], opts: {"type":"response"}
+[2020-04-10T18:05:22.711] [DEBUG] pinus - [connector-server-1 channelRemote.js] [connector-server-1] pushMessage uids: ["w1*1"], msg: {"msg":"1","from":"w1*1","target":"*"}, sids: [1]
+[2020-04-10T18:05:22.712] [DEBUG] pinus - [connector-server-1 connector.js] [connector-server-1] send message reqId: null, route: onChat, msg: {"msg":"1","from":"w1*1","target":"*"}, receivers: [1], opts: {"type":"push","userOptions":{},"isPush":true}
+[2020-04-10T18:05:22.714] [DEBUG] pinus - [connector-server-1 connector.js] [connector-server-1] send message reqId: 6, route: game.chatHandler.send, msg: {}, receivers: [1], opts: {"type":"response"}
+[2020-04-10T18:08:54.786] [DEBUG] pinus - [connector-server-1 monitorwatcher.js] connector-server-1 receive removeServer signal: {"action":"removeServer","id":"master-server-1"}
+[2020-04-10T19:50:38.091] [DEBUG] pinus - [connector-server-1 channelRemote.js] [connector-server-1] pushMessage uids: ["w1*1"], msg: {"msg":"1","from":"w1*1","target":"*"}, sids: [1]
+[2020-04-10T19:50:38.092] [DEBUG] pinus - [connector-server-1 connector.js] [connector-server-1] send message reqId: null, route: onChat, msg: {"msg":"1","from":"w1*1","target":"*"}, receivers: [1], opts: {"type":"push","userOptions":{},"isPush":true}
+[2020-04-10T19:50:38.094] [DEBUG] pinus - [connector-server-1 connector.js] [connector-server-1] send message reqId: 7, route: game.chatHandler.send, msg: {}, receivers: [1], opts: {"type":"response"}
+[2020-04-10T19:51:50.815] [DEBUG] pinus - [connector-server-1 monitorwatcher.js] connector-server-1 receive removeServer signal: {"action":"removeServer","id":"gate-server-1"}
+[2020-04-10T19:51:55.845] [DEBUG] pinus - [connector-server-1 monitorwatcher.js] connector-server-1 receive removeServer signal: {"action":"removeServer","id":"game-server_1"}
+[2020-04-10T19:52:17.708] [INFO] pinus - [connector-server-1 application.js] application inited: "connector-server-1"
+[2020-04-10T19:52:17.717] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" enter before start...
+[2020-04-10T19:52:17.717] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" enter after start...
+[2020-04-10T19:52:17.732] [WARN] logger - [connector-server-1 console] after start all server, use route dictionary :
+ connector.entryHandler.enter
+connector.entryHandler.entry
+connector.entryHandler.onUserLeave
+connector.entryHandler.publish
+connector.entryHandler.subscribe
+game.chatHandler.entry
+game.chatHandler.publish
+game.chatHandler.send
+game.chatHandler.subscribe
+gate.gateHandler.queryEntry
+[2020-04-10T19:52:17.846] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" enter after start...
+[2020-04-10T19:52:17.848] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" finish start
+[2020-04-10T19:52:17.848] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" startup in 138 ms
+[2020-04-10T19:52:17.886] [DEBUG] pinus - [connector-server-1 monitorwatcher.js] [connector-server-1] receive addServer signal: {"action":"addServer","server":{"main":"D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app","env":"development","id":"game-server_1","host":"127.0.0.1","port":6050,"args":" --inspect=10002","serverType":"game","remoterPaths":[{"namespace":"sys","serverType":"game","path":"D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\backend"},{"namespace":"user","serverType":"game","path":"D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app\\servers\\game\\remote"}],"handlerPaths":["D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app\\servers\\game\\handler"],"pid":37328}}
+[2020-04-10T19:52:17.982] [DEBUG] pinus - [connector-server-1 monitorwatcher.js] [connector-server-1] receive addServer signal: {"action":"addServer","server":{"main":"D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app","env":"development","id":"gate-server-1","host":"127.0.0.1","port":7050,"clientHost":"127.0.0.1","clientPort":3014,"frontend":"true","serverType":"gate","remoterPaths":[{"namespace":"sys","serverType":"gate","path":"D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\frontend"}],"handlerPaths":["D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app\\servers\\gate\\handler"],"pid":27548}}
+[2020-04-10T19:52:20.689] [DEBUG] pinus - [connector-server-1 connector.js] [connector-server-1] getSession session is created with session id: 1
+[2020-04-10T19:52:20.694] [DEBUG] pinus - [connector-server-1 connector.js] session on [connector-server-1] bind with uid: w1*1
+[2020-04-10T19:52:20.727] [DEBUG] pinus - [connector-server-1 connector.js] [connector-server-1] send message reqId: 9, route: connector.entryHandler.enter, msg: {"code":200,"users":["w1"]}, receivers: [1], opts: {"type":"response"}
+[2020-04-10T19:52:37.017] [DEBUG] pinus - [connector-server-1 connector.js] [connector-server-1] send message reqId: 10, route: game.chatHandler.send, msg: {}, receivers: [1], opts: {"type":"response"}
+[2020-04-10T19:52:37.019] [INFO] logger - [connector-server-1 console] connected
+[2020-04-10T19:52:37.020] [DEBUG] pinus - [connector-server-1 channelRemote.js] [connector-server-1] pushMessage uids: ["w1*1"], msg: {"msg":"1","from":"w1*1","target":"*"}, sids: [1]
+[2020-04-10T19:52:37.021] [DEBUG] pinus - [connector-server-1 connector.js] [connector-server-1] send message reqId: null, route: onChat, msg: {"msg":"1","from":"w1*1","target":"*"}, receivers: [1], opts: {"type":"push","userOptions":{},"isPush":true}
+[2020-04-10T19:53:22.917] [ERROR] pinus - [connector-server-1 server.js] connector-server-1 fail to process remote message:Error: rpc connector-server-1 callback timeout 30000, remote server 2 host: 127.0.0.1, port: 6050
+    at Timeout.setTimeout (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.ts:289:24)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+From previous event:
+    at RpcClient.rpcToRoute (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus-rpc\lib\rpc-client\client.ts:409:16)
+    at Object.proxy [as forwardMessage] (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus-rpc\lib\rpc-client\client.ts:586:29)
+    at doForward (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus\lib\server\server.ts:427:54)
+    at dispatch (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus\lib\server\server.ts:144:17)
+    at next (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus\lib\common\service\filterService.ts:67:17)
+    at FilterService.beforeFilter (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus\lib\common\service\filterService.ts:82:9)
+    at beforeFilter (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus\lib\server\server.ts:335:12)
+    at Server.globalHandle (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus\lib\server\server.ts:153:9)
+    at ServerComponent.globalHandle (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus\lib\components\server.ts:69:21)
+    at ConnectorComponent.handleMessage (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus\lib\components\connector.ts:433:21)
+    at HybridSocket.socket.on (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus\lib\components\connector.ts:321:18)
+    at HybridSocket.emit (events.js:189:13)
+    at handleData (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus\lib\connectors\common\handler.ts:45:12)
+    at Object.default_1 [as default] (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus\lib\connectors\common\handler.ts:56:9)
+    at WebSocket.<anonymous> (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus\lib\connectors\hybridsocket.ts:55:24)
+    at WebSocket.emit (events.js:189:13)
+    at Receiver.receiverOnMessage (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\ws\lib\websocket.js:801:20)
+    at Receiver.emit (events.js:189:13)
+    at Receiver.dataMessage (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\ws\lib\receiver.js:427:14)Error: 
+    at Logger.pLogger.(anonymous function) [as error] (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus-logger\lib\logger.ts:70:34)
+    at D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus\lib\server\server.ts:441:20
+    at tryCatcher (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\bluebird\js\release\promise.js:547:31)
+    at Promise._settlePromise (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\bluebird\js\release\promise.js:604:18)
+    at Promise._settlePromise0 (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\bluebird\js\release\promise.js:649:10)
+    at Promise._settlePromises (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\bluebird\js\release\promise.js:725:18)
+    at _drainQueueStep (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\bluebird\js\release\async.js:93:12)
+    at _drainQueue (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\bluebird\js\release\async.js:86:9)
+    at Async._drainQueues (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\bluebird\js\release\async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\bluebird\js\release\async.js:15:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+[2020-04-10T19:53:22.918] [DEBUG] pinus - [connector-server-1 connector.js] [connector-server-1] send message reqId: 11, route: game.chatHandler.send, msg: {"code":500}, receivers: [1], opts: {"type":"response"}
+[2020-04-11T09:54:30.938] [DEBUG] pinus - [connector-server-1 channelRemote.js] [connector-server-1] pushMessage uids: ["w1*1"], msg: {"msg":"1","from":"w1*1","target":"*"}, sids: [1]
+[2020-04-11T09:54:30.943] [DEBUG] pinus - [connector-server-1 connector.js] [connector-server-1] send message reqId: null, route: onChat, msg: {"msg":"1","from":"w1*1","target":"*"}, receivers: [1], opts: {"type":"push","userOptions":{},"isPush":true}
+[2020-04-11T10:35:46.984] [INFO] pinus - [connector-server-1 application.js] application inited: "connector-server-1"
+[2020-04-11T10:35:46.992] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" enter before start...
+[2020-04-11T10:35:46.993] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" enter after start...
+[2020-04-11T10:35:47.003] [WARN] logger - [connector-server-1 console] after start all server, use route dictionary :
+ connector.entryHandler.enter
+connector.entryHandler.entry
+connector.entryHandler.onUserLeave
+connector.entryHandler.publish
+connector.entryHandler.subscribe
+game.chatHandler.entry
+game.chatHandler.publish
+game.chatHandler.send
+game.chatHandler.subscribe
+gate.gateHandler.queryEntry
+[2020-04-11T10:35:47.052] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" enter after start...
+[2020-04-11T10:35:47.054] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" finish start
+[2020-04-11T10:35:47.054] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" startup in 68 ms
+[2020-04-11T10:35:47.065] [DEBUG] pinus - [connector-server-1 monitorwatcher.js] [connector-server-1] receive addServer signal: {"action":"addServer","server":{"main":"d:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app.js","env":"development","id":"gate-server-1","host":"127.0.0.1","port":7050,"clientHost":"127.0.0.1","clientPort":3014,"frontend":"true","serverType":"gate","remoterPaths":[{"namespace":"sys","serverType":"gate","path":"d:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\frontend"}],"handlerPaths":["d:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app\\servers\\gate\\handler"],"pid":22832}}
+[2020-04-11T10:35:47.087] [DEBUG] pinus - [connector-server-1 monitorwatcher.js] [connector-server-1] receive addServer signal: {"action":"addServer","server":{"main":"d:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app.js","env":"development","id":"game-server_1","host":"127.0.0.1","port":6050,"args":" --inspect=10002","serverType":"game","remoterPaths":[{"namespace":"sys","serverType":"game","path":"d:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\backend"},{"namespace":"user","serverType":"game","path":"d:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app\\servers\\game\\remote"}],"handlerPaths":["d:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app\\servers\\game\\handler"],"pid":37764}}
+[2020-04-11T10:35:50.941] [DEBUG] pinus - [connector-server-1 connector.js] [connector-server-1] getSession session is created with session id: 1
+[2020-04-11T10:35:50.946] [DEBUG] pinus - [connector-server-1 connector.js] session on [connector-server-1] bind with uid: w1*1
+[2020-04-11T10:36:21.013] [ERROR] pinus - [connector-server-1 server.js] connector-server-1 no default error handler msg[{"username":"w1","rid":"1"}] to resolve unknown exception: sessionId:{"id":1,"frontendId":"connector-server-1","uid":"w1*1","settings":{"rid":"1"}} , error stack: Error: rpc connector-server-1 callback timeout 30000, remote server 0 host: 127.0.0.1, port: 6050
+    at Timeout.setTimeout (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.ts:289:24)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+From previous event:
+    at RpcClient.rpcToRoute (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus-rpc\lib\rpc-client\client.ts:409:16)
+    at Object.proxy [as add] (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus-rpc\lib\rpc-client\client.ts:586:29)
+    at Handler.enter (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\app\servers\connector\handler\entryHandler.ts:45:56)
+    at HandlerService.handle (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus\lib\common\service\handlerService.ts:101:28)
+    at handle (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus\lib\server\server.ts:466:29)
+    at next (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus\lib\common\service\filterService.ts:67:17)
+    at FilterService.beforeFilter (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus\lib\common\service\filterService.ts:82:9)
+    at beforeFilter (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus\lib\server\server.ts:335:12)
+    at doHandle (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus\lib\server\server.ts:479:5)
+    at dispatch (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus\lib\server\server.ts:148:17)
+    at next (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus\lib\common\service\filterService.ts:67:17)
+    at FilterService.beforeFilter (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus\lib\common\service\filterService.ts:82:9)
+    at beforeFilter (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus\lib\server\server.ts:335:12)
+    at Server.globalHandle (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus\lib\server\server.ts:153:9)
+    at ServerComponent.globalHandle (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus\lib\components\server.ts:69:21)
+    at ConnectorComponent.handleMessage (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus\lib\components\connector.ts:433:21)
+    at HybridSocket.socket.on (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus\lib\components\connector.ts:321:18)
+    at HybridSocket.emit (events.js:189:13)
+    at handleData (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus\lib\connectors\common\handler.ts:45:12)Error: 
+    at Logger.pLogger.(anonymous function) [as error] (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus-logger\lib\logger.ts:70:34)
+    at handleError (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus\lib\server\server.ts:375:16)
+    at d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus\lib\server\server.ts:469:17
+    at Object.invokeCallback (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus\lib\util\utils.ts:33:20)
+    at callback (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus\lib\common\service\handlerService.ts:95:19)
+    at handler.(anonymous function).then (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus\lib\common\service\handlerService.ts:104:17)
+[2020-04-11T10:36:21.013] [DEBUG] pinus - [connector-server-1 connector.js] [connector-server-1] send message reqId: 13, route: connector.entryHandler.enter, msg: {"code":500}, receivers: [1], opts: {"type":"response"}
+[2020-04-11T10:37:18.079] [DEBUG] pinus - [connector-server-1 switcher.js] connection error:read ECONNRESET, the remote ip is ::ffff:127.0.0.1 && port is 52357
+[2020-04-11T10:37:18.080] [DEBUG] pinus - [connector-server-1 sessionService.js] session on [connector-server-1] is closed with session id: 1,uid:w1*1,reason:1001
+[2020-04-11T10:38:16.451] [DEBUG] pinus - [connector-server-1 connector.js] [connector-server-1] getSession session is created with session id: 2
+[2020-04-11T10:38:16.460] [DEBUG] pinus - [connector-server-1 connector.js] session on [connector-server-1] bind with uid: w1*1
+[2020-04-11T10:39:44.612] [INFO] pinus - [connector-server-1 heartbeat.js] client 2 heartbeat timeout.
+[2020-04-11T10:39:44.614] [DEBUG] pinus - [connector-server-1 sessionService.js] session on [connector-server-1] is closed with session id: 2,uid:w1*1,reason:undefined
+[2020-04-11T10:44:32.375] [DEBUG] pinus - [connector-server-1 switcher.js] connection error:read ECONNRESET, the remote ip is ::ffff:127.0.0.1 && port is 53028
+[2020-04-11T10:44:32.376] [ERROR] pinus - [connector-server-1 server.js] connector-server-1 no default error handler msg[{"username":"w1","rid":"1"}] to resolve unknown exception: sessionId:{"id":2,"frontendId":"connector-server-1","uid":"w1*1","settings":{"rid":"1"}} , error stack: Error: rpc connector-server-1 callback timeout 30000, remote server 1 host: 127.0.0.1, port: 6050
+    at Timeout.setTimeout (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.ts:289:24)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+From previous event:
+    at RpcClient.rpcToRoute (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus-rpc\lib\rpc-client\client.ts:409:16)
+    at Object.proxy [as add] (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus-rpc\lib\rpc-client\client.ts:586:29)
+    at Handler.enter (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\app\servers\connector\handler\entryHandler.ts:45:56)
+    at HandlerService.handle (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus\lib\common\service\handlerService.ts:101:28)
+    at handle (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus\lib\server\server.ts:466:29)
+    at next (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus\lib\common\service\filterService.ts:67:17)
+    at FilterService.beforeFilter (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus\lib\common\service\filterService.ts:82:9)
+    at beforeFilter (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus\lib\server\server.ts:335:12)
+    at doHandle (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus\lib\server\server.ts:479:5)
+    at dispatch (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus\lib\server\server.ts:148:17)
+    at next (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus\lib\common\service\filterService.ts:67:17)
+    at FilterService.beforeFilter (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus\lib\common\service\filterService.ts:82:9)
+    at beforeFilter (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus\lib\server\server.ts:335:12)
+    at Server.globalHandle (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus\lib\server\server.ts:153:9)
+    at ServerComponent.globalHandle (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus\lib\components\server.ts:69:21)
+    at ConnectorComponent.handleMessage (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus\lib\components\connector.ts:433:21)
+    at HybridSocket.socket.on (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus\lib\components\connector.ts:321:18)
+    at HybridSocket.emit (events.js:189:13)
+    at handleData (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus\lib\connectors\common\handler.ts:45:12)Error: 
+    at Logger.pLogger.(anonymous function) [as error] (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus-logger\lib\logger.ts:70:34)
+    at handleError (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus\lib\server\server.ts:375:16)
+    at d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus\lib\server\server.ts:469:17
+    at Object.invokeCallback (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus\lib\util\utils.ts:33:20)
+    at callback (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus\lib\common\service\handlerService.ts:95:19)
+    at handler.(anonymous function).then (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus\lib\common\service\handlerService.ts:104:17)
+[2020-04-11T10:44:32.378] [DEBUG] pinus - [connector-server-1 connector.js] [connector-server-1] send message reqId: 2, route: connector.entryHandler.enter, msg: {"code":500}, receivers: [2], opts: {"type":"response"}
+[2020-04-11T10:44:32.379] [DEBUG] pinus - [connector-server-1 sessionService.js] Fail to send message for non-existing session, sid: 2 msg: {"code":500}
+[2020-04-11T10:44:32.381] [DEBUG] pinus - [connector-server-1 monitorwatcher.js] connector-server-1 receive removeServer signal: {"action":"removeServer","id":"game-server_1"}
+[2020-04-11T10:45:02.374] [ERROR] logger - [connector-server-1 console] connector-server-1Error: 
+    at Logger.pLogger.(anonymous function) [as error] (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus-logger\lib\logger.ts:70:34)
+    at process.on (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\preload.ts:38:17)
+    at process.emit (events.js:189:13)
+    at emitPromiseRejectionWarnings (internal/process/promises.js:119:20)
+    at process._tickCallback (internal/process/next_tick.js:69:34) Caught Unhandled Rejection at: Promise {
+  <rejected> Error: rpc connector-server-1 callback timeout 30000, remote server 2 host: 127.0.0.1, port: 6050
+      at Timeout.setTimeout (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.ts:289:24)
+  From previous event:
+      at RpcClient.rpcToRoute (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus-rpc\lib\rpc-client\client.ts:409:16)
+      at Object.proxy [as kick] (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus-rpc\lib\rpc-client\client.ts:586:29)
+      at onUserLeave (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\app\servers\connector\handler\entryHandler.ts:87:39)
+      at Session.emit (events.js:194:15)
+      at Session.closed (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus\lib\common\service\sessionService.ts:582:14)
+      at HybridSocket.emit (events.js:194:15)
+      at Object.onceWrapper (events.js:277:13)
+      at WebSocket.emit (events.js:194:15)
+      at HybridSocket.disconnect (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus\lib\connectors\hybridsocket.ts:149:21)
+      at Timeout.<anonymous> (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus\lib\connectors\commands\heartbeat.ts:63:24)
+      at ontimeout (timers.js:436:11)
+      at tryOnTimeout (timers.js:300:5)
+      at listOnTimeout (timers.js:263:5)
+      at Timer.processTimers (timers.js:223:10) } reason: Error: rpc connector-server-1 callback timeout 30000, remote server 2 host: 127.0.0.1, port: 6050
+    at Timeout.setTimeout (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.ts:289:24)
+From previous event:
+    at RpcClient.rpcToRoute (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus-rpc\lib\rpc-client\client.ts:409:16)
+    at Object.proxy [as kick] (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus-rpc\lib\rpc-client\client.ts:586:29)
+    at onUserLeave (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\app\servers\connector\handler\entryHandler.ts:87:39)
+    at Session.emit (events.js:194:15)
+    at Session.closed (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus\lib\common\service\sessionService.ts:582:14)
+    at HybridSocket.emit (events.js:194:15)
+    at Object.onceWrapper (events.js:277:13)
+    at WebSocket.emit (events.js:194:15)
+    at HybridSocket.disconnect (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus\lib\connectors\hybridsocket.ts:149:21)
+    at Timeout.<anonymous> (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus\lib\connectors\commands\heartbeat.ts:63:24)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+[2020-04-11T10:55:47.088] [DEBUG] pinus - [connector-server-1 monitorwatcher.js] connector-server-1 receive removeServer signal: {"action":"removeServer","id":"gate-server-1"}

@@ -223,3 +223,125 @@
 [2020-03-02T15:32:12.272] [INFO] pinus-admin - [connector-server-1 consoleService.js] try to connect master: "connector", "127.0.0.1", 3005
 [2020-03-02T15:32:12.286] [INFO] pinus-admin - [game-server_1 consoleService.js] try to connect master: "game", "127.0.0.1", 3005
 [2020-03-02T15:32:12.449] [INFO] pinus-admin - [gate-server-1 consoleService.js] try to connect master: "gate", "127.0.0.1", 3005
+[2020-03-30T21:15:31.720] [INFO] pinus-admin - [master-server-1 mqttServer.js] [MqttServer] listen on 3005
+[2020-03-30T21:15:31.767] [INFO] pinus-admin - [master-server-1 consoleService.js] try to connect master: "master", "127.0.0.1", 3005
+[2020-03-30T21:15:32.277] [INFO] pinus-admin - [connector-server-1 consoleService.js] try to connect master: "connector", "127.0.0.1", 3005
+[2020-03-30T21:15:32.298] [INFO] pinus-admin - [game-server_1 consoleService.js] try to connect master: "game", "127.0.0.1", 3005
+[2020-03-30T21:15:32.328] [INFO] pinus-admin - [gate-server-1 consoleService.js] try to connect master: "gate", "127.0.0.1", 3005
+[2020-04-01T11:46:47.304] [INFO] pinus-admin - [master-server-1 mqttServer.js] [MqttServer] listen on 3005
+[2020-04-01T11:46:47.342] [INFO] pinus-admin - [master-server-1 consoleService.js] try to connect master: "master", "127.0.0.1", 3005
+[2020-04-01T11:46:47.904] [INFO] pinus-admin - [game-server_1 consoleService.js] try to connect master: "game", "127.0.0.1", 3005
+[2020-04-01T11:46:47.914] [INFO] pinus-admin - [connector-server-1 consoleService.js] try to connect master: "connector", "127.0.0.1", 3005
+[2020-04-01T11:46:47.917] [INFO] pinus-admin - [gate-server-1 consoleService.js] try to connect master: "gate", "127.0.0.1", 3005
+[2020-04-01T11:47:09.031] [INFO] pinus-admin - [master-server-1 mqttServer.js] [MqttServer] listen on 3005
+[2020-04-01T11:47:09.070] [INFO] pinus-admin - [master-server-1 consoleService.js] try to connect master: "master", "127.0.0.1", 3005
+[2020-04-01T11:47:09.629] [INFO] pinus-admin - [game-server_1 consoleService.js] try to connect master: "game", "127.0.0.1", 3005
+[2020-04-01T11:47:09.634] [INFO] pinus-admin - [connector-server-1 consoleService.js] try to connect master: "connector", "127.0.0.1", 3005
+[2020-04-01T11:47:09.646] [INFO] pinus-admin - [gate-server-1 consoleService.js] try to connect master: "gate", "127.0.0.1", 3005
+[2020-04-09T20:40:53.210] [INFO] pinus-admin - [master-server-1 mqttServer.js] [MqttServer] listen on 3005
+[2020-04-09T20:40:53.329] [INFO] pinus-admin - [master-server-1 consoleService.js] try to connect master: "master", "127.0.0.1", 3005
+[2020-04-09T20:40:53.989] [INFO] pinus-admin - [game-server_1 consoleService.js] try to connect master: "game", "127.0.0.1", 3005
+[2020-04-09T20:40:53.990] [INFO] pinus-admin - [connector-server-1 consoleService.js] try to connect master: "connector", "127.0.0.1", 3005
+[2020-04-09T20:40:54.109] [INFO] pinus-admin - [gate-server-1 consoleService.js] try to connect master: "gate", "127.0.0.1", 3005
+[2020-04-09T20:52:39.283] [INFO] pinus-admin - [master-server-1 mqttServer.js] [MqttServer] listen on 3005
+[2020-04-09T20:52:39.347] [INFO] pinus-admin - [master-server-1 consoleService.js] try to connect master: "master", "127.0.0.1", 3005
+[2020-04-09T20:52:39.907] [INFO] pinus-admin - [connector-server-1 consoleService.js] try to connect master: "connector", "127.0.0.1", 3005
+[2020-04-09T20:52:39.925] [INFO] pinus-admin - [game-server_1 consoleService.js] try to connect master: "game", "127.0.0.1", 3005
+[2020-04-09T20:52:39.983] [INFO] pinus-admin - [gate-server-1 consoleService.js] try to connect master: "gate", "127.0.0.1", 3005
+[2020-04-10T17:24:56.104] [INFO] pinus-admin - [master-server-1 mqttServer.js] [MqttServer] listen on 3005
+[2020-04-10T17:24:56.200] [INFO] pinus-admin - [master-server-1 consoleService.js] try to connect master: "master", "127.0.0.1", 3005
+[2020-04-10T17:24:56.865] [INFO] pinus-admin - [gate-server-1 consoleService.js] try to connect master: "gate", "127.0.0.1", 3005
+[2020-04-10T17:26:07.430] [INFO] pinus-admin - [master-server-1 mqttServer.js] [MqttServer] listen on 3005
+[2020-04-10T17:26:07.549] [INFO] pinus-admin - [master-server-1 consoleService.js] try to connect master: "master", "127.0.0.1", 3005
+[2020-04-10T17:26:08.248] [INFO] pinus-admin - [gate-server-1 consoleService.js] try to connect master: "gate", "127.0.0.1", 3005
+[2020-04-10T17:26:54.479] [INFO] pinus-admin - [master-server-1 mqttServer.js] [MqttServer] listen on 3005
+[2020-04-10T17:26:54.588] [INFO] pinus-admin - [master-server-1 consoleService.js] try to connect master: "master", "127.0.0.1", 3005
+[2020-04-10T17:26:55.178] [INFO] pinus-admin - [game-server_1 consoleService.js] try to connect master: "game", "127.0.0.1", 3005
+[2020-04-10T17:26:55.182] [INFO] pinus-admin - [connector-server-1 consoleService.js] try to connect master: "connector", "127.0.0.1", 3005
+[2020-04-10T17:26:55.248] [INFO] pinus-admin - [gate-server-1 consoleService.js] try to connect master: "gate", "127.0.0.1", 3005
+[2020-04-10T18:08:54.781] [ERROR] pinus-admin - [master-server-1 mqttClient.js] mqtt rpc client checkKeepAlive error timeout for 120000Error: 
+    at Logger.pLogger.(anonymous function) [as error] (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus-logger\lib\logger.ts:70:34)
+    at MqttClient.checkKeepAlive (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus-admin\lib\protocol\mqtt\mqttClient.ts:221:28)
+    at Timeout._onTimeout (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus-admin\lib\protocol\mqtt\mqttClient.ts:207:18)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+[2020-04-10T18:08:54.782] [DEBUG] pinus-admin - [master-server-1 MasterSocket] disconnect master-server-1 master {"id":"master-server-1","host":"127.0.0.1","port":3005,"pid":35260}
+[2020-04-10T19:51:50.811] [DEBUG] pinus-admin - [master-server-1 MasterSocket] disconnect gate-server-1 gate {"main":"D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app","env":"development","id":"gate-server-1","host":"127.0.0.1","port":7050,"clientHost":"127.0.0.1","clientPort":3014,"frontend":"true","serverType":"gate","remoterPaths":[{"namespace":"sys","serverType":"gate","path":"D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\frontend"}],"handlerPaths":["D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app\\servers\\gate\\handler"],"pid":36640}
+[2020-04-10T19:51:55.825] [DEBUG] pinus-admin - [master-server-1 MasterSocket] disconnect game-server_1 game {"main":"D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app","env":"development","id":"game-server_1","host":"127.0.0.1","port":6050,"args":" --inspect=10002","serverType":"game","remoterPaths":[{"namespace":"sys","serverType":"game","path":"D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\backend"},{"namespace":"user","serverType":"game","path":"D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app\\servers\\game\\remote"}],"handlerPaths":["D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app\\servers\\game\\handler"],"pid":39396}
+[2020-04-10T19:52:00.837] [DEBUG] pinus-admin - [master-server-1 MasterSocket] disconnect connector-server-1 connector {"main":"D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app","env":"development","id":"connector-server-1","host":"127.0.0.1","port":4050,"clientHost":"127.0.0.1","clientPort":3050,"frontend":"true","args":" --inspect=10001","serverType":"connector","remoterPaths":[{"namespace":"sys","serverType":"connector","path":"D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\frontend"},{"namespace":"user","serverType":"connector","path":"D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app\\servers\\connector\\remote"}],"handlerPaths":["D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app\\servers\\connector\\handler"],"pid":21596}
+[2020-04-10T19:52:17.097] [INFO] pinus-admin - [master-server-1 mqttServer.js] [MqttServer] listen on 3005
+[2020-04-10T19:52:17.187] [INFO] pinus-admin - [master-server-1 consoleService.js] try to connect master: "master", "127.0.0.1", 3005
+[2020-04-10T19:52:17.735] [INFO] pinus-admin - [connector-server-1 consoleService.js] try to connect master: "connector", "127.0.0.1", 3005
+[2020-04-10T19:52:17.789] [INFO] pinus-admin - [game-server_1 consoleService.js] try to connect master: "game", "127.0.0.1", 3005
+[2020-04-10T19:52:17.867] [INFO] pinus-admin - [gate-server-1 consoleService.js] try to connect master: "gate", "127.0.0.1", 3005
+[2020-04-10T20:09:17.788] [ERROR] pinus-admin - [connector-server-1 mqttClient.js] mqtt rpc client checkKeepAlive error timeout for 120000Error: 
+    at Logger.pLogger.(anonymous function) [as error] (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus-logger\lib\logger.ts:70:34)
+    at MqttClient.checkKeepAlive (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus-admin\lib\protocol\mqtt\mqttClient.ts:221:28)
+    at Timeout._onTimeout (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus-admin\lib\protocol\mqtt\mqttClient.ts:207:18)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+[2020-04-10T20:09:17.789] [DEBUG] pinus-admin - [master-server-1 MasterSocket] disconnect connector-server-1 connector {"main":"D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app","env":"development","id":"connector-server-1","host":"127.0.0.1","port":4050,"clientHost":"127.0.0.1","clientPort":3050,"frontend":"true","args":" --inspect=10001","serverType":"connector","remoterPaths":[{"namespace":"sys","serverType":"connector","path":"D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\frontend"},{"namespace":"user","serverType":"connector","path":"D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app\\servers\\connector\\remote"}],"handlerPaths":["D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app\\servers\\connector\\handler"],"pid":38356}
+[2020-04-10T21:37:17.296] [ERROR] pinus-admin - [master-server-1 mqttClient.js] mqtt rpc client checkKeepAlive error timeout for 120000Error: 
+    at Logger.pLogger.(anonymous function) [as error] (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus-logger\lib\logger.ts:70:34)
+    at MqttClient.checkKeepAlive (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus-admin\lib\protocol\mqtt\mqttClient.ts:221:28)
+    at Timeout._onTimeout (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus-admin\lib\protocol\mqtt\mqttClient.ts:207:18)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+[2020-04-10T21:37:17.296] [DEBUG] pinus-admin - [master-server-1 MasterSocket] disconnect master-server-1 master {"id":"master-server-1","host":"127.0.0.1","port":3005,"pid":34984}
+[2020-04-11T04:31:18.133] [ERROR] pinus-admin - [gate-server-1 mqttClient.js] mqtt rpc client checkKeepAlive error timeout for 120000Error: 
+    at Logger.pLogger.(anonymous function) [as error] (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus-logger\lib\logger.ts:70:34)
+    at MqttClient.checkKeepAlive (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus-admin\lib\protocol\mqtt\mqttClient.ts:221:28)
+    at Timeout._onTimeout (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus-admin\lib\protocol\mqtt\mqttClient.ts:207:18)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+[2020-04-11T04:31:18.133] [DEBUG] pinus-admin - [master-server-1 MasterSocket] disconnect gate-server-1 gate {"main":"D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app","env":"development","id":"gate-server-1","host":"127.0.0.1","port":7050,"clientHost":"127.0.0.1","clientPort":3014,"frontend":"true","serverType":"gate","remoterPaths":[{"namespace":"sys","serverType":"gate","path":"D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\frontend"}],"handlerPaths":["D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app\\servers\\gate\\handler"],"pid":27548}
+[2020-04-11T09:54:47.257] [DEBUG] pinus-admin - [master-server-1 MasterSocket] disconnect game-server_1 game {"main":"D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app","env":"development","id":"game-server_1","host":"127.0.0.1","port":6050,"args":" --inspect=10002","serverType":"game","remoterPaths":[{"namespace":"sys","serverType":"game","path":"D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\backend"},{"namespace":"user","serverType":"game","path":"D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app\\servers\\game\\remote"}],"handlerPaths":["D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app\\servers\\game\\handler"],"pid":37328}
+[2020-04-11T10:35:46.381] [INFO] pinus-admin - [master-server-1 mqttServer.js] [MqttServer] listen on 3005
+[2020-04-11T10:35:46.417] [INFO] pinus-admin - [master-server-1 consoleService.js] try to connect master: "master", "127.0.0.1", 3005
+[2020-04-11T10:35:47.005] [INFO] pinus-admin - [connector-server-1 consoleService.js] try to connect master: "connector", "127.0.0.1", 3005
+[2020-04-11T10:35:47.025] [INFO] pinus-admin - [gate-server-1 consoleService.js] try to connect master: "gate", "127.0.0.1", 3005
+[2020-04-11T10:35:47.022] [INFO] pinus-admin - [game-server_1 consoleService.js] try to connect master: "game", "127.0.0.1", 3005
+[2020-04-11T10:42:52.740] [ERROR] pinus-admin - [game-server_1 mqttClient.js] mqtt rpc client checkKeepAlive error timeout for 120000Error: 
+    at Logger.pLogger.(anonymous function) [as error] (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus-logger\lib\logger.ts:70:34)
+    at MqttClient.checkKeepAlive (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus-admin\lib\protocol\mqtt\mqttClient.ts:221:28)
+    at Timeout._onTimeout (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus-admin\lib\protocol\mqtt\mqttClient.ts:207:18)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+[2020-04-11T10:42:52.741] [DEBUG] pinus-admin - [master-server-1 MasterSocket] disconnect game-server_1 game {"main":"d:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app.js","env":"development","id":"game-server_1","host":"127.0.0.1","port":6050,"args":" --inspect=10002","serverType":"game","remoterPaths":[{"namespace":"sys","serverType":"game","path":"d:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\backend"},{"namespace":"user","serverType":"game","path":"d:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app\\servers\\game\\remote"}],"handlerPaths":["d:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app\\servers\\game\\handler"],"pid":37764}
+[2020-04-11T10:55:47.086] [ERROR] pinus-admin - [gate-server-1 mqttClient.js] mqtt rpc client checkKeepAlive error timeout for 120000Error: 
+    at Logger.pLogger.(anonymous function) [as error] (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus-logger\lib\logger.ts:70:34)
+    at MqttClient.checkKeepAlive (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus-admin\lib\protocol\mqtt\mqttClient.ts:221:28)
+    at Timeout._onTimeout (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus-admin\lib\protocol\mqtt\mqttClient.ts:207:18)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+[2020-04-11T10:55:47.086] [DEBUG] pinus-admin - [master-server-1 MasterSocket] disconnect gate-server-1 gate {"main":"d:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app.js","env":"development","id":"gate-server-1","host":"127.0.0.1","port":7050,"clientHost":"127.0.0.1","clientPort":3014,"frontend":"true","serverType":"gate","remoterPaths":[{"namespace":"sys","serverType":"gate","path":"d:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\frontend"}],"handlerPaths":["d:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app\\servers\\gate\\handler"],"pid":22832}
+[2020-04-11T11:17:32.393] [ERROR] pinus-admin - [connector-server-1 mqttClient.js] mqtt rpc client checkKeepAlive error timeout for 120000Error: 
+    at Logger.pLogger.(anonymous function) [as error] (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus-logger\lib\logger.ts:70:34)
+    at MqttClient.checkKeepAlive (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus-admin\lib\protocol\mqtt\mqttClient.ts:221:28)
+    at Timeout._onTimeout (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus-admin\lib\protocol\mqtt\mqttClient.ts:207:18)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+[2020-04-11T11:17:32.394] [DEBUG] pinus-admin - [master-server-1 MasterSocket] disconnect connector-server-1 connector {"main":"d:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app.js","env":"development","id":"connector-server-1","host":"127.0.0.1","port":4050,"clientHost":"127.0.0.1","clientPort":3050,"frontend":"true","args":" --inspect=10001","serverType":"connector","remoterPaths":[{"namespace":"sys","serverType":"connector","path":"d:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\frontend"},{"namespace":"user","serverType":"connector","path":"d:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app\\servers\\connector\\remote"}],"handlerPaths":["d:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app\\servers\\connector\\handler"],"pid":20140}
+[2020-04-11T11:52:46.488] [ERROR] pinus-admin - [master-server-1 mqttClient.js] mqtt rpc client checkKeepAlive error timeout for 120000Error: 
+    at Logger.pLogger.(anonymous function) [as error] (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus-logger\lib\logger.ts:70:34)
+    at MqttClient.checkKeepAlive (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus-admin\lib\protocol\mqtt\mqttClient.ts:221:28)
+    at Timeout._onTimeout (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus-admin\lib\protocol\mqtt\mqttClient.ts:207:18)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+[2020-04-11T11:52:46.489] [DEBUG] pinus-admin - [master-server-1 MasterSocket] disconnect master-server-1 master {"id":"master-server-1","host":"127.0.0.1","port":3005,"pid":24284}
