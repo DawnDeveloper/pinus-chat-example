@@ -345,3 +345,6 @@
     at listOnTimeout (timers.js:263:5)
     at Timer.processTimers (timers.js:223:10)
 [2020-04-11T11:52:46.489] [DEBUG] pinus-admin - [master-server-1 MasterSocket] disconnect master-server-1 master {"id":"master-server-1","host":"127.0.0.1","port":3005,"pid":24284}
+[2020-06-02T20:37:09.016] [INFO] pinus-admin - [master-server-1 mqttServer.js] [MqttServer] listen on 3005
+[2020-06-02T20:37:09.104] [INFO] pinus-admin - [master-server-1 consoleService.js] try to connect master: "master", "127.0.0.1", 3005
+[2020-06-02T20:37:09.723] [INFO] pinus-admin - [connector-server-1 consoleService.js] try to connect master: "connector", "127.0.0.1", 3005
