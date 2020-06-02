@@ -33,6 +33,15 @@
         },
         {
             "type": "node",
+            "request": "attach",
+            "name": "Attach to Gate",
+            "address": "127.0.0.1",
+            "port": 10003,
+            "localRoot": "${workspaceFolder}",
+            "remoteRoot": "${workspaceFolder}"
+        },
+        {
+            "type": "node",
             "request": "launch",
             "name": "Dictionary",
             "program": "${workspaceFolder}\\app\\src\\Dictionary.js",

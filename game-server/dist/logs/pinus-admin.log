@@ -348,3 +348,12 @@
 [2020-06-02T20:37:09.016] [INFO] pinus-admin - [master-server-1 mqttServer.js] [MqttServer] listen on 3005
 [2020-06-02T20:37:09.104] [INFO] pinus-admin - [master-server-1 consoleService.js] try to connect master: "master", "127.0.0.1", 3005
 [2020-06-02T20:37:09.723] [INFO] pinus-admin - [connector-server-1 consoleService.js] try to connect master: "connector", "127.0.0.1", 3005
+[2020-06-02T20:37:09.770] [INFO] pinus-admin - [game-server_1 consoleService.js] try to connect master: "game", "127.0.0.1", 3005
+[2020-06-02T20:37:09.806] [INFO] pinus-admin - [gate-server-1 consoleService.js] try to connect master: "gate", "127.0.0.1", 3005
+[2020-06-02T20:39:53.480] [INFO] pinus-admin - [master-server-1 mqttServer.js] [MqttServer] listen on 3005
+[2020-06-02T20:39:53.522] [INFO] pinus-admin - [master-server-1 consoleService.js] try to connect master: "master", "127.0.0.1", 3005
+[2020-06-02T20:39:54.079] [INFO] pinus-admin - [game-server_1 consoleService.js] try to connect master: "game", "127.0.0.1", 3005
+[2020-06-02T20:39:54.102] [INFO] pinus-admin - [gate-server-1 consoleService.js] try to connect master: "gate", "127.0.0.1", 3005
+[2020-06-02T20:39:54.090] [INFO] pinus-admin - [connector-server-1 consoleService.js] try to connect master: "connector", "127.0.0.1", 3005
+[2020-06-02T20:45:38.107] [INFO] pinus-admin - [master-server-1 mqttServer.js] [MqttServer] listen on 3005
+[2020-06-02T20:45:38.144] [INFO] pinus-admin - [master-server-1 consoleService.js] try to connect master: "master", "127.0.0.1", 3005

@@ -32,7 +32,8 @@
         "port": 7050,
         "clientHost": "127.0.0.1",
         "clientPort": 3014,
-        "frontend": true
+        "frontend": true,
+        "args": " --inspect=10003"
       }
     ]
   },
