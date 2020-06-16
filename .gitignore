@@ -4,3 +4,4 @@ node_modules
 game-server/dist/logs/
 game-server/dist/logs/pinus-admin.log
 *.log
+*.log
