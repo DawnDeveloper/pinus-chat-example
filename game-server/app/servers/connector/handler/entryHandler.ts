@@ -19,7 +19,6 @@ export class Handler {
      * @return {Void}
      */
     async entry(msg: any, session: FrontendSession) {
-
         return { code: 200, msg: 'game server is ok.' };
     }
 
@@ -83,7 +82,6 @@ export class Handler {
         if (!session.uid) {
             return
         }
-
         await app.rpc.game.gameRemote.kick(session, session.uid, app.get("serverId"), session.get('rid'));
     }
 

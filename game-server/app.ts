@@ -1,5 +1,7 @@
 import { pinus } from 'pinus';
 import { preload } from './preload';
+import { RedisProxy } from './app/src/redis/redis';
+import { ClientOpts } from 'redis';
 
 /**
  *  替换全局Promise
@@ -43,3 +45,20 @@ app.configure('production|development', 'gate', function () {
 
 // start app
 app.start();
+
+let opt: ClientOpts = {
+    host: "127.0.0.1",
+    port: 6380,
+};
+
+let redisClient = new RedisProxy(opt, console);
+let result = redisClient.set("test", "I am ok");
+result.then((value) => {
+    console.log("value:", value);
+});
+
+let getResult = redisClient.get("test");
+getResult.then((getResult) => {
+    console.log("getResult:", getResult);
+});
+

@@ -7,6 +7,7 @@
     },
     "main": "./dist/app",
     "scripts": {
+        "dev": "nodemon --watch app.ts --watch app/**/* --ext .ts --exec node ./dist/app.js",
         "start": "npm run build && cd dist &&  node app",
         "build": "node_modules/.bin/tsc",
         "test": "mocha -r ts-node/register ./app/src/redistest/*.ts --exit --timeout 2000"

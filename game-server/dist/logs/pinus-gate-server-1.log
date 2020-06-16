@@ -610,3 +610,920 @@
 [2020-06-02T20:41:20.937] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] getSession session is created with session id: 1
 [2020-06-02T20:41:20.945] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] send message reqId: 3, route: gate.gateHandler.queryEntry, msg: {"code":200,"host":"127.0.0.1","port":3050}, receivers: [1], opts: {"type":"response"}
 [2020-06-02T20:41:20.948] [DEBUG] pinus - [gate-server-1 sessionService.js] session on [gate-server-1] is closed with session id: 1,uid:null,reason:1005
+[2020-06-02T20:45:38.715] [INFO] pinus - [gate-server-1 application.js] application inited: "gate-server-1"
+[2020-06-02T20:45:38.724] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter before start...
+[2020-06-02T20:45:38.725] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-06-02T20:45:38.807] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-06-02T20:45:38.809] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" finish start
+[2020-06-02T20:45:38.809] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" startup in 91 ms
+[2020-06-02T20:45:48.066] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] getSession session is created with session id: 1
+[2020-06-02T20:45:48.073] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] send message reqId: 5, route: gate.gateHandler.queryEntry, msg: {"code":200,"host":"127.0.0.1","port":3050}, receivers: [1], opts: {"type":"response"}
+[2020-06-02T20:45:48.077] [DEBUG] pinus - [gate-server-1 sessionService.js] session on [gate-server-1] is closed with session id: 1,uid:null,reason:1005
+[2020-06-02T20:46:00.720] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] getSession session is created with session id: 2
+[2020-06-02T20:47:21.663] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] send message reqId: 1, route: gate.gateHandler.queryEntry, msg: {"code":200,"host":"127.0.0.1","port":3050}, receivers: [2], opts: {"type":"response"}
+[2020-06-02T20:47:21.666] [DEBUG] pinus - [gate-server-1 sessionService.js] session on [gate-server-1] is closed with session id: 2,uid:null,reason:1005
+[2020-06-02T21:00:28.272] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] getSession session is created with session id: 3
+[2020-06-02T21:00:35.413] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] send message reqId: 6, route: gate.gateHandler.queryEntry, msg: {"code":200,"host":"127.0.0.1","port":3050}, receivers: [3], opts: {"type":"response"}
+[2020-06-02T21:00:35.415] [DEBUG] pinus - [gate-server-1 sessionService.js] session on [gate-server-1] is closed with session id: 3,uid:null,reason:1005
+[2020-06-02T21:00:38.205] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] getSession session is created with session id: 4
+[2020-06-02T21:00:39.260] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] send message reqId: 7, route: gate.gateHandler.queryEntry, msg: {"code":200,"host":"127.0.0.1","port":3050}, receivers: [4], opts: {"type":"response"}
+[2020-06-02T21:00:39.262] [DEBUG] pinus - [gate-server-1 sessionService.js] session on [gate-server-1] is closed with session id: 4,uid:null,reason:1005
+[2020-06-04T20:25:35.354] [INFO] pinus - [gate-server-1 application.js] application inited: "gate-server-1"
+[2020-06-04T20:25:35.365] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter before start...
+[2020-06-04T20:25:35.365] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-06-04T20:25:35.481] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-06-04T20:25:35.482] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" finish start
+[2020-06-04T20:25:35.483] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" startup in 126 ms
+[2020-06-04T20:25:59.764] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] getSession session is created with session id: 1
+[2020-06-04T20:25:59.770] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] send message reqId: 1, route: gate.gateHandler.queryEntry, msg: {"code":200,"host":"127.0.0.1","port":3050}, receivers: [1], opts: {"type":"response"}
+[2020-06-04T20:25:59.774] [DEBUG] pinus - [gate-server-1 sessionService.js] session on [gate-server-1] is closed with session id: 1,uid:null,reason:1005
+[2020-06-04T20:36:34.662] [DEBUG] pinus - [gate-server-1 monitorwatcher.js] gate-server-1 receive removeServer signal: {"action":"removeServer","id":"master-server-1"}
+[2020-06-06T11:20:40.083] [INFO] pinus - [gate-server-1 application.js] application inited: "gate-server-1"
+[2020-06-06T11:20:40.094] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter before start...
+[2020-06-06T11:20:40.094] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-06-06T11:20:40.158] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-06-06T11:20:40.160] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" finish start
+[2020-06-06T11:20:40.160] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" startup in 75 ms
+[2020-06-06T11:20:40.232] [DEBUG] pinus - [gate-server-1 monitorwatcher.js] [gate-server-1] receive addServer signal: {"action":"addServer","server":{"main":"d:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app.js","env":"development","id":"connector-server-1","host":"127.0.0.1","port":4050,"clientHost":"127.0.0.1","clientPort":3050,"frontend":"true","args":" --inspect=10001","serverType":"connector","remoterPaths":[{"namespace":"sys","serverType":"connector","path":"d:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\frontend"},{"namespace":"user","serverType":"connector","path":"d:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app\\servers\\connector\\remote"}],"handlerPaths":["d:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app\\servers\\connector\\handler"],"pid":58540}}
+[2020-06-06T11:21:27.897] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] getSession session is created with session id: 1
+[2020-06-06T11:21:27.904] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] send message reqId: 1, route: gate.gateHandler.queryEntry, msg: {"code":200,"host":"127.0.0.1","port":3050}, receivers: [1], opts: {"type":"response"}
+[2020-06-06T11:21:27.949] [DEBUG] pinus - [gate-server-1 sessionService.js] session on [gate-server-1] is closed with session id: 1,uid:null,reason:1005
+[2020-06-06T11:23:03.782] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] getSession session is created with session id: 2
+[2020-06-06T14:27:54.142] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] send message reqId: 3, route: gate.gateHandler.queryEntry, msg: {"code":200,"host":"127.0.0.1","port":3050}, receivers: [2], opts: {"type":"response"}
+[2020-06-06T14:27:54.145] [DEBUG] pinus - [gate-server-1 monitorwatcher.js] gate-server-1 receive removeServer signal: {"action":"removeServer","id":"game-server_1"}
+[2020-06-06T14:27:54.146] [DEBUG] pinus - [gate-server-1 monitorwatcher.js] gate-server-1 receive removeServer signal: {"action":"removeServer","id":"connector-server-1"}
+[2020-06-06T14:27:54.147] [DEBUG] pinus - [gate-server-1 monitorwatcher.js] gate-server-1 receive removeServer signal: {"action":"removeServer","id":"master-server-1"}
+[2020-06-06T14:27:54.150] [DEBUG] pinus - [gate-server-1 sessionService.js] session on [gate-server-1] is closed with session id: 2,uid:null,reason:1005
+[2020-06-06T14:28:12.455] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] getSession session is created with session id: 3
+[2020-06-06T14:28:39.965] [INFO] pinus - [gate-server-1 application.js] application inited: "gate-server-1"
+[2020-06-06T14:28:39.974] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter before start...
+[2020-06-06T14:28:39.975] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-06-06T14:28:40.052] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-06-06T14:28:40.053] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" finish start
+[2020-06-06T14:28:40.054] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" startup in 87 ms
+[2020-06-06T14:30:11.788] [INFO] pinus - [gate-server-1 application.js] application inited: "gate-server-1"
+[2020-06-06T14:30:11.799] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter before start...
+[2020-06-06T14:30:11.799] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-06-06T14:30:11.883] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-06-06T14:30:11.888] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" finish start
+[2020-06-06T14:30:11.888] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" startup in 97 ms
+[2020-06-06T14:30:12.001] [DEBUG] pinus - [gate-server-1 monitorwatcher.js] [gate-server-1] receive addServer signal: {"action":"addServer","server":{"main":"d:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app.js","env":"development","id":"connector-server-1","host":"127.0.0.1","port":4050,"clientHost":"127.0.0.1","clientPort":3050,"frontend":"true","args":" --inspect=10001","serverType":"connector","remoterPaths":[{"namespace":"sys","serverType":"connector","path":"d:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\frontend"},{"namespace":"user","serverType":"connector","path":"d:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app\\servers\\connector\\remote"}],"handlerPaths":["d:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app\\servers\\connector\\handler"],"pid":55988}}
+[2020-06-06T14:30:49.561] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] getSession session is created with session id: 1
+[2020-06-06T14:32:04.527] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] send message reqId: 2, route: gate.gateHandler.queryEntry, msg: {"code":200,"host":"127.0.0.1","port":3050}, receivers: [1], opts: {"type":"response"}
+[2020-06-06T14:32:04.532] [DEBUG] pinus - [gate-server-1 sessionService.js] session on [gate-server-1] is closed with session id: 1,uid:null,reason:1005
+[2020-06-06T14:33:19.114] [INFO] pinus - [gate-server-1 application.js] application inited: "gate-server-1"
+[2020-06-06T14:33:19.123] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter before start...
+[2020-06-06T14:33:19.124] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-06-06T14:33:19.194] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-06-06T14:33:19.196] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" finish start
+[2020-06-06T14:33:19.196] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" startup in 80 ms
+[2020-06-06T14:33:19.196] [DEBUG] pinus - [gate-server-1 monitorwatcher.js] [gate-server-1] receive addServer signal: {"action":"addServer","server":{"main":"d:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app.js","env":"development","id":"game-server_1","host":"127.0.0.1","port":6050,"args":" --inspect=10002","serverType":"game","remoterPaths":[{"namespace":"sys","serverType":"game","path":"d:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\backend"},{"namespace":"user","serverType":"game","path":"d:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app\\servers\\game\\remote"}],"handlerPaths":["d:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app\\servers\\game\\handler"],"pid":50828}}
+[2020-06-06T14:36:03.397] [INFO] pinus - [gate-server-1 application.js] application inited: "gate-server-1"
+[2020-06-06T14:36:03.406] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter before start...
+[2020-06-06T14:36:03.407] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-06-06T14:36:03.465] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-06-06T14:36:03.467] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" finish start
+[2020-06-06T14:36:03.468] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" startup in 69 ms
+[2020-06-06T14:36:43.240] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] getSession session is created with session id: 1
+[2020-06-06T14:36:43.246] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] send message reqId: 4, route: gate.gateHandler.queryEntry, msg: {"code":200,"host":"127.0.0.1","port":3050}, receivers: [1], opts: {"type":"response"}
+[2020-06-06T14:36:43.249] [DEBUG] pinus - [gate-server-1 sessionService.js] session on [gate-server-1] is closed with session id: 1,uid:null,reason:1005
+[2020-06-06T14:37:23.292] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] getSession session is created with session id: 2
+[2020-06-06T14:37:23.295] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] send message reqId: 1, route: gate.gateHandler.queryEntry, msg: {"code":200,"host":"127.0.0.1","port":3050}, receivers: [2], opts: {"type":"response"}
+[2020-06-06T14:37:23.297] [DEBUG] pinus - [gate-server-1 sessionService.js] session on [gate-server-1] is closed with session id: 2,uid:null,reason:1005
+[2020-06-06T14:38:40.057] [INFO] pinus - [gate-server-1 application.js] application inited: "gate-server-1"
+[2020-06-06T14:38:40.067] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter before start...
+[2020-06-06T14:38:40.067] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-06-06T14:38:40.153] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-06-06T14:38:40.155] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" finish start
+[2020-06-06T14:38:40.155] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" startup in 95 ms
+[2020-06-06T14:38:40.170] [DEBUG] pinus - [gate-server-1 monitorwatcher.js] [gate-server-1] receive addServer signal: {"action":"addServer","server":{"main":"d:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app.js","env":"development","id":"connector-server-1","host":"127.0.0.1","port":4050,"clientHost":"127.0.0.1","clientPort":3050,"frontend":"true","args":" --inspect=10001","serverType":"connector","remoterPaths":[{"namespace":"sys","serverType":"connector","path":"d:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\frontend"},{"namespace":"user","serverType":"connector","path":"d:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app\\servers\\connector\\remote"}],"handlerPaths":["d:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app\\servers\\connector\\handler"],"pid":56392}}
+[2020-06-06T14:40:05.656] [INFO] pinus - [gate-server-1 application.js] application inited: "gate-server-1"
+[2020-06-06T14:40:05.665] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter before start...
+[2020-06-06T14:40:05.666] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-06-06T14:40:05.732] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-06-06T14:40:05.734] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" finish start
+[2020-06-06T14:40:05.734] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" startup in 75 ms
+[2020-06-06T14:40:05.735] [DEBUG] pinus - [gate-server-1 monitorwatcher.js] [gate-server-1] receive addServer signal: {"action":"addServer","server":{"main":"d:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app.js","env":"development","id":"game-server_1","host":"127.0.0.1","port":6050,"args":" --inspect=10002","serverType":"game","remoterPaths":[{"namespace":"sys","serverType":"game","path":"d:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\backend"},{"namespace":"user","serverType":"game","path":"d:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app\\servers\\game\\remote"}],"handlerPaths":["d:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app\\servers\\game\\handler"],"pid":51452}}
+[2020-06-06T14:40:30.548] [INFO] pinus - [gate-server-1 application.js] application inited: "gate-server-1"
+[2020-06-06T14:40:30.557] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter before start...
+[2020-06-06T14:40:30.560] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-06-06T14:40:30.652] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-06-06T14:40:30.653] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" finish start
+[2020-06-06T14:40:30.653] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" startup in 103 ms
+[2020-06-06T14:41:21.762] [INFO] pinus - [gate-server-1 application.js] application inited: "gate-server-1"
+[2020-06-06T14:41:21.783] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter before start...
+[2020-06-06T14:41:21.783] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-06-06T14:41:21.847] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-06-06T14:41:21.849] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" finish start
+[2020-06-06T14:41:21.849] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" startup in 84 ms
+[2020-06-06T14:41:21.907] [DEBUG] pinus - [gate-server-1 monitorwatcher.js] [gate-server-1] receive addServer signal: {"action":"addServer","server":{"main":"d:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app.js","env":"development","id":"connector-server-1","host":"127.0.0.1","port":4050,"clientHost":"127.0.0.1","clientPort":3050,"frontend":"true","args":" --inspect=10001","serverType":"connector","remoterPaths":[{"namespace":"sys","serverType":"connector","path":"d:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\frontend"},{"namespace":"user","serverType":"connector","path":"d:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app\\servers\\connector\\remote"}],"handlerPaths":["d:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app\\servers\\connector\\handler"],"pid":58440}}
+[2020-06-06T14:42:21.972] [INFO] pinus - [gate-server-1 application.js] application inited: "gate-server-1"
+[2020-06-06T14:42:21.985] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter before start...
+[2020-06-06T14:42:21.986] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-06-06T14:42:22.060] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-06-06T14:42:22.062] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" finish start
+[2020-06-06T14:42:22.062] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" startup in 86 ms
+[2020-06-06T14:43:53.249] [INFO] pinus - [gate-server-1 application.js] application inited: "gate-server-1"
+[2020-06-06T14:43:53.257] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter before start...
+[2020-06-06T14:43:53.258] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-06-06T14:43:53.333] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-06-06T14:43:53.335] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" finish start
+[2020-06-06T14:43:53.335] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" startup in 84 ms
+[2020-06-06T14:45:14.758] [INFO] pinus - [gate-server-1 application.js] application inited: "gate-server-1"
+[2020-06-06T14:45:14.768] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter before start...
+[2020-06-06T14:45:14.769] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-06-06T14:46:52.210] [INFO] pinus - [gate-server-1 application.js] application inited: "gate-server-1"
+[2020-06-06T14:46:52.219] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter before start...
+[2020-06-06T14:46:52.219] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-06-06T14:46:55.362] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-06-06T14:46:55.364] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" finish start
+[2020-06-06T14:46:55.364] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" startup in 3152 ms
+[2020-06-06T14:47:18.214] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] getSession session is created with session id: 1
+[2020-06-06T14:47:18.220] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] send message reqId: 2, route: gate.gateHandler.queryEntry, msg: {"code":200,"host":"127.0.0.1","port":3050}, receivers: [1], opts: {"type":"response"}
+[2020-06-06T14:47:18.223] [DEBUG] pinus - [gate-server-1 sessionService.js] session on [gate-server-1] is closed with session id: 1,uid:null,reason:1005
+[2020-06-06T15:06:52.959] [INFO] pinus - [gate-server-1 application.js] application inited: "gate-server-1"
+[2020-06-06T15:06:52.967] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter before start...
+[2020-06-06T15:06:52.968] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-06-06T15:06:53.046] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-06-06T15:06:53.047] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" finish start
+[2020-06-06T15:06:53.047] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" startup in 86 ms
+[2020-06-06T15:07:00.430] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] getSession session is created with session id: 1
+[2020-06-06T15:07:00.435] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] send message reqId: 4, route: gate.gateHandler.queryEntry, msg: {"code":200,"host":"127.0.0.1","port":3050}, receivers: [1], opts: {"type":"response"}
+[2020-06-06T15:07:00.438] [DEBUG] pinus - [gate-server-1 sessionService.js] session on [gate-server-1] is closed with session id: 1,uid:null,reason:1005
+[2020-06-06T15:07:15.634] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] getSession session is created with session id: 2
+[2020-06-06T15:07:15.637] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] send message reqId: 1, route: gate.gateHandler.queryEntry, msg: {"code":200,"host":"127.0.0.1","port":3050}, receivers: [2], opts: {"type":"response"}
+[2020-06-06T15:07:15.638] [DEBUG] pinus - [gate-server-1 sessionService.js] session on [gate-server-1] is closed with session id: 2,uid:null,reason:1005
+[2020-06-06T15:08:53.528] [INFO] pinus - [gate-server-1 application.js] application inited: "gate-server-1"
+[2020-06-06T15:08:53.539] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter before start...
+[2020-06-06T15:08:53.539] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-06-06T15:08:53.629] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-06-06T15:08:53.630] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" finish start
+[2020-06-06T15:08:53.631] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" startup in 100 ms
+[2020-06-06T15:10:39.969] [INFO] pinus - [gate-server-1 application.js] application inited: "gate-server-1"
+[2020-06-06T15:10:39.978] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter before start...
+[2020-06-06T15:10:39.979] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-06-06T15:10:40.076] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-06-06T15:10:40.078] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" finish start
+[2020-06-06T15:10:40.078] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" startup in 106 ms
+[2020-06-06T15:12:08.520] [INFO] pinus - [gate-server-1 application.js] application inited: "gate-server-1"
+[2020-06-06T15:12:08.535] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter before start...
+[2020-06-06T15:12:08.536] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-06-06T15:13:35.265] [INFO] pinus - [gate-server-1 application.js] application inited: "gate-server-1"
+[2020-06-06T15:13:35.273] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter before start...
+[2020-06-06T15:13:35.273] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-06-06T15:13:35.372] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-06-06T15:13:35.374] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" finish start
+[2020-06-06T15:13:35.374] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" startup in 107 ms
+[2020-06-06T15:15:53.045] [INFO] pinus - [gate-server-1 application.js] application inited: "gate-server-1"
+[2020-06-06T15:15:53.054] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter before start...
+[2020-06-06T15:15:53.054] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-06-06T15:15:53.131] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-06-06T15:15:53.132] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" finish start
+[2020-06-06T15:15:53.133] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" startup in 84 ms
+[2020-06-06T15:20:04.951] [INFO] pinus - [gate-server-1 application.js] application inited: "gate-server-1"
+[2020-06-06T15:20:04.960] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter before start...
+[2020-06-06T15:20:04.961] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-06-06T15:20:05.046] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-06-06T15:20:05.048] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" finish start
+[2020-06-06T15:20:05.048] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" startup in 94 ms
+[2020-06-06T15:21:11.365] [INFO] pinus - [gate-server-1 application.js] application inited: "gate-server-1"
+[2020-06-06T15:21:11.374] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter before start...
+[2020-06-06T15:21:11.375] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-06-06T15:21:11.432] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-06-06T15:21:11.433] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" finish start
+[2020-06-06T15:21:11.434] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" startup in 66 ms
+[2020-06-06T15:21:11.434] [DEBUG] pinus - [gate-server-1 monitorwatcher.js] [gate-server-1] receive addServer signal: {"action":"addServer","server":{"main":"d:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app.js","env":"development","id":"game-server_1","host":"127.0.0.1","port":6050,"args":" --inspect=10002","serverType":"game","remoterPaths":[{"namespace":"sys","serverType":"game","path":"d:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\backend"},{"namespace":"user","serverType":"game","path":"d:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app\\servers\\game\\remote"}],"handlerPaths":["d:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app\\servers\\game\\handler"],"pid":50628}}
+[2020-06-06T15:21:58.442] [INFO] pinus - [gate-server-1 application.js] application inited: "gate-server-1"
+[2020-06-06T15:21:58.452] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter before start...
+[2020-06-06T15:21:58.452] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-06-06T15:21:58.543] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-06-06T15:21:58.546] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" finish start
+[2020-06-06T15:21:58.547] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" startup in 102 ms
+[2020-06-06T15:21:58.564] [DEBUG] pinus - [gate-server-1 monitorwatcher.js] [gate-server-1] receive addServer signal: {"action":"addServer","server":{"main":"d:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app.js","env":"development","id":"game-server_1","host":"127.0.0.1","port":6050,"args":" --inspect=10002","serverType":"game","remoterPaths":[{"namespace":"sys","serverType":"game","path":"d:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\backend"},{"namespace":"user","serverType":"game","path":"d:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app\\servers\\game\\remote"}],"handlerPaths":["d:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app\\servers\\game\\handler"],"pid":55428}}
+[2020-06-06T15:28:17.418] [INFO] pinus - [gate-server-1 application.js] application inited: "gate-server-1"
+[2020-06-06T15:28:17.427] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter before start...
+[2020-06-06T15:28:17.427] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-06-06T15:28:17.512] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-06-06T15:28:17.514] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" finish start
+[2020-06-06T15:28:17.514] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" startup in 94 ms
+[2020-06-06T16:06:24.722] [INFO] pinus - [gate-server-1 application.js] application inited: "gate-server-1"
+[2020-06-06T16:06:24.732] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter before start...
+[2020-06-06T16:06:24.733] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-06-06T16:06:24.793] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-06-06T16:06:24.797] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" finish start
+[2020-06-06T16:06:24.797] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" startup in 72 ms
+[2020-06-06T16:07:34.905] [INFO] pinus - [gate-server-1 application.js] application inited: "gate-server-1"
+[2020-06-06T16:07:34.914] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter before start...
+[2020-06-06T16:07:34.914] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-06-06T16:07:34.977] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-06-06T16:07:34.979] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" finish start
+[2020-06-06T16:07:34.979] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" startup in 71 ms
+[2020-06-06T16:08:41.716] [INFO] pinus - [gate-server-1 application.js] application inited: "gate-server-1"
+[2020-06-06T16:08:41.729] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter before start...
+[2020-06-06T16:08:41.730] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-06-06T16:24:24.852] [INFO] pinus - [gate-server-1 application.js] application inited: "gate-server-1"
+[2020-06-06T16:24:24.863] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter before start...
+[2020-06-06T16:24:24.864] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-06-06T16:24:24.933] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-06-06T16:24:24.935] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" finish start
+[2020-06-06T16:24:24.935] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" startup in 81 ms
+[2020-06-06T16:24:37.212] [INFO] pinus - [gate-server-1 application.js] application inited: "gate-server-1"
+[2020-06-06T16:24:37.225] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter before start...
+[2020-06-06T16:24:37.227] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-06-06T16:43:34.758] [INFO] pinus - [gate-server-1 application.js] application inited: "gate-server-1"
+[2020-06-06T16:43:34.769] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter before start...
+[2020-06-06T16:43:34.769] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-06-06T16:43:34.848] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-06-06T16:43:34.849] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" finish start
+[2020-06-06T16:43:34.850] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" startup in 89 ms
+[2020-06-06T16:43:43.579] [INFO] pinus - [gate-server-1 application.js] application inited: "gate-server-1"
+[2020-06-06T16:43:43.587] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter before start...
+[2020-06-06T16:43:43.588] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-06-06T16:43:43.668] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-06-06T16:43:43.669] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" finish start
+[2020-06-06T16:43:43.669] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" startup in 88 ms
+[2020-06-06T16:43:47.505] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] getSession session is created with session id: 1
+[2020-06-06T16:43:47.511] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] send message reqId: 3, route: gate.gateHandler.queryEntry, msg: {"code":200,"host":"127.0.0.1","port":3050}, receivers: [1], opts: {"type":"response"}
+[2020-06-06T16:43:47.514] [DEBUG] pinus - [gate-server-1 sessionService.js] session on [gate-server-1] is closed with session id: 1,uid:null,reason:1005
+[2020-06-06T16:44:37.362] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] getSession session is created with session id: 2
+[2020-06-06T16:44:37.365] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] send message reqId: 1, route: gate.gateHandler.queryEntry, msg: {"code":200,"host":"127.0.0.1","port":3050}, receivers: [2], opts: {"type":"response"}
+[2020-06-06T16:44:37.366] [DEBUG] pinus - [gate-server-1 sessionService.js] session on [gate-server-1] is closed with session id: 2,uid:null,reason:1005
+[2020-06-06T16:45:10.828] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] getSession session is created with session id: 3
+[2020-06-06T16:45:10.829] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] send message reqId: 3, route: gate.gateHandler.queryEntry, msg: {"code":200,"host":"127.0.0.1","port":3050}, receivers: [3], opts: {"type":"response"}
+[2020-06-06T16:45:10.830] [DEBUG] pinus - [gate-server-1 sessionService.js] session on [gate-server-1] is closed with session id: 3,uid:null,reason:1005
+[2020-06-06T16:54:43.080] [DEBUG] pinus - [gate-server-1 monitorwatcher.js] gate-server-1 receive removeServer signal: {"action":"removeServer","id":"master-server-1"}
+[2020-06-06T16:58:23.193] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] getSession session is created with session id: 4
+[2020-06-06T16:58:23.194] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] send message reqId: 5, route: gate.gateHandler.queryEntry, msg: {"code":200,"host":"127.0.0.1","port":3050}, receivers: [4], opts: {"type":"response"}
+[2020-06-06T16:58:23.195] [DEBUG] pinus - [gate-server-1 sessionService.js] session on [gate-server-1] is closed with session id: 4,uid:null,reason:1005
+[2020-06-06T16:58:54.442] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] getSession session is created with session id: 5
+[2020-06-06T16:58:54.443] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] send message reqId: 7, route: gate.gateHandler.queryEntry, msg: {"code":200,"host":"127.0.0.1","port":3050}, receivers: [5], opts: {"type":"response"}
+[2020-06-06T16:58:54.444] [DEBUG] pinus - [gate-server-1 sessionService.js] session on [gate-server-1] is closed with session id: 5,uid:null,reason:1005
+[2020-06-08T20:22:40.062] [INFO] pinus - [gate-server-1 application.js] application inited: "gate-server-1"
+[2020-06-08T20:22:40.080] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter before start...
+[2020-06-08T20:22:40.080] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-06-08T20:22:40.257] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-06-08T20:22:40.258] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" finish start
+[2020-06-08T20:22:40.259] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" startup in 188 ms
+[2020-06-08T20:24:01.970] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] getSession session is created with session id: 1
+[2020-06-08T20:24:01.977] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] send message reqId: 9, route: gate.gateHandler.queryEntry, msg: {"code":200,"host":"127.0.0.1","port":3050}, receivers: [1], opts: {"type":"response"}
+[2020-06-08T20:24:01.980] [DEBUG] pinus - [gate-server-1 sessionService.js] session on [gate-server-1] is closed with session id: 1,uid:null,reason:1005
+[2020-06-08T20:24:18.806] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] getSession session is created with session id: 2
+[2020-06-08T20:24:18.808] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] send message reqId: 1, route: gate.gateHandler.queryEntry, msg: {"code":200,"host":"127.0.0.1","port":3050}, receivers: [2], opts: {"type":"response"}
+[2020-06-08T20:24:18.810] [DEBUG] pinus - [gate-server-1 sessionService.js] session on [gate-server-1] is closed with session id: 2,uid:null,reason:1005
+[2020-06-08T20:24:57.094] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] getSession session is created with session id: 3
+[2020-06-08T20:24:57.101] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] send message reqId: 3, route: gate.gateHandler.queryEntry, msg: {"code":200,"host":"127.0.0.1","port":3050}, receivers: [3], opts: {"type":"response"}
+[2020-06-08T20:24:57.102] [DEBUG] pinus - [gate-server-1 sessionService.js] session on [gate-server-1] is closed with session id: 3,uid:null,reason:1005
+[2020-06-08T20:35:47.158] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] getSession session is created with session id: 4
+[2020-06-08T20:35:47.160] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] send message reqId: 5, route: gate.gateHandler.queryEntry, msg: {"code":200,"host":"127.0.0.1","port":3050}, receivers: [4], opts: {"type":"response"}
+[2020-06-08T20:35:47.161] [DEBUG] pinus - [gate-server-1 sessionService.js] session on [gate-server-1] is closed with session id: 4,uid:null,reason:1005
+[2020-06-08T20:39:14.023] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] getSession session is created with session id: 5
+[2020-06-08T20:39:14.024] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] send message reqId: 7, route: gate.gateHandler.queryEntry, msg: {"code":200,"host":"127.0.0.1","port":3050}, receivers: [5], opts: {"type":"response"}
+[2020-06-08T20:39:14.025] [DEBUG] pinus - [gate-server-1 sessionService.js] session on [gate-server-1] is closed with session id: 5,uid:null,reason:1005
+[2020-06-08T20:57:40.043] [DEBUG] pinus - [gate-server-1 monitorwatcher.js] gate-server-1 receive removeServer signal: {"action":"removeServer","id":"game-server_1"}
+[2020-06-12T15:14:15.195] [INFO] pinus - [gate-server-1 application.js] application inited: "gate-server-1"
+[2020-06-12T15:14:15.205] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter before start...
+[2020-06-12T15:14:15.206] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-06-12T15:14:15.398] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-06-12T15:14:15.400] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" finish start
+[2020-06-12T15:14:15.400] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" startup in 202 ms
+[2020-06-12T15:46:15.229] [DEBUG] pinus - [gate-server-1 monitorwatcher.js] gate-server-1 receive removeServer signal: {"action":"removeServer","id":"game-server_1"}
+[2020-06-12T17:47:14.672] [DEBUG] pinus - [gate-server-1 monitorwatcher.js] gate-server-1 receive removeServer signal: {"action":"removeServer","id":"master-server-1"}
+[2020-06-16T17:00:07.317] [INFO] pinus - [gate-server-1 application.js] application inited: "gate-server-1"
+[2020-06-16T17:00:07.346] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter before start...
+[2020-06-16T17:00:07.347] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-06-16T17:00:07.392] [INFO] logger - [gate-server-1 console] redis connect.
+[2020-06-16T17:00:07.395] [INFO] logger - [gate-server-1 console] redis ready.
+[2020-06-16T17:00:07.642] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-06-16T17:00:07.643] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" finish start
+[2020-06-16T17:00:07.644] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" startup in 311 ms
+[2020-06-16T17:02:48.048] [INFO] pinus - [gate-server-1 application.js] application inited: "gate-server-1"
+[2020-06-16T17:02:48.058] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter before start...
+[2020-06-16T17:02:48.058] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-06-16T17:02:48.133] [INFO] logger - [gate-server-1 console] redis connect.
+[2020-06-16T17:02:48.137] [INFO] logger - [gate-server-1 console] redis ready.
+[2020-06-16T17:06:03.695] [INFO] pinus - [gate-server-1 application.js] application inited: "gate-server-1"
+[2020-06-16T17:06:03.705] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter before start...
+[2020-06-16T17:06:03.706] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-06-16T17:06:03.757] [INFO] logger - [gate-server-1 console] redis connect.
+[2020-06-16T17:06:03.760] [INFO] logger - [gate-server-1 console] redis ready.
+[2020-06-16T17:06:03.778] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-06-16T17:06:03.780] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" finish start
+[2020-06-16T17:06:03.780] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" startup in 81 ms
+[2020-06-16T17:09:22.328] [INFO] pinus - [gate-server-1 application.js] application inited: "gate-server-1"
+[2020-06-16T17:09:22.338] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter before start...
+[2020-06-16T17:09:22.338] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-06-16T17:09:22.425] [INFO] logger - [gate-server-1 console] redis connect.
+[2020-06-16T17:09:22.431] [INFO] logger - [gate-server-1 console] redis ready.
+[2020-06-16T17:09:22.456] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-06-16T17:09:22.458] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" finish start
+[2020-06-16T17:09:22.459] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" startup in 127 ms
+[2020-06-16T17:10:52.985] [INFO] pinus - [gate-server-1 application.js] application inited: "gate-server-1"
+[2020-06-16T17:10:52.994] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter before start...
+[2020-06-16T17:10:52.994] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-06-16T17:10:52.998] [INFO] logger - [gate-server-1 console] redis get:  Promise [Object] {
+  _bitField: 0,
+  _fulfillmentHandler0: undefined,
+  _rejectionHandler0: undefined,
+  _promise0: undefined,
+  _receiver0: undefined,
+  _trace:
+   { Error: 
+       at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\bluebird\js\release\debuggability.js:482:19)
+       at Promise._resolveFromExecutor (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\bluebird\js\release\promise.js:515:10)
+       at new Promise (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\bluebird\js\release\promise.js:103:10)
+       at promisify (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\app\src\redis\redis.ts:544:10)
+       at RedisProxy.get (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\app\src\redis\redis.ts:142:12)
+       at Object.<anonymous> (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\app.ts:55:40)
+       at Module._compile (internal/modules/cjs/loader.js:701:30)
+       at Object.Module._extensions..js (internal/modules/cjs/loader.js:712:10)
+       at Module.load (internal/modules/cjs/loader.js:600:32)
+       at tryModuleLoad (internal/modules/cjs/loader.js:539:12)
+       at Function.Module._load (internal/modules/cjs/loader.js:531:3)
+       at Function.Module.runMain (internal/modules/cjs/loader.js:754:12)
+       at startup (internal/bootstrap/node.js:283:19)
+       at bootstrapNodeJSCore (internal/bootstrap/node.js:622:3)
+     _parent: undefined,
+     _promisesCreated: 0,
+     _length: 1,
+     _promiseCreated: null } }
+[2020-06-16T17:10:53.086] [INFO] logger - [gate-server-1 console] redis connect.
+[2020-06-16T17:10:53.089] [INFO] logger - [gate-server-1 console] redis ready.
+[2020-06-16T17:10:53.136] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-06-16T17:10:53.138] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" finish start
+[2020-06-16T17:10:53.138] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" startup in 150 ms
+[2020-06-16T17:10:53.141] [DEBUG] pinus - [gate-server-1 monitorwatcher.js] [gate-server-1] receive addServer signal: {"action":"addServer","server":{"main":"d:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app.js","env":"development","id":"connector-server-1","host":"127.0.0.1","port":4050,"clientHost":"127.0.0.1","clientPort":3050,"frontend":"true","args":" --inspect=10001","serverType":"connector","remoterPaths":[{"namespace":"sys","serverType":"connector","path":"d:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\frontend"},{"namespace":"user","serverType":"connector","path":"d:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app\\servers\\connector\\remote"}],"handlerPaths":["d:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app\\servers\\connector\\handler"],"pid":81876}}
+[2020-06-16T17:11:29.513] [INFO] pinus - [gate-server-1 application.js] application inited: "gate-server-1"
+[2020-06-16T17:11:29.522] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter before start...
+[2020-06-16T17:11:29.522] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-06-16T17:11:29.525] [INFO] logger - [gate-server-1 console] redis get:  Promise [Object] {
+  _bitField: 0,
+  _fulfillmentHandler0: undefined,
+  _rejectionHandler0: undefined,
+  _promise0: undefined,
+  _receiver0: undefined,
+  _trace:
+   { Error: 
+       at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\bluebird\js\release\debuggability.js:482:19)
+       at Promise._resolveFromExecutor (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\bluebird\js\release\promise.js:515:10)
+       at new Promise (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\bluebird\js\release\promise.js:103:10)
+       at promisify (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\app\src\redis\redis.ts:544:10)
+       at RedisProxy.get (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\app\src\redis\redis.ts:142:12)
+       at Object.<anonymous> (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\app.ts:55:40)
+       at Module._compile (internal/modules/cjs/loader.js:701:30)
+       at Object.Module._extensions..js (internal/modules/cjs/loader.js:712:10)
+       at Module.load (internal/modules/cjs/loader.js:600:32)
+       at tryModuleLoad (internal/modules/cjs/loader.js:539:12)
+       at Function.Module._load (internal/modules/cjs/loader.js:531:3)
+       at Function.Module.runMain (internal/modules/cjs/loader.js:754:12)
+       at startup (internal/bootstrap/node.js:283:19)
+       at bootstrapNodeJSCore (internal/bootstrap/node.js:622:3)
+     _parent: undefined,
+     _promisesCreated: 0,
+     _length: 1,
+     _promiseCreated: null } }
+[2020-06-16T17:11:29.594] [INFO] logger - [gate-server-1 console] redis connect.
+[2020-06-16T17:11:29.597] [INFO] logger - [gate-server-1 console] redis ready.
+[2020-06-16T17:11:29.622] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-06-16T17:11:29.625] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" finish start
+[2020-06-16T17:11:29.626] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" startup in 111 ms
+[2020-06-16T17:13:36.610] [INFO] pinus - [gate-server-1 application.js] application inited: "gate-server-1"
+[2020-06-16T17:13:36.620] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter before start...
+[2020-06-16T17:13:36.620] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-06-16T17:13:36.624] [INFO] logger - [gate-server-1 console] redis get:  Promise [Object] {
+  _bitField: 0,
+  _fulfillmentHandler0: undefined,
+  _rejectionHandler0: undefined,
+  _promise0: undefined,
+  _receiver0: undefined,
+  _trace:
+   { Error: 
+       at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\bluebird\js\release\debuggability.js:482:19)
+       at Promise._resolveFromExecutor (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\bluebird\js\release\promise.js:515:10)
+       at new Promise (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\bluebird\js\release\promise.js:103:10)
+       at promisify (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\app\src\redis\redis.ts:544:10)
+       at RedisProxy.get (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\app\src\redis\redis.ts:142:12)
+       at Object.<anonymous> (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\app.ts:55:40)
+       at Module._compile (internal/modules/cjs/loader.js:701:30)
+       at Object.Module._extensions..js (internal/modules/cjs/loader.js:712:10)
+       at Module.load (internal/modules/cjs/loader.js:600:32)
+       at tryModuleLoad (internal/modules/cjs/loader.js:539:12)
+       at Function.Module._load (internal/modules/cjs/loader.js:531:3)
+       at Function.Module.runMain (internal/modules/cjs/loader.js:754:12)
+       at startup (internal/bootstrap/node.js:283:19)
+       at bootstrapNodeJSCore (internal/bootstrap/node.js:622:3)
+     _parent: undefined,
+     _promisesCreated: 0,
+     _length: 1,
+     _promiseCreated: null } }
+[2020-06-16T17:13:36.733] [INFO] logger - [gate-server-1 console] redis connect.
+[2020-06-16T17:13:36.735] [INFO] logger - [gate-server-1 console] redis ready.
+[2020-06-16T17:15:42.206] [INFO] pinus - [gate-server-1 application.js] application inited: "gate-server-1"
+[2020-06-16T17:15:42.216] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter before start...
+[2020-06-16T17:15:42.216] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-06-16T17:15:42.220] [INFO] logger - [gate-server-1 console] redis get:  Promise [Object] {
+  _bitField: 0,
+  _fulfillmentHandler0: undefined,
+  _rejectionHandler0: undefined,
+  _promise0: undefined,
+  _receiver0: undefined,
+  _trace:
+   { Error: 
+       at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\bluebird\js\release\debuggability.js:482:19)
+       at Promise._resolveFromExecutor (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\bluebird\js\release\promise.js:515:10)
+       at new Promise (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\bluebird\js\release\promise.js:103:10)
+       at promisify (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\app\src\redis\redis.ts:544:10)
+       at RedisProxy.get (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\app\src\redis\redis.ts:142:12)
+       at Object.<anonymous> (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\app.ts:55:40)
+       at Module._compile (internal/modules/cjs/loader.js:701:30)
+       at Object.Module._extensions..js (internal/modules/cjs/loader.js:712:10)
+       at Module.load (internal/modules/cjs/loader.js:600:32)
+       at tryModuleLoad (internal/modules/cjs/loader.js:539:12)
+       at Function.Module._load (internal/modules/cjs/loader.js:531:3)
+       at Function.Module.runMain (internal/modules/cjs/loader.js:754:12)
+       at startup (internal/bootstrap/node.js:283:19)
+       at bootstrapNodeJSCore (internal/bootstrap/node.js:622:3)
+     _parent: undefined,
+     _promisesCreated: 0,
+     _length: 1,
+     _promiseCreated: null } }
+[2020-06-16T17:15:42.388] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-06-16T17:15:42.390] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" finish start
+[2020-06-16T17:15:42.390] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" startup in 182 ms
+[2020-06-16T17:15:43.294] [ERROR] logger - [gate-server-1 console] redis error. error =Error: 
+    at Logger.pLogger.(anonymous function) [as error] (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus-logger\lib\logger.ts:70:34)
+    at RedisProxy.onerror (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\app\src\redis\redis.ts:75:17)
+    at RedisClient.emit (events.js:189:13)
+    at RedisClient.on_error (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\redis\index.js:406:14)
+    at Socket.<anonymous> (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\redis\index.js:279:14)
+    at Socket.emit (events.js:189:13)
+    at emitErrorNT (internal/streams/destroy.js:82:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:50:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19) { Error: Redis connection to 127.0.0.1:6380 failed - connect ECONNREFUSED 127.0.0.1:6380
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6380 }
+[2020-06-16T17:15:43.497] [INFO] logger - [gate-server-1 console] redis reconnecting.
+[2020-06-16T17:15:44.505] [ERROR] logger - [gate-server-1 console] redis error. error =Error: 
+    at Logger.pLogger.(anonymous function) [as error] (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus-logger\lib\logger.ts:70:34)
+    at RedisProxy.onerror (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\app\src\redis\redis.ts:75:17)
+    at RedisClient.emit (events.js:189:13)
+    at RedisClient.on_error (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\redis\index.js:406:14)
+    at Socket.<anonymous> (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\redis\index.js:279:14)
+    at Socket.emit (events.js:189:13)
+    at emitErrorNT (internal/streams/destroy.js:82:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:50:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19) { Error: Redis connection to 127.0.0.1:6380 failed - connect ECONNREFUSED 127.0.0.1:6380
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6380 }
+[2020-06-16T17:15:44.846] [INFO] logger - [gate-server-1 console] redis reconnecting.
+[2020-06-16T17:15:45.850] [ERROR] logger - [gate-server-1 console] redis error. error =Error: 
+    at Logger.pLogger.(anonymous function) [as error] (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus-logger\lib\logger.ts:70:34)
+    at RedisProxy.onerror (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\app\src\redis\redis.ts:75:17)
+    at RedisClient.emit (events.js:189:13)
+    at RedisClient.on_error (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\redis\index.js:406:14)
+    at Socket.<anonymous> (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\redis\index.js:279:14)
+    at Socket.emit (events.js:189:13)
+    at emitErrorNT (internal/streams/destroy.js:82:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:50:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19) { Error: Redis connection to 127.0.0.1:6380 failed - connect ECONNREFUSED 127.0.0.1:6380
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6380 }
+[2020-06-16T17:15:46.430] [INFO] logger - [gate-server-1 console] redis reconnecting.
+[2020-06-16T17:15:47.436] [ERROR] logger - [gate-server-1 console] redis error. error =Error: 
+    at Logger.pLogger.(anonymous function) [as error] (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus-logger\lib\logger.ts:70:34)
+    at RedisProxy.onerror (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\app\src\redis\redis.ts:75:17)
+    at RedisClient.emit (events.js:189:13)
+    at RedisClient.on_error (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\redis\index.js:406:14)
+    at Socket.<anonymous> (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\redis\index.js:279:14)
+    at Socket.emit (events.js:189:13)
+    at emitErrorNT (internal/streams/destroy.js:82:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:50:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19) { Error: Redis connection to 127.0.0.1:6380 failed - connect ECONNREFUSED 127.0.0.1:6380
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6380 }
+[2020-06-16T17:15:48.419] [INFO] logger - [gate-server-1 console] redis reconnecting.
+[2020-06-16T17:15:49.425] [ERROR] logger - [gate-server-1 console] redis error. error =Error: 
+    at Logger.pLogger.(anonymous function) [as error] (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus-logger\lib\logger.ts:70:34)
+    at RedisProxy.onerror (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\app\src\redis\redis.ts:75:17)
+    at RedisClient.emit (events.js:189:13)
+    at RedisClient.on_error (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\redis\index.js:406:14)
+    at Socket.<anonymous> (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\redis\index.js:279:14)
+    at Socket.emit (events.js:189:13)
+    at emitErrorNT (internal/streams/destroy.js:82:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:50:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19) { Error: Redis connection to 127.0.0.1:6380 failed - connect ECONNREFUSED 127.0.0.1:6380
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6380 }
+[2020-06-16T17:15:51.096] [INFO] logger - [gate-server-1 console] redis reconnecting.
+[2020-06-16T17:15:52.102] [ERROR] logger - [gate-server-1 console] redis error. error =Error: 
+    at Logger.pLogger.(anonymous function) [as error] (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus-logger\lib\logger.ts:70:34)
+    at RedisProxy.onerror (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\app\src\redis\redis.ts:75:17)
+    at RedisClient.emit (events.js:189:13)
+    at RedisClient.on_error (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\redis\index.js:406:14)
+    at Socket.<anonymous> (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\redis\index.js:279:14)
+    at Socket.emit (events.js:189:13)
+    at emitErrorNT (internal/streams/destroy.js:82:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:50:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19) { Error: Redis connection to 127.0.0.1:6380 failed - connect ECONNREFUSED 127.0.0.1:6380
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6380 }
+[2020-06-16T17:15:54.944] [INFO] logger - [gate-server-1 console] redis reconnecting.
+[2020-06-16T17:15:55.951] [ERROR] logger - [gate-server-1 console] redis error. error =Error: 
+    at Logger.pLogger.(anonymous function) [as error] (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus-logger\lib\logger.ts:70:34)
+    at RedisProxy.onerror (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\app\src\redis\redis.ts:75:17)
+    at RedisClient.emit (events.js:189:13)
+    at RedisClient.on_error (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\redis\index.js:406:14)
+    at Socket.<anonymous> (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\redis\index.js:279:14)
+    at Socket.emit (events.js:189:13)
+    at emitErrorNT (internal/streams/destroy.js:82:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:50:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19) { Error: Redis connection to 127.0.0.1:6380 failed - connect ECONNREFUSED 127.0.0.1:6380
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6380 }
+[2020-06-16T17:16:00.782] [INFO] logger - [gate-server-1 console] redis reconnecting.
+[2020-06-16T17:16:01.790] [ERROR] logger - [gate-server-1 console] redis error. error =Error: 
+    at Logger.pLogger.(anonymous function) [as error] (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus-logger\lib\logger.ts:70:34)
+    at RedisProxy.onerror (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\app\src\redis\redis.ts:75:17)
+    at RedisClient.emit (events.js:189:13)
+    at RedisClient.on_error (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\redis\index.js:406:14)
+    at Socket.<anonymous> (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\redis\index.js:279:14)
+    at Socket.emit (events.js:189:13)
+    at emitErrorNT (internal/streams/destroy.js:82:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:50:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19) { Error: Redis connection to 127.0.0.1:6380 failed - connect ECONNREFUSED 127.0.0.1:6380
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6380 }
+[2020-06-16T17:16:10.002] [INFO] logger - [gate-server-1 console] redis reconnecting.
+[2020-06-16T17:16:11.007] [ERROR] logger - [gate-server-1 console] redis error. error =Error: 
+    at Logger.pLogger.(anonymous function) [as error] (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus-logger\lib\logger.ts:70:34)
+    at RedisProxy.onerror (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\app\src\redis\redis.ts:75:17)
+    at RedisClient.emit (events.js:189:13)
+    at RedisClient.on_error (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\redis\index.js:406:14)
+    at Socket.<anonymous> (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\redis\index.js:279:14)
+    at Socket.emit (events.js:189:13)
+    at emitErrorNT (internal/streams/destroy.js:82:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:50:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19) { Error: Redis connection to 127.0.0.1:6380 failed - connect ECONNREFUSED 127.0.0.1:6380
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6380 }
+[2020-06-16T17:16:24.967] [INFO] logger - [gate-server-1 console] redis reconnecting.
+[2020-06-16T17:16:25.973] [ERROR] logger - [gate-server-1 console] redis error. error =Error: 
+    at Logger.pLogger.(anonymous function) [as error] (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus-logger\lib\logger.ts:70:34)
+    at RedisProxy.onerror (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\app\src\redis\redis.ts:75:17)
+    at RedisClient.emit (events.js:189:13)
+    at RedisClient.on_error (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\redis\index.js:406:14)
+    at Socket.<anonymous> (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\redis\index.js:279:14)
+    at Socket.emit (events.js:189:13)
+    at emitErrorNT (internal/streams/destroy.js:82:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:50:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19) { Error: Redis connection to 127.0.0.1:6380 failed - connect ECONNREFUSED 127.0.0.1:6380
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6380 }
+[2020-06-16T17:16:49.704] [INFO] logger - [gate-server-1 console] redis reconnecting.
+[2020-06-16T17:16:50.711] [ERROR] logger - [gate-server-1 console] redis error. error =Error: 
+    at Logger.pLogger.(anonymous function) [as error] (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus-logger\lib\logger.ts:70:34)
+    at RedisProxy.onerror (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\app\src\redis\redis.ts:75:17)
+    at RedisClient.emit (events.js:189:13)
+    at RedisClient.on_error (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\redis\index.js:406:14)
+    at Socket.<anonymous> (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\redis\index.js:279:14)
+    at Socket.emit (events.js:189:13)
+    at emitErrorNT (internal/streams/destroy.js:82:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:50:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19) { Error: Redis connection to 127.0.0.1:6380 failed - connect ECONNREFUSED 127.0.0.1:6380
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6380 }
+[2020-06-16T17:16:56.526] [INFO] pinus - [gate-server-1 application.js] application inited: "gate-server-1"
+[2020-06-16T17:16:56.535] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter before start...
+[2020-06-16T17:16:56.535] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-06-16T17:16:56.649] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-06-16T17:16:56.651] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" finish start
+[2020-06-16T17:16:56.651] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" startup in 123 ms
+[2020-06-16T17:16:57.591] [ERROR] logger - [gate-server-1 console] redis error. error =Error: 
+    at Logger.pLogger.(anonymous function) [as error] (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus-logger\lib\logger.ts:70:34)
+    at RedisProxy.onerror (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\app\src\redis\redis.ts:75:17)
+    at RedisClient.emit (events.js:189:13)
+    at RedisClient.on_error (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\redis\index.js:406:14)
+    at Socket.<anonymous> (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\redis\index.js:279:14)
+    at Socket.emit (events.js:189:13)
+    at emitErrorNT (internal/streams/destroy.js:82:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:50:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19) { Error: Redis connection to 127.0.0.1:6380 failed - connect ECONNREFUSED 127.0.0.1:6380
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6380 }
+[2020-06-16T17:16:57.793] [INFO] logger - [gate-server-1 console] redis reconnecting.
+[2020-06-16T17:16:58.797] [ERROR] logger - [gate-server-1 console] redis error. error =Error: 
+    at Logger.pLogger.(anonymous function) [as error] (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus-logger\lib\logger.ts:70:34)
+    at RedisProxy.onerror (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\app\src\redis\redis.ts:75:17)
+    at RedisClient.emit (events.js:189:13)
+    at RedisClient.on_error (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\redis\index.js:406:14)
+    at Socket.<anonymous> (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\redis\index.js:279:14)
+    at Socket.emit (events.js:189:13)
+    at emitErrorNT (internal/streams/destroy.js:82:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:50:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19) { Error: Redis connection to 127.0.0.1:6380 failed - connect ECONNREFUSED 127.0.0.1:6380
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6380 }
+[2020-06-16T17:16:59.140] [INFO] logger - [gate-server-1 console] redis reconnecting.
+[2020-06-16T17:17:00.145] [ERROR] logger - [gate-server-1 console] redis error. error =Error: 
+    at Logger.pLogger.(anonymous function) [as error] (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus-logger\lib\logger.ts:70:34)
+    at RedisProxy.onerror (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\app\src\redis\redis.ts:75:17)
+    at RedisClient.emit (events.js:189:13)
+    at RedisClient.on_error (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\redis\index.js:406:14)
+    at Socket.<anonymous> (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\redis\index.js:279:14)
+    at Socket.emit (events.js:189:13)
+    at emitErrorNT (internal/streams/destroy.js:82:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:50:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19) { Error: Redis connection to 127.0.0.1:6380 failed - connect ECONNREFUSED 127.0.0.1:6380
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6380 }
+[2020-06-16T17:17:00.723] [INFO] logger - [gate-server-1 console] redis reconnecting.
+[2020-06-16T17:17:01.737] [ERROR] logger - [gate-server-1 console] redis error. error =Error: 
+    at Logger.pLogger.(anonymous function) [as error] (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus-logger\lib\logger.ts:70:34)
+    at RedisProxy.onerror (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\app\src\redis\redis.ts:75:17)
+    at RedisClient.emit (events.js:189:13)
+    at RedisClient.on_error (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\redis\index.js:406:14)
+    at Socket.<anonymous> (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\redis\index.js:279:14)
+    at Socket.emit (events.js:189:13)
+    at emitErrorNT (internal/streams/destroy.js:82:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:50:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19) { Error: Redis connection to 127.0.0.1:6380 failed - connect ECONNREFUSED 127.0.0.1:6380
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6380 }
+[2020-06-16T17:17:02.721] [INFO] logger - [gate-server-1 console] redis reconnecting.
+[2020-06-16T17:17:03.723] [ERROR] logger - [gate-server-1 console] redis error. error =Error: 
+    at Logger.pLogger.(anonymous function) [as error] (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus-logger\lib\logger.ts:70:34)
+    at RedisProxy.onerror (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\app\src\redis\redis.ts:75:17)
+    at RedisClient.emit (events.js:189:13)
+    at RedisClient.on_error (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\redis\index.js:406:14)
+    at Socket.<anonymous> (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\redis\index.js:279:14)
+    at Socket.emit (events.js:189:13)
+    at emitErrorNT (internal/streams/destroy.js:82:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:50:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19) { Error: Redis connection to 127.0.0.1:6380 failed - connect ECONNREFUSED 127.0.0.1:6380
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6380 }
+[2020-06-16T17:17:05.396] [INFO] logger - [gate-server-1 console] redis reconnecting.
+[2020-06-16T17:17:06.402] [ERROR] logger - [gate-server-1 console] redis error. error =Error: 
+    at Logger.pLogger.(anonymous function) [as error] (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus-logger\lib\logger.ts:70:34)
+    at RedisProxy.onerror (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\app\src\redis\redis.ts:75:17)
+    at RedisClient.emit (events.js:189:13)
+    at RedisClient.on_error (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\redis\index.js:406:14)
+    at Socket.<anonymous> (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\redis\index.js:279:14)
+    at Socket.emit (events.js:189:13)
+    at emitErrorNT (internal/streams/destroy.js:82:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:50:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19) { Error: Redis connection to 127.0.0.1:6380 failed - connect ECONNREFUSED 127.0.0.1:6380
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6380 }
+[2020-06-16T17:17:09.244] [INFO] logger - [gate-server-1 console] redis reconnecting.
+[2020-06-16T17:17:10.251] [ERROR] logger - [gate-server-1 console] redis error. error =Error: 
+    at Logger.pLogger.(anonymous function) [as error] (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus-logger\lib\logger.ts:70:34)
+    at RedisProxy.onerror (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\app\src\redis\redis.ts:75:17)
+    at RedisClient.emit (events.js:189:13)
+    at RedisClient.on_error (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\redis\index.js:406:14)
+    at Socket.<anonymous> (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\redis\index.js:279:14)
+    at Socket.emit (events.js:189:13)
+    at emitErrorNT (internal/streams/destroy.js:82:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:50:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19) { Error: Redis connection to 127.0.0.1:6380 failed - connect ECONNREFUSED 127.0.0.1:6380
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6380 }
+[2020-06-16T17:17:15.082] [INFO] logger - [gate-server-1 console] redis reconnecting.
+[2020-06-16T17:17:16.087] [ERROR] logger - [gate-server-1 console] redis error. error =Error: 
+    at Logger.pLogger.(anonymous function) [as error] (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus-logger\lib\logger.ts:70:34)
+    at RedisProxy.onerror (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\app\src\redis\redis.ts:75:17)
+    at RedisClient.emit (events.js:189:13)
+    at RedisClient.on_error (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\redis\index.js:406:14)
+    at Socket.<anonymous> (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\redis\index.js:279:14)
+    at Socket.emit (events.js:189:13)
+    at emitErrorNT (internal/streams/destroy.js:82:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:50:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19) { Error: Redis connection to 127.0.0.1:6380 failed - connect ECONNREFUSED 127.0.0.1:6380
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6380 }
+[2020-06-16T17:17:24.298] [INFO] logger - [gate-server-1 console] redis reconnecting.
+[2020-06-16T17:17:24.303] [INFO] logger - [gate-server-1 console] redis connect.
+[2020-06-16T17:17:24.305] [INFO] logger - [gate-server-1 console] redis ready.
+[2020-06-16T17:40:27.835] [INFO] pinus - [gate-server-1 application.js] application inited: "gate-server-1"
+[2020-06-16T17:40:27.845] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter before start...
+[2020-06-16T17:40:27.846] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-06-16T17:40:27.938] [INFO] logger - [gate-server-1 console] redis connect.
+[2020-06-16T17:40:27.945] [INFO] logger - [gate-server-1 console] redis ready.
+[2020-06-16T17:40:27.969] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-06-16T17:40:27.971] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" finish start
+[2020-06-16T17:40:27.971] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" startup in 133 ms
+[2020-06-16T17:41:27.856] [ERROR] logger - [gate-server-1 console] redis error. error =Error: 
+    at Logger.pLogger.(anonymous function) [as error] (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus-logger\lib\logger.ts:70:34)
+    at RedisProxy.onerror (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\app\src\redis\redis.ts:75:17)
+    at RedisClient.emit (events.js:189:13)
+    at RedisClient.on_error (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\redis\index.js:406:14)
+    at Socket.<anonymous> (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\redis\index.js:279:14)
+    at Socket.emit (events.js:189:13)
+    at emitErrorNT (internal/streams/destroy.js:82:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:50:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19) { Error: Redis connection to 127.0.0.1:6380 failed - read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27) errno: 'ECONNRESET', code: 'ECONNRESET', syscall: 'read' }
+[2020-06-16T17:41:28.057] [INFO] logger - [gate-server-1 console] redis reconnecting.
+[2020-06-16T17:41:29.075] [ERROR] logger - [gate-server-1 console] redis error. error =Error: 
+    at Logger.pLogger.(anonymous function) [as error] (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus-logger\lib\logger.ts:70:34)
+    at RedisProxy.onerror (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\app\src\redis\redis.ts:75:17)
+    at RedisClient.emit (events.js:189:13)
+    at RedisClient.on_error (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\redis\index.js:406:14)
+    at Socket.<anonymous> (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\redis\index.js:279:14)
+    at Socket.emit (events.js:189:13)
+    at emitErrorNT (internal/streams/destroy.js:82:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:50:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19) { Error: Redis connection to 127.0.0.1:6380 failed - connect ECONNREFUSED 127.0.0.1:6380
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6380 }
+[2020-06-16T17:41:29.421] [INFO] logger - [gate-server-1 console] redis reconnecting.
+[2020-06-16T17:41:30.425] [ERROR] logger - [gate-server-1 console] redis error. error =Error: 
+    at Logger.pLogger.(anonymous function) [as error] (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus-logger\lib\logger.ts:70:34)
+    at RedisProxy.onerror (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\app\src\redis\redis.ts:75:17)
+    at RedisClient.emit (events.js:189:13)
+    at RedisClient.on_error (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\redis\index.js:406:14)
+    at Socket.<anonymous> (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\redis\index.js:279:14)
+    at Socket.emit (events.js:189:13)
+    at emitErrorNT (internal/streams/destroy.js:82:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:50:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19) { Error: Redis connection to 127.0.0.1:6380 failed - connect ECONNREFUSED 127.0.0.1:6380
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6380 }
+[2020-06-16T17:41:31.005] [INFO] logger - [gate-server-1 console] redis reconnecting.
+[2020-06-16T17:41:31.510] [INFO] logger - [gate-server-1 console] redis connect.
+[2020-06-16T17:46:14.681] [INFO] pinus - [gate-server-1 application.js] application inited: "gate-server-1"
+[2020-06-16T17:46:14.690] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter before start...
+[2020-06-16T17:46:14.690] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-06-16T17:46:14.694] [INFO] logger - [gate-server-1 console] result: Promise [Object] {
+  _bitField: 0,
+  _fulfillmentHandler0: undefined,
+  _rejectionHandler0: undefined,
+  _promise0: undefined,
+  _receiver0: undefined,
+  _trace:
+   { Error: 
+       at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\bluebird\js\release\debuggability.js:482:19)
+       at Promise._resolveFromExecutor (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\bluebird\js\release\promise.js:515:10)
+       at new Promise (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\bluebird\js\release\promise.js:103:10)
+       at promisify (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\app\src\redis\redis.ts:544:10)
+       at RedisProxy.set (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\app\src\redis\redis.ts:138:12)
+       at Object.<anonymous> (d:\pomelo20200224\testExmaple\pinus-chat-example\game-server\app.ts:54:26)
+       at Module._compile (internal/modules/cjs/loader.js:701:30)
+       at Object.Module._extensions..js (internal/modules/cjs/loader.js:712:10)
+       at Module.load (internal/modules/cjs/loader.js:600:32)
+       at tryModuleLoad (internal/modules/cjs/loader.js:539:12)
+       at Function.Module._load (internal/modules/cjs/loader.js:531:3)
+       at Function.Module.runMain (internal/modules/cjs/loader.js:754:12)
+       at startup (internal/bootstrap/node.js:283:19)
+       at bootstrapNodeJSCore (internal/bootstrap/node.js:622:3)
+     _parent: undefined,
+     _promisesCreated: 0,
+     _length: 1,
+     _promiseCreated: null } }
+[2020-06-16T17:46:14.774] [INFO] logger - [gate-server-1 console] redis connect.
+[2020-06-16T17:46:14.777] [INFO] logger - [gate-server-1 console] redis ready.
+[2020-06-16T17:46:14.799] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-06-16T17:46:14.801] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" finish start
+[2020-06-16T17:46:14.801] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" startup in 117 ms
+[2020-06-16T17:47:22.476] [INFO] pinus - [gate-server-1 application.js] application inited: "gate-server-1"
+[2020-06-16T17:47:22.484] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter before start...
+[2020-06-16T17:47:22.485] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-06-16T17:47:22.527] [INFO] logger - [gate-server-1 console] redis connect.
+[2020-06-16T17:47:22.532] [INFO] logger - [gate-server-1 console] redis ready.
+[2020-06-16T17:47:22.534] [INFO] logger - [gate-server-1 console] value: OK
+[2020-06-16T17:49:10.975] [INFO] pinus - [gate-server-1 application.js] application inited: "gate-server-1"
+[2020-06-16T17:49:10.986] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter before start...
+[2020-06-16T17:49:10.987] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-06-16T17:49:11.065] [INFO] logger - [gate-server-1 console] redis connect.
+[2020-06-16T17:49:11.082] [INFO] logger - [gate-server-1 console] redis ready.
+[2020-06-16T17:49:11.101] [INFO] logger - [gate-server-1 console] value: OK
+[2020-06-16T17:49:11.102] [INFO] logger - [gate-server-1 console] getResult: I am ok
+[2020-06-16T17:49:15.463] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-06-16T17:49:15.464] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" finish start
+[2020-06-16T17:49:15.464] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" startup in 4485 ms
+[2020-06-16T17:58:55.544] [INFO] pinus - [gate-server-1 application.js] application inited: "gate-server-1"
+[2020-06-16T17:58:55.553] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter before start...
+[2020-06-16T17:58:55.553] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-06-16T17:58:55.600] [INFO] logger - [gate-server-1 console] redis connect.
+[2020-06-16T17:58:55.604] [INFO] logger - [gate-server-1 console] redis ready.
+[2020-06-16T17:58:55.606] [INFO] logger - [gate-server-1 console] value: OK
+[2020-06-16T17:58:55.607] [INFO] logger - [gate-server-1 console] getResult: I am ok
+[2020-06-16T17:58:55.887] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-06-16T17:58:55.888] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" finish start
+[2020-06-16T17:58:55.889] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" startup in 343 ms
+[2020-06-16T21:01:32.472] [INFO] pinus - [gate-server-1 application.js] application inited: "gate-server-1"
+[2020-06-16T21:01:32.481] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter before start...
+[2020-06-16T21:01:32.482] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-06-16T21:01:32.532] [INFO] logger - [gate-server-1 console] redis connect.
+[2020-06-16T21:01:32.535] [INFO] logger - [gate-server-1 console] redis ready.
+[2020-06-16T21:01:32.539] [INFO] logger - [gate-server-1 console] value: OK
+[2020-06-16T21:01:32.539] [INFO] logger - [gate-server-1 console] getResult: I am ok
+[2020-06-16T21:01:32.700] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-06-16T21:01:32.702] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" finish start
+[2020-06-16T21:01:32.702] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" startup in 228 ms
+[2020-06-16T21:01:47.589] [INFO] pinus - [gate-server-1 application.js] application inited: "gate-server-1"
+[2020-06-16T21:01:47.598] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter before start...
+[2020-06-16T21:01:47.599] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-06-16T21:01:47.653] [INFO] logger - [gate-server-1 console] redis connect.
+[2020-06-16T21:01:47.668] [INFO] logger - [gate-server-1 console] redis ready.
+[2020-06-16T21:01:47.677] [INFO] logger - [gate-server-1 console] value: OK
+[2020-06-16T21:01:47.678] [INFO] logger - [gate-server-1 console] getResult: I am ok
+[2020-06-16T21:01:47.785] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-06-16T21:01:47.787] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" finish start
+[2020-06-16T21:01:47.787] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" startup in 196 ms
+[2020-06-16T21:02:28.519] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] getSession session is created with session id: 1
+[2020-06-16T21:02:28.526] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] send message reqId: 1, route: gate.gateHandler.queryEntry, msg: {"code":200,"host":"127.0.0.1","port":3050}, receivers: [1], opts: {"type":"response"}
+[2020-06-16T21:02:28.530] [DEBUG] pinus - [gate-server-1 sessionService.js] session on [gate-server-1] is closed with session id: 1,uid:null,reason:1005
+[2020-06-16T21:03:34.176] [INFO] pinus - [gate-server-1 application.js] application inited: "gate-server-1"
+[2020-06-16T21:03:34.185] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter before start...
+[2020-06-16T21:03:34.186] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-06-16T21:03:34.243] [INFO] logger - [gate-server-1 console] redis connect.
+[2020-06-16T21:03:34.246] [INFO] logger - [gate-server-1 console] redis ready.
+[2020-06-16T21:03:34.249] [INFO] logger - [gate-server-1 console] value: OK
+[2020-06-16T21:03:34.254] [INFO] logger - [gate-server-1 console] getResult: I am ok
+[2020-06-16T21:03:34.362] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-06-16T21:03:34.364] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" finish start
+[2020-06-16T21:03:34.364] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" startup in 186 ms
