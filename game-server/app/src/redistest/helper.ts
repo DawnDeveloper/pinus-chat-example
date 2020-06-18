@@ -1,4 +1,5 @@
 import { RedisProxy } from "../redis/redis";
+import { ClientOpts } from "redis";
 
 export default class Helper {
   private static instance: RedisProxy;
@@ -9,7 +10,12 @@ export default class Helper {
 
   public static get Proxy(): RedisProxy {
     if (!Helper.instance) {
-      Helper.instance = new RedisProxy();
+      // Helper.instance = new RedisProxy();
+      let opt: ClientOpts = {
+        host: "127.0.0.1",
+        port: 6380,
+      };
+      Helper.instance = new RedisProxy(opt, console);
     }
     return Helper.instance;
   }

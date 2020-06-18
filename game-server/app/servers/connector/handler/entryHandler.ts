@@ -23,6 +23,7 @@ export class Handler {
     }
 
     async enter(msg: any, session: FrontendSession) {
+        console.time("start");
         let self = this;
         let rid = msg.rid;
         let uid = msg.username + "*" + msg.rid
@@ -41,8 +42,9 @@ export class Handler {
 
         session.on('closed', this.onUserLeave.bind(null, self.app))
         //console.info(self.app.rpc.game.gameRemote)
+        
         let users = await self.app.rpc.game.gameRemote.add(session, uid, self.app.get("serverId"), rid, true);
-
+        console.timeEnd("start")
         return { code: 200, users: users };
     }
 
@@ -82,7 +84,9 @@ export class Handler {
         if (!session.uid) {
             return
         }
+        console.time("onUserLeave");
         await app.rpc.game.gameRemote.kick(session, session.uid, app.get("serverId"), session.get('rid'));
+        console.timeEnd("onUserLeave");
     }
 
 }

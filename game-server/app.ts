@@ -50,15 +50,30 @@ let opt: ClientOpts = {
     host: "127.0.0.1",
     port: 6380,
 };
-
 let redisClient = new RedisProxy(opt, console);
 let result = redisClient.set("test", "I am ok");
 result.then((value) => {
     console.log("value:", value);
 });
-
 let getResult = redisClient.get("test");
+console.log("to get");
 getResult.then((getResult) => {
     console.log("getResult:", getResult);
 });
+// let data = asyncTest(redisClient);
+// console.log("to end data", data);
+// data.then(() => {
+//     console.log("to end then data", data);
+// })
+
+// async function asyncTest(redisClient) {
+//     console.log("to start get");
+//     let one = redisClient.get("test");
+//     console.log("to start get two");
+//     let two = redisClient.get("test");
+//     let three = redisClient.get("test");
+//     console.log("to end get");
+//     // console.log("to end", one, two, three);
+//     return one + two + three; 
+// }
 
