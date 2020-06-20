@@ -4554,3 +4554,670 @@ gate.gateHandler.queryEntry
 [2020-06-16T21:03:34.362] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" enter after start...
 [2020-06-16T21:03:34.364] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" finish start
 [2020-06-16T21:03:34.364] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" startup in 197 ms
+[2020-06-18T17:51:51.144] [INFO] pinus - [connector-server-1 application.js] application inited: "connector-server-1"
+[2020-06-18T17:51:51.155] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" enter before start...
+[2020-06-18T17:51:51.156] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" enter after start...
+[2020-06-18T17:51:51.159] [INFO] logger - [connector-server-1 console] to get
+[2020-06-18T17:51:51.189] [WARN] logger - [connector-server-1 console] after start all server, use route dictionary :
+ connector.entryHandler.enter
+connector.entryHandler.entry
+connector.entryHandler.onUserLeave
+connector.entryHandler.publish
+connector.entryHandler.subscribe
+game.chatHandler.entry
+game.chatHandler.publish
+game.chatHandler.send
+game.chatHandler.subscribe
+gate.gateHandler.queryEntry
+[2020-06-18T17:51:51.224] [INFO] logger - [connector-server-1 console] redis connect.
+[2020-06-18T17:51:51.227] [INFO] logger - [connector-server-1 console] redis ready.
+[2020-06-18T17:51:51.231] [INFO] logger - [connector-server-1 console] value: OK
+[2020-06-18T17:51:51.231] [INFO] logger - [connector-server-1 console] getResult: I am ok
+[2020-06-18T17:51:51.379] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" enter after start...
+[2020-06-18T17:51:51.380] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" finish start
+[2020-06-18T17:51:51.380] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" startup in 233 ms
+[2020-06-18T17:51:51.390] [DEBUG] pinus - [connector-server-1 monitorwatcher.js] [connector-server-1] receive addServer signal: {"action":"addServer","server":{"main":"D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app","env":"development","id":"gate-server-1","host":"127.0.0.1","port":7050,"clientHost":"127.0.0.1","clientPort":3014,"frontend":"true","args":" --inspect=10003","serverType":"gate","remoterPaths":[{"namespace":"sys","serverType":"gate","path":"D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\frontend"}],"handlerPaths":["D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app\\servers\\gate\\handler"],"pid":84424}}
+[2020-06-18T19:28:07.316] [INFO] pinus - [connector-server-1 application.js] application inited: "connector-server-1"
+[2020-06-18T19:28:07.327] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" enter before start...
+[2020-06-18T19:28:07.327] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" enter after start...
+[2020-06-18T19:28:07.332] [INFO] logger - [connector-server-1 console] to get
+[2020-06-18T19:28:07.332] [INFO] logger - [connector-server-1 console] to start get
+[2020-06-18T19:28:07.333] [INFO] logger - [connector-server-1 console] to start get two
+[2020-06-18T19:28:07.333] [INFO] logger - [connector-server-1 console] to end get
+[2020-06-18T19:28:07.333] [INFO] logger - [connector-server-1 console] to end data Promise { <pending> }
+[2020-06-18T19:28:07.355] [WARN] logger - [connector-server-1 console] after start all server, use route dictionary :
+ connector.entryHandler.enter
+connector.entryHandler.entry
+connector.entryHandler.onUserLeave
+connector.entryHandler.publish
+connector.entryHandler.subscribe
+game.chatHandler.entry
+game.chatHandler.publish
+game.chatHandler.send
+game.chatHandler.subscribe
+gate.gateHandler.queryEntry
+[2020-06-18T19:28:07.396] [INFO] logger - [connector-server-1 console] redis connect.
+[2020-06-18T19:28:07.409] [INFO] logger - [connector-server-1 console] redis ready.
+[2020-06-18T19:28:07.417] [INFO] logger - [connector-server-1 console] value: OK
+[2020-06-18T19:28:07.417] [INFO] logger - [connector-server-1 console] getResult: I am ok
+[2020-06-18T19:28:07.418] [INFO] logger - [connector-server-1 console] to end then data Promise { 'I am okI am okI am ok' }
+[2020-06-18T19:28:07.689] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" enter after start...
+[2020-06-18T19:28:07.691] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" finish start
+[2020-06-18T19:28:07.691] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" startup in 372 ms
+[2020-06-18T19:28:07.784] [DEBUG] pinus - [connector-server-1 monitorwatcher.js] [connector-server-1] receive addServer signal: {"action":"addServer","server":{"main":"D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app","env":"development","id":"gate-server-1","host":"127.0.0.1","port":7050,"clientHost":"127.0.0.1","clientPort":3014,"frontend":"true","args":" --inspect=10003","serverType":"gate","remoterPaths":[{"namespace":"sys","serverType":"gate","path":"D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\frontend"}],"handlerPaths":["D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app\\servers\\gate\\handler"],"pid":78084}}
+[2020-06-18T19:29:31.132] [INFO] pinus - [connector-server-1 application.js] application inited: "connector-server-1"
+[2020-06-18T19:29:31.143] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" enter before start...
+[2020-06-18T19:29:31.144] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" enter after start...
+[2020-06-18T19:29:31.149] [INFO] logger - [connector-server-1 console] to get
+[2020-06-18T19:29:31.149] [INFO] logger - [connector-server-1 console] to start get
+[2020-06-18T19:29:31.149] [INFO] logger - [connector-server-1 console] to start get two
+[2020-06-18T19:29:31.149] [INFO] logger - [connector-server-1 console] to end get
+[2020-06-18T19:29:31.149] [INFO] logger - [connector-server-1 console] to end data Promise { <pending> }
+[2020-06-18T19:29:31.162] [WARN] logger - [connector-server-1 console] after start all server, use route dictionary :
+ connector.entryHandler.enter
+connector.entryHandler.entry
+connector.entryHandler.onUserLeave
+connector.entryHandler.publish
+connector.entryHandler.subscribe
+game.chatHandler.entry
+game.chatHandler.publish
+game.chatHandler.send
+game.chatHandler.subscribe
+gate.gateHandler.queryEntry
+[2020-06-18T19:29:31.189] [INFO] logger - [connector-server-1 console] redis connect.
+[2020-06-18T19:29:31.196] [INFO] logger - [connector-server-1 console] redis ready.
+[2020-06-18T19:29:31.198] [INFO] logger - [connector-server-1 console] value: OK
+[2020-06-18T19:29:31.199] [INFO] logger - [connector-server-1 console] getResult: I am ok
+[2020-06-18T19:29:31.204] [INFO] logger - [connector-server-1 console] to end then data Promise { 'I am okI am okI am ok' }
+[2020-06-18T19:29:31.368] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" enter after start...
+[2020-06-18T19:29:31.370] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" finish start
+[2020-06-18T19:29:31.370] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" startup in 235 ms
+[2020-06-18T19:29:31.375] [DEBUG] pinus - [connector-server-1 monitorwatcher.js] [connector-server-1] receive addServer signal: {"action":"addServer","server":{"main":"D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app","env":"development","id":"game-server_1","host":"127.0.0.1","port":6050,"args":" --inspect=10002","serverType":"game","remoterPaths":[{"namespace":"sys","serverType":"game","path":"D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\backend"},{"namespace":"user","serverType":"game","path":"D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app\\servers\\game\\remote"}],"handlerPaths":["D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app\\servers\\game\\handler"],"pid":79652}}
+[2020-06-18T19:29:31.436] [DEBUG] pinus - [connector-server-1 monitorwatcher.js] [connector-server-1] receive addServer signal: {"action":"addServer","server":{"main":"D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app","env":"development","id":"gate-server-1","host":"127.0.0.1","port":7050,"clientHost":"127.0.0.1","clientPort":3014,"frontend":"true","args":" --inspect=10003","serverType":"gate","remoterPaths":[{"namespace":"sys","serverType":"gate","path":"D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\frontend"}],"handlerPaths":["D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app\\servers\\gate\\handler"],"pid":78128}}
+[2020-06-18T19:30:40.425] [INFO] pinus - [connector-server-1 application.js] application inited: "connector-server-1"
+[2020-06-18T19:30:40.436] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" enter before start...
+[2020-06-18T19:30:40.437] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" enter after start...
+[2020-06-18T19:30:40.440] [INFO] logger - [connector-server-1 console] to get
+[2020-06-18T19:30:40.441] [INFO] logger - [connector-server-1 console] to start get
+[2020-06-18T19:30:40.441] [INFO] logger - [connector-server-1 console] to start get two
+[2020-06-18T19:30:40.442] [INFO] logger - [connector-server-1 console] to end get
+[2020-06-18T19:30:40.442] [INFO] logger - [connector-server-1 console] start: 0.863ms
+[2020-06-18T19:30:40.442] [INFO] logger - [connector-server-1 console] to end data Promise { <pending> }
+[2020-06-18T19:30:40.468] [WARN] logger - [connector-server-1 console] after start all server, use route dictionary :
+ connector.entryHandler.enter
+connector.entryHandler.entry
+connector.entryHandler.onUserLeave
+connector.entryHandler.publish
+connector.entryHandler.subscribe
+game.chatHandler.entry
+game.chatHandler.publish
+game.chatHandler.send
+game.chatHandler.subscribe
+gate.gateHandler.queryEntry
+[2020-06-18T19:30:40.506] [INFO] logger - [connector-server-1 console] redis connect.
+[2020-06-18T19:30:40.511] [INFO] logger - [connector-server-1 console] redis ready.
+[2020-06-18T19:30:40.514] [INFO] logger - [connector-server-1 console] value: OK
+[2020-06-18T19:30:40.514] [INFO] logger - [connector-server-1 console] getResult: I am ok
+[2020-06-18T19:30:40.516] [INFO] logger - [connector-server-1 console] to end then data Promise { 'I am okI am okI am ok' }
+[2020-06-18T19:30:40.687] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" enter after start...
+[2020-06-18T19:30:40.688] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" finish start
+[2020-06-18T19:30:40.688] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" startup in 259 ms
+[2020-06-18T19:30:40.701] [DEBUG] pinus - [connector-server-1 monitorwatcher.js] [connector-server-1] receive addServer signal: {"action":"addServer","server":{"main":"D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app","env":"development","id":"game-server_1","host":"127.0.0.1","port":6050,"args":" --inspect=10002","serverType":"game","remoterPaths":[{"namespace":"sys","serverType":"game","path":"D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\backend"},{"namespace":"user","serverType":"game","path":"D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app\\servers\\game\\remote"}],"handlerPaths":["D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app\\servers\\game\\handler"],"pid":72592}}
+[2020-06-18T19:30:40.718] [DEBUG] pinus - [connector-server-1 monitorwatcher.js] [connector-server-1] receive addServer signal: {"action":"addServer","server":{"main":"D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app","env":"development","id":"gate-server-1","host":"127.0.0.1","port":7050,"clientHost":"127.0.0.1","clientPort":3014,"frontend":"true","args":" --inspect=10003","serverType":"gate","remoterPaths":[{"namespace":"sys","serverType":"gate","path":"D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\frontend"}],"handlerPaths":["D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app\\servers\\gate\\handler"],"pid":89380}}
+[2020-06-18T19:31:52.522] [INFO] pinus - [connector-server-1 application.js] application inited: "connector-server-1"
+[2020-06-18T19:31:52.532] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" enter before start...
+[2020-06-18T19:31:52.532] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" enter after start...
+[2020-06-18T19:31:52.536] [INFO] logger - [connector-server-1 console] to get
+[2020-06-18T19:31:52.536] [INFO] logger - [connector-server-1 console] start: 0.251ms
+[2020-06-18T19:31:52.563] [WARN] logger - [connector-server-1 console] after start all server, use route dictionary :
+ connector.entryHandler.enter
+connector.entryHandler.entry
+connector.entryHandler.onUserLeave
+connector.entryHandler.publish
+connector.entryHandler.subscribe
+game.chatHandler.entry
+game.chatHandler.publish
+game.chatHandler.send
+game.chatHandler.subscribe
+gate.gateHandler.queryEntry
+[2020-06-18T19:31:52.599] [INFO] logger - [connector-server-1 console] to end then data Promise { '[object Promise][object Promise][object Promise]' }
+[2020-06-18T19:31:52.603] [INFO] logger - [connector-server-1 console] redis connect.
+[2020-06-18T19:31:52.608] [INFO] logger - [connector-server-1 console] redis ready.
+[2020-06-18T19:31:52.611] [INFO] logger - [connector-server-1 console] value: OK
+[2020-06-18T19:31:52.611] [INFO] logger - [connector-server-1 console] getResult: I am ok
+[2020-06-18T19:31:52.813] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" enter after start...
+[2020-06-18T19:31:52.815] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" finish start
+[2020-06-18T19:31:52.815] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" startup in 291 ms
+[2020-06-18T19:33:43.695] [INFO] pinus - [connector-server-1 application.js] application inited: "connector-server-1"
+[2020-06-18T19:33:43.704] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" enter before start...
+[2020-06-18T19:33:43.704] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" enter after start...
+[2020-06-18T19:33:43.708] [INFO] logger - [connector-server-1 console] to get
+[2020-06-18T19:33:43.708] [INFO] logger - [connector-server-1 console] start: 0.268ms
+[2020-06-18T19:33:43.728] [WARN] logger - [connector-server-1 console] after start all server, use route dictionary :
+ connector.entryHandler.enter
+connector.entryHandler.entry
+connector.entryHandler.onUserLeave
+connector.entryHandler.publish
+connector.entryHandler.subscribe
+game.chatHandler.entry
+game.chatHandler.publish
+game.chatHandler.send
+game.chatHandler.subscribe
+gate.gateHandler.queryEntry
+[2020-06-18T19:33:43.760] [INFO] logger - [connector-server-1 console] to end then data Promise { '[object Promise][object Promise][object Promise]' }
+[2020-06-18T19:33:43.763] [INFO] logger - [connector-server-1 console] redis connect.
+[2020-06-18T19:33:43.770] [INFO] logger - [connector-server-1 console] redis ready.
+[2020-06-18T19:33:43.772] [INFO] logger - [connector-server-1 console] value: OK
+[2020-06-18T19:33:43.773] [INFO] logger - [connector-server-1 console] getResult: I am ok
+[2020-06-18T19:33:43.914] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" enter after start...
+[2020-06-18T19:33:43.916] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" finish start
+[2020-06-18T19:33:43.916] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" startup in 219 ms
+[2020-06-18T19:33:43.974] [DEBUG] pinus - [connector-server-1 monitorwatcher.js] [connector-server-1] receive addServer signal: {"action":"addServer","server":{"main":"D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app","env":"development","id":"gate-server-1","host":"127.0.0.1","port":7050,"clientHost":"127.0.0.1","clientPort":3014,"frontend":"true","args":" --inspect=10003","serverType":"gate","remoterPaths":[{"namespace":"sys","serverType":"gate","path":"D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\frontend"}],"handlerPaths":["D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app\\servers\\gate\\handler"],"pid":41272}}
+[2020-06-18T19:33:43.979] [DEBUG] pinus - [connector-server-1 monitorwatcher.js] [connector-server-1] receive addServer signal: {"action":"addServer","server":{"main":"D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app","env":"development","id":"game-server_1","host":"127.0.0.1","port":6050,"args":" --inspect=10002","serverType":"game","remoterPaths":[{"namespace":"sys","serverType":"game","path":"D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\backend"},{"namespace":"user","serverType":"game","path":"D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app\\servers\\game\\remote"}],"handlerPaths":["D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app\\servers\\game\\handler"],"pid":87180}}
+[2020-06-18T19:35:12.062] [INFO] pinus - [connector-server-1 application.js] application inited: "connector-server-1"
+[2020-06-18T19:35:12.072] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" enter before start...
+[2020-06-18T19:35:12.073] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" enter after start...
+[2020-06-18T19:35:12.076] [INFO] logger - [connector-server-1 console] to get
+[2020-06-18T19:35:12.077] [INFO] logger - [connector-server-1 console] start: 0.372ms
+[2020-06-18T19:35:12.098] [WARN] logger - [connector-server-1 console] after start all server, use route dictionary :
+ connector.entryHandler.enter
+connector.entryHandler.entry
+connector.entryHandler.onUserLeave
+connector.entryHandler.publish
+connector.entryHandler.subscribe
+game.chatHandler.entry
+game.chatHandler.publish
+game.chatHandler.send
+game.chatHandler.subscribe
+gate.gateHandler.queryEntry
+[2020-06-18T19:35:12.130] [INFO] logger - [connector-server-1 console] redis connect.
+[2020-06-18T19:35:12.134] [INFO] logger - [connector-server-1 console] redis ready.
+[2020-06-18T19:35:12.136] [INFO] logger - [connector-server-1 console] value: OK
+[2020-06-18T19:35:12.136] [INFO] logger - [connector-server-1 console] getResult: I am ok
+[2020-06-18T19:35:12.139] [INFO] logger - [connector-server-1 console] to end then data Promise { 'I am okI am okI am ok' }
+[2020-06-18T19:35:12.438] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" enter after start...
+[2020-06-18T19:35:12.440] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" finish start
+[2020-06-18T19:35:12.440] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" startup in 375 ms
+[2020-06-18T19:35:12.491] [DEBUG] pinus - [connector-server-1 monitorwatcher.js] [connector-server-1] receive addServer signal: {"action":"addServer","server":{"main":"D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app","env":"development","id":"gate-server-1","host":"127.0.0.1","port":7050,"clientHost":"127.0.0.1","clientPort":3014,"frontend":"true","args":" --inspect=10003","serverType":"gate","remoterPaths":[{"namespace":"sys","serverType":"gate","path":"D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\frontend"}],"handlerPaths":["D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app\\servers\\gate\\handler"],"pid":13068}}
+[2020-06-18T19:36:11.234] [INFO] pinus - [connector-server-1 application.js] application inited: "connector-server-1"
+[2020-06-18T19:36:11.245] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" enter before start...
+[2020-06-18T19:36:11.245] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" enter after start...
+[2020-06-18T19:36:11.249] [INFO] logger - [connector-server-1 console] to get
+[2020-06-18T19:36:11.250] [INFO] logger - [connector-server-1 console] start: 0.377ms
+[2020-06-18T19:36:11.271] [WARN] logger - [connector-server-1 console] after start all server, use route dictionary :
+ connector.entryHandler.enter
+connector.entryHandler.entry
+connector.entryHandler.onUserLeave
+connector.entryHandler.publish
+connector.entryHandler.subscribe
+game.chatHandler.entry
+game.chatHandler.publish
+game.chatHandler.send
+game.chatHandler.subscribe
+gate.gateHandler.queryEntry
+[2020-06-18T19:36:11.351] [INFO] logger - [connector-server-1 console] redis connect.
+[2020-06-18T19:36:11.355] [INFO] logger - [connector-server-1 console] redis ready.
+[2020-06-18T19:36:11.361] [INFO] logger - [connector-server-1 console] value: OK
+[2020-06-18T19:36:11.361] [INFO] logger - [connector-server-1 console] getResult: I am ok
+[2020-06-18T19:36:11.364] [INFO] logger - [connector-server-1 console] to end then data Promise { 'I am okI am okI am ok' }
+[2020-06-18T19:36:11.384] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" enter after start...
+[2020-06-18T19:36:11.386] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" finish start
+[2020-06-18T19:36:11.386] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" startup in 149 ms
+[2020-06-18T19:36:11.387] [DEBUG] pinus - [connector-server-1 monitorwatcher.js] [connector-server-1] receive addServer signal: {"action":"addServer","server":{"main":"d:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app.js","env":"development","id":"gate-server-1","host":"127.0.0.1","port":7050,"clientHost":"127.0.0.1","clientPort":3014,"frontend":"true","args":" --inspect=10003","serverType":"gate","remoterPaths":[{"namespace":"sys","serverType":"gate","path":"d:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\frontend"}],"handlerPaths":["d:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app\\servers\\gate\\handler"],"pid":79804}}
+[2020-06-18T19:38:21.012] [DEBUG] pinus - [connector-server-1 connector.js] [connector-server-1] getSession session is created with session id: 1
+[2020-06-18T19:38:21.025] [DEBUG] pinus - [connector-server-1 connector.js] session on [connector-server-1] bind with uid: 1*1
+[2020-06-18T19:38:21.094] [INFO] logger - [connector-server-1 console] start: 68.978ms
+[2020-06-18T19:38:21.095] [DEBUG] pinus - [connector-server-1 connector.js] [connector-server-1] send message reqId: 8, route: connector.entryHandler.enter, msg: {"code":200,"users":["1"]}, receivers: [1], opts: {"type":"response"}
+[2020-06-18T19:38:28.715] [DEBUG] pinus - [connector-server-1 switcher.js] connection error:read ECONNRESET, the remote ip is ::ffff:127.0.0.1 && port is 57302
+[2020-06-18T19:38:28.715] [DEBUG] pinus - [connector-server-1 sessionService.js] session on [connector-server-1] is closed with session id: 1,uid:1*1,reason:1001
+[2020-06-18T19:38:28.717] [INFO] logger - [connector-server-1 console] onUserLeave: 1.677ms
+[2020-06-18T19:41:38.189] [INFO] pinus - [connector-server-1 application.js] application inited: "connector-server-1"
+[2020-06-18T19:41:38.203] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" enter before start...
+[2020-06-18T19:41:38.203] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" enter after start...
+[2020-06-18T19:41:38.208] [INFO] logger - [connector-server-1 console] to get
+[2020-06-18T19:41:38.209] [INFO] logger - [connector-server-1 console] start: 0.369ms
+[2020-06-18T19:41:38.234] [WARN] logger - [connector-server-1 console] after start all server, use route dictionary :
+ connector.entryHandler.enter
+connector.entryHandler.entry
+connector.entryHandler.onUserLeave
+connector.entryHandler.publish
+connector.entryHandler.subscribe
+game.chatHandler.entry
+game.chatHandler.publish
+game.chatHandler.send
+game.chatHandler.subscribe
+gate.gateHandler.queryEntry
+[2020-06-18T19:41:38.278] [INFO] logger - [connector-server-1 console] redis connect.
+[2020-06-18T19:41:38.295] [INFO] logger - [connector-server-1 console] redis ready.
+[2020-06-18T19:41:38.297] [INFO] logger - [connector-server-1 console] value: OK
+[2020-06-18T19:41:38.297] [INFO] logger - [connector-server-1 console] getResult: I am ok
+[2020-06-18T19:41:38.298] [INFO] logger - [connector-server-1 console] to end then data Promise { 'I am okI am okI am ok' }
+[2020-06-18T19:41:38.524] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" enter after start...
+[2020-06-18T19:41:38.526] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" finish start
+[2020-06-18T19:41:38.526] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" startup in 334 ms
+[2020-06-18T19:42:12.961] [INFO] pinus - [connector-server-1 application.js] application inited: "connector-server-1"
+[2020-06-18T19:42:12.973] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" enter before start...
+[2020-06-18T19:42:12.976] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" enter after start...
+[2020-06-18T19:42:12.980] [INFO] logger - [connector-server-1 console] to get
+[2020-06-18T19:42:12.981] [INFO] logger - [connector-server-1 console] start: 0.387ms
+[2020-06-18T19:42:12.994] [WARN] logger - [connector-server-1 console] after start all server, use route dictionary :
+ connector.entryHandler.enter
+connector.entryHandler.entry
+connector.entryHandler.onUserLeave
+connector.entryHandler.publish
+connector.entryHandler.subscribe
+game.chatHandler.entry
+game.chatHandler.publish
+game.chatHandler.send
+game.chatHandler.subscribe
+gate.gateHandler.queryEntry
+[2020-06-18T19:42:13.047] [INFO] logger - [connector-server-1 console] redis connect.
+[2020-06-18T19:42:13.076] [INFO] logger - [connector-server-1 console] redis ready.
+[2020-06-18T19:42:13.086] [INFO] logger - [connector-server-1 console] value: OK
+[2020-06-18T19:42:13.088] [INFO] logger - [connector-server-1 console] getResult: I am ok
+[2020-06-18T19:42:13.096] [INFO] logger - [connector-server-1 console] to end then data Promise { 'I am okI am okI am ok' }
+[2020-06-18T19:42:13.112] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" enter after start...
+[2020-06-18T19:42:13.115] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" finish start
+[2020-06-18T19:42:13.115] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" startup in 150 ms
+[2020-06-18T19:42:48.449] [DEBUG] pinus - [connector-server-1 connector.js] [connector-server-1] getSession session is created with session id: 1
+[2020-06-18T19:42:48.470] [DEBUG] pinus - [connector-server-1 connector.js] session on [connector-server-1] bind with uid: 1*1
+[2020-06-18T19:42:48.531] [INFO] logger - [connector-server-1 console] start: 61.522ms
+[2020-06-18T19:42:48.532] [DEBUG] pinus - [connector-server-1 connector.js] [connector-server-1] send message reqId: 2, route: connector.entryHandler.enter, msg: {"code":200,"users":["1"]}, receivers: [1], opts: {"type":"response"}
+[2020-06-18T19:43:04.946] [DEBUG] pinus - [connector-server-1 connector.js] [connector-server-1] send message reqId: 3, route: game.chatHandler.send, msg: {}, receivers: [1], opts: {"type":"response"}
+[2020-06-18T19:43:04.947] [INFO] logger - [connector-server-1 console] connected
+[2020-06-18T19:43:04.947] [DEBUG] pinus - [connector-server-1 channelRemote.js] [connector-server-1] pushMessage uids: ["1*1"], msg: {"msg":"1","from":"1*1","target":"*"}, sids: [1]
+[2020-06-18T19:43:04.948] [DEBUG] pinus - [connector-server-1 connector.js] [connector-server-1] send message reqId: null, route: onChat, msg: {"msg":"1","from":"1*1","target":"*"}, receivers: [1], opts: {"type":"push","userOptions":{},"isPush":true}
+[2020-06-18T19:43:34.783] [INFO] pinus - [connector-server-1 application.js] application inited: "connector-server-1"
+[2020-06-18T19:43:34.791] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" enter before start...
+[2020-06-18T19:43:34.792] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" enter after start...
+[2020-06-18T19:43:34.796] [INFO] logger - [connector-server-1 console] to get
+[2020-06-18T19:43:34.797] [INFO] logger - [connector-server-1 console] start: 0.407ms
+[2020-06-18T19:43:34.819] [WARN] logger - [connector-server-1 console] after start all server, use route dictionary :
+ connector.entryHandler.enter
+connector.entryHandler.entry
+connector.entryHandler.onUserLeave
+connector.entryHandler.publish
+connector.entryHandler.subscribe
+game.chatHandler.entry
+game.chatHandler.publish
+game.chatHandler.send
+game.chatHandler.subscribe
+gate.gateHandler.queryEntry
+[2020-06-18T19:43:34.856] [INFO] logger - [connector-server-1 console] redis connect.
+[2020-06-18T19:43:34.861] [INFO] logger - [connector-server-1 console] redis ready.
+[2020-06-18T19:43:34.881] [INFO] logger - [connector-server-1 console] value: OK
+[2020-06-18T19:43:34.882] [INFO] logger - [connector-server-1 console] getResult: I am ok
+[2020-06-18T19:43:34.900] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" enter after start...
+[2020-06-18T19:43:34.901] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" finish start
+[2020-06-18T19:43:34.902] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" startup in 117 ms
+[2020-06-18T19:43:34.902] [INFO] logger - [connector-server-1 console] to end then data Promise { 'I am okI am okI am ok' }
+[2020-06-18T19:43:34.920] [DEBUG] pinus - [connector-server-1 monitorwatcher.js] [connector-server-1] receive addServer signal: {"action":"addServer","server":{"main":"d:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app.js","env":"development","id":"gate-server-1","host":"127.0.0.1","port":7050,"clientHost":"127.0.0.1","clientPort":3014,"frontend":"true","args":" --inspect=10003","serverType":"gate","remoterPaths":[{"namespace":"sys","serverType":"gate","path":"d:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\frontend"}],"handlerPaths":["d:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app\\servers\\gate\\handler"],"pid":70864}}
+[2020-06-18T19:43:37.079] [DEBUG] pinus - [connector-server-1 connector.js] [connector-server-1] getSession session is created with session id: 1
+[2020-06-18T19:43:37.097] [DEBUG] pinus - [connector-server-1 connector.js] session on [connector-server-1] bind with uid: 1*1
+[2020-06-18T19:43:37.135] [INFO] logger - [connector-server-1 console] start: 38.928ms
+[2020-06-18T19:43:37.136] [DEBUG] pinus - [connector-server-1 connector.js] [connector-server-1] send message reqId: 5, route: connector.entryHandler.enter, msg: {"code":200,"users":["1"]}, receivers: [1], opts: {"type":"response"}
+[2020-06-18T19:43:44.447] [DEBUG] pinus - [connector-server-1 connector.js] [connector-server-1] send message reqId: 6, route: game.chatHandler.send, msg: {}, receivers: [1], opts: {"type":"response"}
+[2020-06-18T19:43:44.448] [INFO] logger - [connector-server-1 console] connected
+[2020-06-18T19:43:44.449] [DEBUG] pinus - [connector-server-1 channelRemote.js] [connector-server-1] pushMessage uids: ["1*1"], msg: {"msg":"1","from":"1*1","target":"*"}, sids: [1]
+[2020-06-18T19:43:44.449] [DEBUG] pinus - [connector-server-1 connector.js] [connector-server-1] send message reqId: null, route: onChat, msg: {"msg":"1","from":"1*1","target":"*"}, receivers: [1], opts: {"type":"push","userOptions":{},"isPush":true}
+[2020-06-18T19:43:51.646] [DEBUG] pinus - [connector-server-1 channelRemote.js] [connector-server-1] pushMessage uids: ["1*1"], msg: {"msg":"12343","from":"1*1","target":"*"}, sids: [1]
+[2020-06-18T19:43:51.646] [DEBUG] pinus - [connector-server-1 connector.js] [connector-server-1] send message reqId: null, route: onChat, msg: {"msg":"12343","from":"1*1","target":"*"}, receivers: [1], opts: {"type":"push","userOptions":{},"isPush":true}
+[2020-06-18T19:43:51.647] [DEBUG] pinus - [connector-server-1 connector.js] [connector-server-1] send message reqId: 7, route: game.chatHandler.send, msg: {}, receivers: [1], opts: {"type":"response"}
+[2020-06-18T19:44:01.776] [DEBUG] pinus - [connector-server-1 channelRemote.js] [connector-server-1] pushMessage uids: ["1*1"], msg: {"msg":"1234","from":"1*1","target":"*"}, sids: [1]
+[2020-06-18T19:44:01.776] [DEBUG] pinus - [connector-server-1 connector.js] [connector-server-1] send message reqId: null, route: onChat, msg: {"msg":"1234","from":"1*1","target":"*"}, receivers: [1], opts: {"type":"push","userOptions":{},"isPush":true}
+[2020-06-18T19:44:01.777] [DEBUG] pinus - [connector-server-1 connector.js] [connector-server-1] send message reqId: 8, route: game.chatHandler.send, msg: {}, receivers: [1], opts: {"type":"response"}
+[2020-06-18T19:45:17.794] [INFO] pinus - [connector-server-1 application.js] application inited: "connector-server-1"
+[2020-06-18T19:45:17.803] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" enter before start...
+[2020-06-18T19:45:17.803] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" enter after start...
+[2020-06-18T19:45:17.807] [INFO] logger - [connector-server-1 console] to get
+[2020-06-18T19:45:17.807] [INFO] logger - [connector-server-1 console] start: 0.392ms
+[2020-06-18T19:45:17.833] [WARN] logger - [connector-server-1 console] after start all server, use route dictionary :
+ connector.entryHandler.enter
+connector.entryHandler.entry
+connector.entryHandler.onUserLeave
+connector.entryHandler.publish
+connector.entryHandler.subscribe
+game.chatHandler.entry
+game.chatHandler.publish
+game.chatHandler.send
+game.chatHandler.subscribe
+gate.gateHandler.queryEntry
+[2020-06-18T19:45:17.874] [INFO] logger - [connector-server-1 console] redis connect.
+[2020-06-18T19:45:17.877] [INFO] logger - [connector-server-1 console] redis ready.
+[2020-06-18T19:45:17.879] [INFO] logger - [connector-server-1 console] value: OK
+[2020-06-18T19:45:17.880] [INFO] logger - [connector-server-1 console] getResult: I am ok
+[2020-06-18T19:45:17.881] [INFO] logger - [connector-server-1 console] to end then data Promise { 'I am okI am okI am ok' }
+[2020-06-18T19:45:18.116] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" enter after start...
+[2020-06-18T19:45:18.118] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" finish start
+[2020-06-18T19:45:18.118] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" startup in 322 ms
+[2020-06-18T19:45:34.951] [INFO] pinus - [connector-server-1 application.js] application inited: "connector-server-1"
+[2020-06-18T19:45:34.960] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" enter before start...
+[2020-06-18T19:45:34.961] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" enter after start...
+[2020-06-18T19:45:34.966] [INFO] logger - [connector-server-1 console] to get
+[2020-06-18T19:45:34.967] [INFO] logger - [connector-server-1 console] start: 0.530ms
+[2020-06-18T19:45:34.987] [WARN] logger - [connector-server-1 console] after start all server, use route dictionary :
+ connector.entryHandler.enter
+connector.entryHandler.entry
+connector.entryHandler.onUserLeave
+connector.entryHandler.publish
+connector.entryHandler.subscribe
+game.chatHandler.entry
+game.chatHandler.publish
+game.chatHandler.send
+game.chatHandler.subscribe
+gate.gateHandler.queryEntry
+[2020-06-18T19:45:35.020] [INFO] logger - [connector-server-1 console] redis connect.
+[2020-06-18T19:45:35.024] [INFO] logger - [connector-server-1 console] redis ready.
+[2020-06-18T19:45:35.030] [INFO] logger - [connector-server-1 console] value: OK
+[2020-06-18T19:45:35.030] [INFO] logger - [connector-server-1 console] getResult: I am ok
+[2020-06-18T19:45:35.031] [INFO] logger - [connector-server-1 console] to end then data Promise { 'I am okI am okI am ok' }
+[2020-06-18T19:45:35.263] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" enter after start...
+[2020-06-18T19:45:35.265] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" finish start
+[2020-06-18T19:45:35.266] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" startup in 312 ms
+[2020-06-18T19:45:35.270] [DEBUG] pinus - [connector-server-1 monitorwatcher.js] [connector-server-1] receive addServer signal: {"action":"addServer","server":{"main":"D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app.js","env":"development","id":"gate-server-1","host":"127.0.0.1","port":7050,"clientHost":"127.0.0.1","clientPort":3014,"frontend":"true","args":" --inspect=10003","serverType":"gate","remoterPaths":[{"namespace":"sys","serverType":"gate","path":"D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\frontend"}],"handlerPaths":["D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app\\servers\\gate\\handler"],"pid":87984}}
+[2020-06-18T20:11:34.488] [DEBUG] pinus - [connector-server-1 monitorwatcher.js] connector-server-1 receive removeServer signal: {"action":"removeServer","id":"master-server-1"}
+[2020-06-18T20:20:35.289] [DEBUG] pinus - [connector-server-1 monitorwatcher.js] connector-server-1 receive removeServer signal: {"action":"removeServer","id":"gate-server-1"}
+[2020-06-18T21:07:35.144] [DEBUG] pinus - [connector-server-1 monitorwatcher.js] connector-server-1 receive removeServer signal: {"action":"removeServer","id":"game-server_1"}
+[2020-06-19T10:41:15.313] [ERROR] logger - [connector-server-1 console] redis error. error =Error: 
+    at Logger.pLogger.(anonymous function) [as error] (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus-logger\lib\logger.ts:70:34)
+    at RedisProxy.onerror (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\app\src\redis\redis.ts:75:17)
+    at RedisClient.emit (events.js:189:13)
+    at RedisClient.on_error (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\redis\index.js:406:14)
+    at Socket.<anonymous> (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\redis\index.js:279:14)
+    at Socket.emit (events.js:189:13)
+    at emitErrorNT (internal/streams/destroy.js:82:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:50:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19) { Error: Redis connection to 127.0.0.1:6380 failed - read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27) errno: 'ECONNRESET', code: 'ECONNRESET', syscall: 'read' }
+[2020-06-19T10:41:15.519] [INFO] logger - [connector-server-1 console] redis reconnecting.
+[2020-06-19T10:41:16.527] [ERROR] logger - [connector-server-1 console] redis error. error =Error: 
+    at Logger.pLogger.(anonymous function) [as error] (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus-logger\lib\logger.ts:70:34)
+    at RedisProxy.onerror (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\app\src\redis\redis.ts:75:17)
+    at RedisClient.emit (events.js:189:13)
+    at RedisClient.on_error (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\redis\index.js:406:14)
+    at Socket.<anonymous> (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\redis\index.js:279:14)
+    at Socket.emit (events.js:189:13)
+    at emitErrorNT (internal/streams/destroy.js:82:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:50:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19) { Error: Redis connection to 127.0.0.1:6380 failed - connect ECONNREFUSED 127.0.0.1:6380
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6380 }
+[2020-06-19T10:41:16.869] [INFO] logger - [connector-server-1 console] redis reconnecting.
+[2020-06-19T10:41:17.875] [ERROR] logger - [connector-server-1 console] redis error. error =Error: 
+    at Logger.pLogger.(anonymous function) [as error] (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus-logger\lib\logger.ts:70:34)
+    at RedisProxy.onerror (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\app\src\redis\redis.ts:75:17)
+    at RedisClient.emit (events.js:189:13)
+    at RedisClient.on_error (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\redis\index.js:406:14)
+    at Socket.<anonymous> (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\redis\index.js:279:14)
+    at Socket.emit (events.js:189:13)
+    at emitErrorNT (internal/streams/destroy.js:82:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:50:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19) { Error: Redis connection to 127.0.0.1:6380 failed - connect ECONNREFUSED 127.0.0.1:6380
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6380 }
+[2020-06-19T10:41:18.453] [INFO] logger - [connector-server-1 console] redis reconnecting.
+[2020-06-19T10:41:19.458] [ERROR] logger - [connector-server-1 console] redis error. error =Error: 
+    at Logger.pLogger.(anonymous function) [as error] (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus-logger\lib\logger.ts:70:34)
+    at RedisProxy.onerror (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\app\src\redis\redis.ts:75:17)
+    at RedisClient.emit (events.js:189:13)
+    at RedisClient.on_error (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\redis\index.js:406:14)
+    at Socket.<anonymous> (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\redis\index.js:279:14)
+    at Socket.emit (events.js:189:13)
+    at emitErrorNT (internal/streams/destroy.js:82:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:50:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19) { Error: Redis connection to 127.0.0.1:6380 failed - connect ECONNREFUSED 127.0.0.1:6380
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6380 }
+[2020-06-19T10:41:20.442] [INFO] logger - [connector-server-1 console] redis reconnecting.
+[2020-06-19T10:41:21.449] [ERROR] logger - [connector-server-1 console] redis error. error =Error: 
+    at Logger.pLogger.(anonymous function) [as error] (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus-logger\lib\logger.ts:70:34)
+    at RedisProxy.onerror (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\app\src\redis\redis.ts:75:17)
+    at RedisClient.emit (events.js:189:13)
+    at RedisClient.on_error (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\redis\index.js:406:14)
+    at Socket.<anonymous> (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\redis\index.js:279:14)
+    at Socket.emit (events.js:189:13)
+    at emitErrorNT (internal/streams/destroy.js:82:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:50:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19) { Error: Redis connection to 127.0.0.1:6380 failed - connect ECONNREFUSED 127.0.0.1:6380
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6380 }
+[2020-06-19T10:41:23.121] [INFO] logger - [connector-server-1 console] redis reconnecting.
+[2020-06-19T10:41:24.127] [ERROR] logger - [connector-server-1 console] redis error. error =Error: 
+    at Logger.pLogger.(anonymous function) [as error] (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus-logger\lib\logger.ts:70:34)
+    at RedisProxy.onerror (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\app\src\redis\redis.ts:75:17)
+    at RedisClient.emit (events.js:189:13)
+    at RedisClient.on_error (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\redis\index.js:406:14)
+    at Socket.<anonymous> (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\redis\index.js:279:14)
+    at Socket.emit (events.js:189:13)
+    at emitErrorNT (internal/streams/destroy.js:82:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:50:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19) { Error: Redis connection to 127.0.0.1:6380 failed - connect ECONNREFUSED 127.0.0.1:6380
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6380 }
+[2020-06-19T10:41:26.969] [INFO] logger - [connector-server-1 console] redis reconnecting.
+[2020-06-19T10:41:27.975] [ERROR] logger - [connector-server-1 console] redis error. error =Error: 
+    at Logger.pLogger.(anonymous function) [as error] (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus-logger\lib\logger.ts:70:34)
+    at RedisProxy.onerror (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\app\src\redis\redis.ts:75:17)
+    at RedisClient.emit (events.js:189:13)
+    at RedisClient.on_error (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\redis\index.js:406:14)
+    at Socket.<anonymous> (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\redis\index.js:279:14)
+    at Socket.emit (events.js:189:13)
+    at emitErrorNT (internal/streams/destroy.js:82:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:50:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19) { Error: Redis connection to 127.0.0.1:6380 failed - connect ECONNREFUSED 127.0.0.1:6380
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6380 }
+[2020-06-19T10:41:32.806] [INFO] logger - [connector-server-1 console] redis reconnecting.
+[2020-06-19T10:41:33.813] [ERROR] logger - [connector-server-1 console] redis error. error =Error: 
+    at Logger.pLogger.(anonymous function) [as error] (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus-logger\lib\logger.ts:70:34)
+    at RedisProxy.onerror (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\app\src\redis\redis.ts:75:17)
+    at RedisClient.emit (events.js:189:13)
+    at RedisClient.on_error (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\redis\index.js:406:14)
+    at Socket.<anonymous> (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\redis\index.js:279:14)
+    at Socket.emit (events.js:189:13)
+    at emitErrorNT (internal/streams/destroy.js:82:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:50:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19) { Error: Redis connection to 127.0.0.1:6380 failed - connect ECONNREFUSED 127.0.0.1:6380
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6380 }
+[2020-06-19T10:41:42.025] [INFO] logger - [connector-server-1 console] redis reconnecting.
+[2020-06-19T10:41:43.037] [ERROR] logger - [connector-server-1 console] redis error. error =Error: 
+    at Logger.pLogger.(anonymous function) [as error] (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus-logger\lib\logger.ts:70:34)
+    at RedisProxy.onerror (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\app\src\redis\redis.ts:75:17)
+    at RedisClient.emit (events.js:189:13)
+    at RedisClient.on_error (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\redis\index.js:406:14)
+    at Socket.<anonymous> (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\redis\index.js:279:14)
+    at Socket.emit (events.js:189:13)
+    at emitErrorNT (internal/streams/destroy.js:82:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:50:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19) { Error: Redis connection to 127.0.0.1:6380 failed - connect ECONNREFUSED 127.0.0.1:6380
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6380 }
+[2020-06-19T10:41:56.997] [INFO] logger - [connector-server-1 console] redis reconnecting.
+[2020-06-19T10:41:58.008] [ERROR] logger - [connector-server-1 console] redis error. error =Error: 
+    at Logger.pLogger.(anonymous function) [as error] (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus-logger\lib\logger.ts:70:34)
+    at RedisProxy.onerror (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\app\src\redis\redis.ts:75:17)
+    at RedisClient.emit (events.js:189:13)
+    at RedisClient.on_error (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\redis\index.js:406:14)
+    at Socket.<anonymous> (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\redis\index.js:279:14)
+    at Socket.emit (events.js:189:13)
+    at emitErrorNT (internal/streams/destroy.js:82:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:50:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19) { Error: Redis connection to 127.0.0.1:6380 failed - connect ECONNREFUSED 127.0.0.1:6380
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6380 }
+[2020-06-19T10:42:21.739] [INFO] logger - [connector-server-1 console] redis reconnecting.
+[2020-06-19T10:42:22.753] [ERROR] logger - [connector-server-1 console] redis error. error =Error: 
+    at Logger.pLogger.(anonymous function) [as error] (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus-logger\lib\logger.ts:70:34)
+    at RedisProxy.onerror (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\app\src\redis\redis.ts:75:17)
+    at RedisClient.emit (events.js:189:13)
+    at RedisClient.on_error (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\redis\index.js:406:14)
+    at Socket.<anonymous> (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\redis\index.js:279:14)
+    at Socket.emit (events.js:189:13)
+    at emitErrorNT (internal/streams/destroy.js:82:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:50:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19) { Error: Redis connection to 127.0.0.1:6380 failed - connect ECONNREFUSED 127.0.0.1:6380
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6380 }
+[2020-06-19T10:43:03.095] [INFO] logger - [connector-server-1 console] redis reconnecting.
+[2020-06-19T10:43:04.108] [ERROR] logger - [connector-server-1 console] redis error. error =Error: 
+    at Logger.pLogger.(anonymous function) [as error] (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus-logger\lib\logger.ts:70:34)
+    at RedisProxy.onerror (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\app\src\redis\redis.ts:75:17)
+    at RedisClient.emit (events.js:189:13)
+    at RedisClient.on_error (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\redis\index.js:406:14)
+    at Socket.<anonymous> (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\redis\index.js:279:14)
+    at Socket.emit (events.js:189:13)
+    at emitErrorNT (internal/streams/destroy.js:82:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:50:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19) { Error: Redis connection to 127.0.0.1:6380 failed - connect ECONNREFUSED 127.0.0.1:6380
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6380 }
+[2020-06-19T10:44:12.688] [INFO] logger - [connector-server-1 console] redis reconnecting.
+[2020-06-19T10:44:13.701] [ERROR] logger - [connector-server-1 console] redis error. error =Error: 
+    at Logger.pLogger.(anonymous function) [as error] (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus-logger\lib\logger.ts:70:34)
+    at RedisProxy.onerror (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\app\src\redis\redis.ts:75:17)
+    at RedisClient.emit (events.js:189:13)
+    at RedisClient.on_error (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\redis\index.js:406:14)
+    at Socket.<anonymous> (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\redis\index.js:279:14)
+    at Socket.emit (events.js:189:13)
+    at emitErrorNT (internal/streams/destroy.js:82:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:50:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19) { Error: Redis connection to 127.0.0.1:6380 failed - connect ECONNREFUSED 127.0.0.1:6380
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6380 }
+[2020-06-19T10:46:10.288] [INFO] logger - [connector-server-1 console] redis reconnecting.
+[2020-06-19T10:46:11.294] [ERROR] logger - [connector-server-1 console] redis error. error =Error: 
+    at Logger.pLogger.(anonymous function) [as error] (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus-logger\lib\logger.ts:70:34)
+    at RedisProxy.onerror (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\app\src\redis\redis.ts:75:17)
+    at RedisClient.emit (events.js:189:13)
+    at RedisClient.on_error (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\redis\index.js:406:14)
+    at Socket.<anonymous> (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\redis\index.js:279:14)
+    at Socket.emit (events.js:189:13)
+    at emitErrorNT (internal/streams/destroy.js:82:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:50:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19) { Error: Redis connection to 127.0.0.1:6380 failed - connect ECONNREFUSED 127.0.0.1:6380
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6380 }
+[2020-06-19T10:49:29.492] [INFO] logger - [connector-server-1 console] redis reconnecting.
+[2020-06-19T10:49:30.502] [ERROR] logger - [connector-server-1 console] redis error. error =Error: 
+    at Logger.pLogger.(anonymous function) [as error] (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus-logger\lib\logger.ts:70:34)
+    at RedisProxy.onerror (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\app\src\redis\redis.ts:75:17)
+    at RedisClient.emit (events.js:189:13)
+    at RedisClient.on_error (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\redis\index.js:406:14)
+    at Socket.<anonymous> (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\redis\index.js:279:14)
+    at Socket.emit (events.js:189:13)
+    at emitErrorNT (internal/streams/destroy.js:82:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:50:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19) { Error: Redis connection to 127.0.0.1:6380 failed - connect ECONNREFUSED 127.0.0.1:6380
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6380 }
+[2020-06-19T10:55:07.436] [INFO] logger - [connector-server-1 console] redis reconnecting.
+[2020-06-19T10:55:08.445] [ERROR] logger - [connector-server-1 console] redis error. error =Error: 
+    at Logger.pLogger.(anonymous function) [as error] (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus-logger\lib\logger.ts:70:34)
+    at RedisProxy.onerror (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\app\src\redis\redis.ts:75:17)
+    at RedisClient.emit (events.js:189:13)
+    at RedisClient.on_error (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\redis\index.js:406:14)
+    at Socket.<anonymous> (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\redis\index.js:279:14)
+    at Socket.emit (events.js:189:13)
+    at emitErrorNT (internal/streams/destroy.js:82:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:50:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19) { Error: Redis connection to 127.0.0.1:6380 failed - connect ECONNREFUSED 127.0.0.1:6380
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6380 }
+[2020-06-20T17:37:23.669] [INFO] pinus - [connector-server-1 application.js] application inited: "connector-server-1"
+[2020-06-20T17:37:23.678] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" enter before start...
+[2020-06-20T17:37:23.679] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" enter after start...
+[2020-06-20T17:37:23.690] [WARN] logger - [connector-server-1 console] after start all server, use route dictionary :
+ connector.entryHandler.enter
+connector.entryHandler.entry
+connector.entryHandler.onUserLeave
+connector.entryHandler.publish
+connector.entryHandler.subscribe
+game.chatHandler.entry
+game.chatHandler.publish
+game.chatHandler.send
+game.chatHandler.subscribe
+gate.gateHandler.queryEntry
+[2020-06-20T17:37:23.755] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" enter after start...
+[2020-06-20T17:37:23.757] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" finish start
+[2020-06-20T17:37:23.757] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" startup in 85 ms
+[2020-06-20T17:37:23.790] [DEBUG] pinus - [connector-server-1 monitorwatcher.js] [connector-server-1] receive addServer signal: {"action":"addServer","server":{"main":"D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app","env":"development","id":"gate-server-1","host":"127.0.0.1","port":7050,"clientHost":"127.0.0.1","clientPort":3014,"frontend":"true","args":" --inspect=10003","serverType":"gate","remoterPaths":[{"namespace":"sys","serverType":"gate","path":"D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\frontend"}],"handlerPaths":["D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app\\servers\\gate\\handler"],"pid":21020}}
+[2020-06-20T17:37:23.804] [DEBUG] pinus - [connector-server-1 monitorwatcher.js] [connector-server-1] receive addServer signal: {"action":"addServer","server":{"main":"D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app","env":"development","id":"game-server_1","host":"127.0.0.1","port":6050,"args":" --inspect=10002","serverType":"game","remoterPaths":[{"namespace":"sys","serverType":"game","path":"D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\backend"},{"namespace":"user","serverType":"game","path":"D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app\\servers\\game\\remote"}],"handlerPaths":["D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app\\servers\\game\\handler"],"pid":12648}}
+[2020-06-20T17:38:44.919] [INFO] pinus - [connector-server-1 application.js] application inited: "connector-server-1"
+[2020-06-20T17:38:44.930] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" enter before start...
+[2020-06-20T17:38:44.930] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" enter after start...
+[2020-06-20T17:38:44.944] [WARN] logger - [connector-server-1 console] after start all server, use route dictionary :
+ connector.entryHandler.enter
+connector.entryHandler.entry
+connector.entryHandler.onUserLeave
+connector.entryHandler.publish
+connector.entryHandler.subscribe
+game.chatHandler.entry
+game.chatHandler.publish
+game.chatHandler.send
+game.chatHandler.subscribe
+gate.gateHandler.queryEntry
+[2020-06-20T17:38:45.022] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" enter after start...
+[2020-06-20T17:38:45.024] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" finish start
+[2020-06-20T17:38:45.024] [INFO] pinus - [connector-server-1 application.js] "connector-server-1" startup in 102 ms
+[2020-06-20T17:38:45.034] [DEBUG] pinus - [connector-server-1 monitorwatcher.js] [connector-server-1] receive addServer signal: {"action":"addServer","server":{"main":"D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app","env":"development","id":"gate-server-1","host":"127.0.0.1","port":7050,"clientHost":"127.0.0.1","clientPort":3014,"frontend":"true","args":" --inspect=10003","serverType":"gate","remoterPaths":[{"namespace":"sys","serverType":"gate","path":"D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\frontend"}],"handlerPaths":["D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app\\servers\\gate\\handler"],"pid":18964}}

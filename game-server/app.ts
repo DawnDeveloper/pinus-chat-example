@@ -46,21 +46,23 @@ app.configure('production|development', 'gate', function () {
 // start app
 app.start();
 
-let opt: ClientOpts = {
-    host: "127.0.0.1",
-    port: 6380,
-};
-let redisClient = new RedisProxy(opt, console);
-let result = redisClient.set("test", "I am ok");
-result.then((value) => {
-    console.log("value:", value);
-});
-let getResult = redisClient.get("test");
-console.log("to get");
-getResult.then((getResult) => {
-    console.log("getResult:", getResult);
-});
+// let opt: ClientOpts = {
+//     host: "127.0.0.1",
+//     port: 6380,
+// };
+// let redisClient = new RedisProxy(opt, console);
+// let result = redisClient.set("test", "I am ok");
+// result.then((value) => {
+//     console.log("value:", value);
+// });
+// let getResult = redisClient.get("test");
+// console.log("to get");
+// getResult.then((getResult) => {
+//     console.log("getResult:", getResult);
+// });
+// console.time("start");
 // let data = asyncTest(redisClient);
+// console.timeEnd("start");
 // console.log("to end data", data);
 // data.then(() => {
 //     console.log("to end then data", data);
@@ -73,7 +75,7 @@ getResult.then((getResult) => {
 //     let two = redisClient.get("test");
 //     let three = redisClient.get("test");
 //     console.log("to end get");
-//     // console.log("to end", one, two, three);
-//     return one + two + three; 
+//     console.log("to end", one, two, three);
+//     return await one + await two + await three; 
 // }
 

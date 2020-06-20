@@ -1682,3 +1682,491 @@ SyntaxError: Unexpected token {
 [2020-06-16T21:03:34.364] [INFO] pinus - [game-server_1 application.js] "game-server_1" enter after start...
 [2020-06-16T21:03:34.365] [INFO] pinus - [game-server_1 application.js] "game-server_1" finish start
 [2020-06-16T21:03:34.365] [INFO] pinus - [game-server_1 application.js] "game-server_1" startup in 173 ms
+[2020-06-18T17:51:51.138] [INFO] pinus - [game-server_1 application.js] application inited: "game-server_1"
+[2020-06-18T17:51:51.154] [INFO] pinus - [game-server_1 application.js] "game-server_1" enter before start...
+[2020-06-18T17:51:51.155] [INFO] pinus - [game-server_1 application.js] "game-server_1" enter after start...
+[2020-06-18T17:51:51.159] [INFO] logger - [game-server_1 console] to get
+[2020-06-18T17:51:51.245] [INFO] logger - [game-server_1 console] redis connect.
+[2020-06-18T17:51:51.250] [INFO] logger - [game-server_1 console] redis ready.
+[2020-06-18T17:51:51.259] [INFO] logger - [game-server_1 console] value: OK
+[2020-06-18T17:51:51.260] [INFO] logger - [game-server_1 console] getResult: I am ok
+[2020-06-18T17:51:51.378] [INFO] pinus - [game-server_1 application.js] "game-server_1" enter after start...
+[2020-06-18T17:51:51.379] [INFO] pinus - [game-server_1 application.js] "game-server_1" finish start
+[2020-06-18T17:51:51.379] [INFO] pinus - [game-server_1 application.js] "game-server_1" startup in 229 ms
+[2020-06-18T17:51:51.390] [DEBUG] pinus - [game-server_1 monitorwatcher.js] [game-server_1] receive addServer signal: {"action":"addServer","server":{"main":"D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app","env":"development","id":"gate-server-1","host":"127.0.0.1","port":7050,"clientHost":"127.0.0.1","clientPort":3014,"frontend":"true","args":" --inspect=10003","serverType":"gate","remoterPaths":[{"namespace":"sys","serverType":"gate","path":"D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\frontend"}],"handlerPaths":["D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app\\servers\\gate\\handler"],"pid":84424}}
+[2020-06-18T18:21:51.325] [DEBUG] pinus - [game-server_1 monitorwatcher.js] game-server_1 receive removeServer signal: {"action":"removeServer","id":"connector-server-1"}
+[2020-06-18T19:28:07.341] [INFO] pinus - [game-server_1 application.js] application inited: "game-server_1"
+[2020-06-18T19:28:07.346] [INFO] pinus - [game-server_1 application.js] "game-server_1" enter before start...
+[2020-06-18T19:28:07.346] [INFO] pinus - [game-server_1 application.js] "game-server_1" enter after start...
+[2020-06-18T19:28:07.350] [INFO] logger - [game-server_1 console] to get
+[2020-06-18T19:28:07.350] [INFO] logger - [game-server_1 console] to start get
+[2020-06-18T19:28:07.350] [INFO] logger - [game-server_1 console] to start get two
+[2020-06-18T19:28:07.350] [INFO] logger - [game-server_1 console] to end get
+[2020-06-18T19:28:07.351] [INFO] logger - [game-server_1 console] to end data Promise { <pending> }
+[2020-06-18T19:28:07.416] [INFO] logger - [game-server_1 console] redis connect.
+[2020-06-18T19:28:07.420] [INFO] logger - [game-server_1 console] redis ready.
+[2020-06-18T19:28:07.423] [INFO] logger - [game-server_1 console] value: OK
+[2020-06-18T19:28:07.424] [INFO] logger - [game-server_1 console] getResult: I am ok
+[2020-06-18T19:28:07.426] [INFO] logger - [game-server_1 console] to end then data Promise { 'I am okI am okI am ok' }
+[2020-06-18T19:28:07.692] [INFO] pinus - [game-server_1 application.js] "game-server_1" enter after start...
+[2020-06-18T19:28:07.692] [INFO] pinus - [game-server_1 application.js] "game-server_1" finish start
+[2020-06-18T19:28:07.692] [INFO] pinus - [game-server_1 application.js] "game-server_1" startup in 349 ms
+[2020-06-18T19:28:07.783] [DEBUG] pinus - [game-server_1 monitorwatcher.js] [game-server_1] receive addServer signal: {"action":"addServer","server":{"main":"D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app","env":"development","id":"gate-server-1","host":"127.0.0.1","port":7050,"clientHost":"127.0.0.1","clientPort":3014,"frontend":"true","args":" --inspect=10003","serverType":"gate","remoterPaths":[{"namespace":"sys","serverType":"gate","path":"D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\frontend"}],"handlerPaths":["D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app\\servers\\gate\\handler"],"pid":78084}}
+[2020-06-18T19:29:31.205] [INFO] pinus - [game-server_1 application.js] application inited: "game-server_1"
+[2020-06-18T19:29:31.210] [INFO] pinus - [game-server_1 application.js] "game-server_1" enter before start...
+[2020-06-18T19:29:31.211] [INFO] pinus - [game-server_1 application.js] "game-server_1" enter after start...
+[2020-06-18T19:29:31.214] [INFO] logger - [game-server_1 console] to get
+[2020-06-18T19:29:31.215] [INFO] logger - [game-server_1 console] to start get
+[2020-06-18T19:29:31.215] [INFO] logger - [game-server_1 console] to start get two
+[2020-06-18T19:29:31.215] [INFO] logger - [game-server_1 console] to end get
+[2020-06-18T19:29:31.215] [INFO] logger - [game-server_1 console] to end data Promise { <pending> }
+[2020-06-18T19:29:31.258] [INFO] logger - [game-server_1 console] redis connect.
+[2020-06-18T19:29:31.261] [INFO] logger - [game-server_1 console] redis ready.
+[2020-06-18T19:29:31.267] [INFO] logger - [game-server_1 console] value: OK
+[2020-06-18T19:29:31.267] [INFO] logger - [game-server_1 console] getResult: I am ok
+[2020-06-18T19:29:31.272] [INFO] logger - [game-server_1 console] to end then data Promise { 'I am okI am okI am ok' }
+[2020-06-18T19:29:31.461] [INFO] pinus - [game-server_1 application.js] "game-server_1" enter after start...
+[2020-06-18T19:29:31.462] [INFO] pinus - [game-server_1 application.js] "game-server_1" finish start
+[2020-06-18T19:29:31.462] [INFO] pinus - [game-server_1 application.js] "game-server_1" startup in 254 ms
+[2020-06-18T19:30:40.524] [INFO] pinus - [game-server_1 application.js] application inited: "game-server_1"
+[2020-06-18T19:30:40.530] [INFO] pinus - [game-server_1 application.js] "game-server_1" enter before start...
+[2020-06-18T19:30:40.530] [INFO] pinus - [game-server_1 application.js] "game-server_1" enter after start...
+[2020-06-18T19:30:40.534] [INFO] logger - [game-server_1 console] to get
+[2020-06-18T19:30:40.535] [INFO] logger - [game-server_1 console] to start get
+[2020-06-18T19:30:40.535] [INFO] logger - [game-server_1 console] to start get two
+[2020-06-18T19:30:40.535] [INFO] logger - [game-server_1 console] to end get
+[2020-06-18T19:30:40.535] [INFO] logger - [game-server_1 console] start: 0.626ms
+[2020-06-18T19:30:40.535] [INFO] logger - [game-server_1 console] to end data Promise { <pending> }
+[2020-06-18T19:30:40.586] [INFO] logger - [game-server_1 console] redis connect.
+[2020-06-18T19:30:40.590] [INFO] logger - [game-server_1 console] redis ready.
+[2020-06-18T19:30:40.595] [INFO] logger - [game-server_1 console] value: OK
+[2020-06-18T19:30:40.596] [INFO] logger - [game-server_1 console] getResult: I am ok
+[2020-06-18T19:30:40.600] [INFO] logger - [game-server_1 console] to end then data Promise { 'I am okI am okI am ok' }
+[2020-06-18T19:30:40.817] [INFO] pinus - [game-server_1 application.js] "game-server_1" enter after start...
+[2020-06-18T19:30:40.818] [INFO] pinus - [game-server_1 application.js] "game-server_1" finish start
+[2020-06-18T19:30:40.818] [INFO] pinus - [game-server_1 application.js] "game-server_1" startup in 291 ms
+[2020-06-18T19:31:52.514] [INFO] pinus - [game-server_1 application.js] application inited: "game-server_1"
+[2020-06-18T19:31:52.519] [INFO] pinus - [game-server_1 application.js] "game-server_1" enter before start...
+[2020-06-18T19:31:52.519] [INFO] pinus - [game-server_1 application.js] "game-server_1" enter after start...
+[2020-06-18T19:31:52.523] [INFO] logger - [game-server_1 console] to get
+[2020-06-18T19:31:52.523] [INFO] logger - [game-server_1 console] start: 0.226ms
+[2020-06-18T19:31:52.576] [INFO] logger - [game-server_1 console] to end then data Promise { '[object Promise][object Promise][object Promise]' }
+[2020-06-18T19:31:52.582] [INFO] logger - [game-server_1 console] redis connect.
+[2020-06-18T19:31:52.589] [INFO] logger - [game-server_1 console] redis ready.
+[2020-06-18T19:31:52.593] [INFO] logger - [game-server_1 console] value: OK
+[2020-06-18T19:31:52.593] [INFO] logger - [game-server_1 console] getResult: I am ok
+[2020-06-18T19:31:52.797] [INFO] pinus - [game-server_1 application.js] "game-server_1" enter after start...
+[2020-06-18T19:31:52.798] [INFO] pinus - [game-server_1 application.js] "game-server_1" finish start
+[2020-06-18T19:31:52.798] [INFO] pinus - [game-server_1 application.js] "game-server_1" startup in 282 ms
+[2020-06-18T19:31:52.805] [DEBUG] pinus - [game-server_1 monitorwatcher.js] [game-server_1] receive addServer signal: {"action":"addServer","server":{"main":"D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app","env":"development","id":"gate-server-1","host":"127.0.0.1","port":7050,"clientHost":"127.0.0.1","clientPort":3014,"frontend":"true","args":" --inspect=10003","serverType":"gate","remoterPaths":[{"namespace":"sys","serverType":"gate","path":"D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\frontend"}],"handlerPaths":["D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app\\servers\\gate\\handler"],"pid":77136}}
+[2020-06-18T19:33:43.812] [INFO] pinus - [game-server_1 application.js] application inited: "game-server_1"
+[2020-06-18T19:33:43.817] [INFO] pinus - [game-server_1 application.js] "game-server_1" enter before start...
+[2020-06-18T19:33:43.818] [INFO] pinus - [game-server_1 application.js] "game-server_1" enter after start...
+[2020-06-18T19:33:43.822] [INFO] logger - [game-server_1 console] to get
+[2020-06-18T19:33:43.823] [INFO] logger - [game-server_1 console] start: 0.261ms
+[2020-06-18T19:33:43.875] [INFO] logger - [game-server_1 console] to end then data Promise { '[object Promise][object Promise][object Promise]' }
+[2020-06-18T19:33:43.878] [INFO] logger - [game-server_1 console] redis connect.
+[2020-06-18T19:33:43.882] [INFO] logger - [game-server_1 console] redis ready.
+[2020-06-18T19:33:43.886] [INFO] logger - [game-server_1 console] value: OK
+[2020-06-18T19:33:43.886] [INFO] logger - [game-server_1 console] getResult: I am ok
+[2020-06-18T19:33:44.044] [INFO] pinus - [game-server_1 application.js] "game-server_1" enter after start...
+[2020-06-18T19:33:44.045] [INFO] pinus - [game-server_1 application.js] "game-server_1" finish start
+[2020-06-18T19:33:44.045] [INFO] pinus - [game-server_1 application.js] "game-server_1" startup in 231 ms
+[2020-06-18T19:35:12.191] [INFO] pinus - [game-server_1 application.js] application inited: "game-server_1"
+[2020-06-18T19:35:12.201] [INFO] pinus - [game-server_1 application.js] "game-server_1" enter before start...
+[2020-06-18T19:35:12.201] [INFO] pinus - [game-server_1 application.js] "game-server_1" enter after start...
+[2020-06-18T19:35:12.205] [INFO] logger - [game-server_1 console] to get
+[2020-06-18T19:35:12.206] [INFO] logger - [game-server_1 console] start: 0.379ms
+[2020-06-18T19:35:12.249] [INFO] logger - [game-server_1 console] redis connect.
+[2020-06-18T19:35:12.252] [INFO] logger - [game-server_1 console] redis ready.
+[2020-06-18T19:35:12.256] [INFO] logger - [game-server_1 console] value: OK
+[2020-06-18T19:35:12.257] [INFO] logger - [game-server_1 console] getResult: I am ok
+[2020-06-18T19:35:12.261] [INFO] logger - [game-server_1 console] to end then data Promise { 'I am okI am okI am ok' }
+[2020-06-18T19:35:12.436] [INFO] pinus - [game-server_1 application.js] "game-server_1" enter after start...
+[2020-06-18T19:35:12.437] [INFO] pinus - [game-server_1 application.js] "game-server_1" finish start
+[2020-06-18T19:35:12.437] [INFO] pinus - [game-server_1 application.js] "game-server_1" startup in 239 ms
+[2020-06-18T19:35:12.491] [DEBUG] pinus - [game-server_1 monitorwatcher.js] [game-server_1] receive addServer signal: {"action":"addServer","server":{"main":"D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app","env":"development","id":"gate-server-1","host":"127.0.0.1","port":7050,"clientHost":"127.0.0.1","clientPort":3014,"frontend":"true","args":" --inspect=10003","serverType":"gate","remoterPaths":[{"namespace":"sys","serverType":"gate","path":"D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\frontend"}],"handlerPaths":["D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app\\servers\\gate\\handler"],"pid":13068}}
+[2020-06-18T19:36:11.244] [INFO] pinus - [game-server_1 application.js] application inited: "game-server_1"
+[2020-06-18T19:36:11.249] [INFO] pinus - [game-server_1 application.js] "game-server_1" enter before start...
+[2020-06-18T19:36:11.250] [INFO] pinus - [game-server_1 application.js] "game-server_1" enter after start...
+[2020-06-18T19:36:11.253] [INFO] logger - [game-server_1 console] to get
+[2020-06-18T19:36:11.255] [INFO] logger - [game-server_1 console] start: 0.942ms
+[2020-06-18T19:36:11.314] [INFO] logger - [game-server_1 console] redis connect.
+[2020-06-18T19:36:11.321] [INFO] logger - [game-server_1 console] redis ready.
+[2020-06-18T19:36:11.333] [INFO] logger - [game-server_1 console] value: OK
+[2020-06-18T19:36:11.334] [INFO] logger - [game-server_1 console] getResult: I am ok
+[2020-06-18T19:36:11.336] [INFO] logger - [game-server_1 console] to end then data Promise { 'I am okI am okI am ok' }
+[2020-06-18T19:36:11.340] [INFO] pinus - [game-server_1 application.js] "game-server_1" enter after start...
+[2020-06-18T19:36:11.341] [INFO] pinus - [game-server_1 application.js] "game-server_1" finish start
+[2020-06-18T19:36:11.341] [INFO] pinus - [game-server_1 application.js] "game-server_1" startup in 94 ms
+[2020-06-18T19:36:11.363] [DEBUG] pinus - [game-server_1 monitorwatcher.js] [game-server_1] receive addServer signal: {"action":"addServer","server":{"main":"d:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app.js","env":"development","id":"connector-server-1","host":"127.0.0.1","port":4050,"clientHost":"127.0.0.1","clientPort":3050,"frontend":"true","args":" --inspect=10001","serverType":"connector","remoterPaths":[{"namespace":"sys","serverType":"connector","path":"d:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\frontend"},{"namespace":"user","serverType":"connector","path":"d:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app\\servers\\connector\\remote"}],"handlerPaths":["d:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app\\servers\\connector\\handler"],"pid":89248}}
+[2020-06-18T19:36:11.383] [DEBUG] pinus - [game-server_1 monitorwatcher.js] [game-server_1] receive addServer signal: {"action":"addServer","server":{"main":"d:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app.js","env":"development","id":"gate-server-1","host":"127.0.0.1","port":7050,"clientHost":"127.0.0.1","clientPort":3014,"frontend":"true","args":" --inspect=10003","serverType":"gate","remoterPaths":[{"namespace":"sys","serverType":"gate","path":"d:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\frontend"}],"handlerPaths":["d:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app\\servers\\gate\\handler"],"pid":79804}}
+[2020-06-18T19:38:21.063] [INFO] logger - [game-server_1 console] connected
+[2020-06-18T19:38:21.064] [DEBUG] pinus - [game-server_1 channelService.js] [game-server_1] channelService sendMessageByGroup route: onAdd, msg: {"user":"1"}, groups: {}, opts: undefined
+[2020-06-18T19:38:28.716] [DEBUG] pinus - [game-server_1 channelService.js] [game-server_1] channelService sendMessageByGroup route: onLeave, msg: {"route":"onLeave","user":"1"}, groups: {}, opts: undefined
+[2020-06-18T19:41:38.151] [INFO] pinus - [game-server_1 application.js] application inited: "game-server_1"
+[2020-06-18T19:41:38.157] [INFO] pinus - [game-server_1 application.js] "game-server_1" enter before start...
+[2020-06-18T19:41:38.158] [INFO] pinus - [game-server_1 application.js] "game-server_1" enter after start...
+[2020-06-18T19:41:38.162] [INFO] logger - [game-server_1 console] to get
+[2020-06-18T19:41:38.162] [INFO] logger - [game-server_1 console] start: 0.385ms
+[2020-06-18T19:41:38.217] [INFO] logger - [game-server_1 console] redis connect.
+[2020-06-18T19:41:38.226] [INFO] logger - [game-server_1 console] redis ready.
+[2020-06-18T19:41:38.230] [INFO] logger - [game-server_1 console] value: OK
+[2020-06-18T19:41:38.230] [INFO] logger - [game-server_1 console] getResult: I am ok
+[2020-06-18T19:41:38.231] [INFO] logger - [game-server_1 console] to end then data Promise { 'I am okI am okI am ok' }
+[2020-06-18T19:41:38.423] [INFO] pinus - [game-server_1 application.js] "game-server_1" enter after start...
+[2020-06-18T19:41:38.424] [INFO] pinus - [game-server_1 application.js] "game-server_1" finish start
+[2020-06-18T19:41:38.424] [INFO] pinus - [game-server_1 application.js] "game-server_1" startup in 269 ms
+[2020-06-18T19:41:38.452] [DEBUG] pinus - [game-server_1 monitorwatcher.js] [game-server_1] receive addServer signal: {"action":"addServer","server":{"main":"D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app","env":"development","id":"connector-server-1","host":"127.0.0.1","port":4050,"clientHost":"127.0.0.1","clientPort":3050,"frontend":"true","args":" --inspect=10001","serverType":"connector","remoterPaths":[{"namespace":"sys","serverType":"connector","path":"D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\frontend"},{"namespace":"user","serverType":"connector","path":"D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app\\servers\\connector\\remote"}],"handlerPaths":["D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app\\servers\\connector\\handler"],"pid":89528}}
+[2020-06-18T19:41:38.464] [DEBUG] pinus - [game-server_1 monitorwatcher.js] [game-server_1] receive addServer signal: {"action":"addServer","server":{"main":"D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app","env":"development","id":"gate-server-1","host":"127.0.0.1","port":7050,"clientHost":"127.0.0.1","clientPort":3014,"frontend":"true","args":" --inspect=10003","serverType":"gate","remoterPaths":[{"namespace":"sys","serverType":"gate","path":"D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\frontend"}],"handlerPaths":["D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app\\servers\\gate\\handler"],"pid":88324}}
+[2020-06-18T19:42:12.958] [INFO] pinus - [game-server_1 application.js] application inited: "game-server_1"
+[2020-06-18T19:42:12.964] [INFO] pinus - [game-server_1 application.js] "game-server_1" enter before start...
+[2020-06-18T19:42:12.965] [INFO] pinus - [game-server_1 application.js] "game-server_1" enter after start...
+[2020-06-18T19:42:12.969] [INFO] logger - [game-server_1 console] to get
+[2020-06-18T19:42:12.970] [INFO] logger - [game-server_1 console] start: 0.406ms
+[2020-06-18T19:42:13.030] [INFO] logger - [game-server_1 console] redis connect.
+[2020-06-18T19:42:13.034] [INFO] logger - [game-server_1 console] redis ready.
+[2020-06-18T19:42:13.057] [INFO] logger - [game-server_1 console] value: OK
+[2020-06-18T19:42:13.059] [INFO] logger - [game-server_1 console] getResult: I am ok
+[2020-06-18T19:42:13.068] [INFO] logger - [game-server_1 console] to end then data Promise { 'I am okI am okI am ok' }
+[2020-06-18T19:42:13.073] [INFO] pinus - [game-server_1 application.js] "game-server_1" enter after start...
+[2020-06-18T19:42:13.074] [INFO] pinus - [game-server_1 application.js] "game-server_1" finish start
+[2020-06-18T19:42:13.074] [INFO] pinus - [game-server_1 application.js] "game-server_1" startup in 113 ms
+[2020-06-18T19:42:13.077] [DEBUG] pinus - [game-server_1 monitorwatcher.js] [game-server_1] receive addServer signal: {"action":"addServer","server":{"main":"d:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app.js","env":"development","id":"gate-server-1","host":"127.0.0.1","port":7050,"clientHost":"127.0.0.1","clientPort":3014,"frontend":"true","args":" --inspect=10003","serverType":"gate","remoterPaths":[{"namespace":"sys","serverType":"gate","path":"d:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\frontend"}],"handlerPaths":["d:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app\\servers\\gate\\handler"],"pid":89408}}
+[2020-06-18T19:42:13.086] [DEBUG] pinus - [game-server_1 monitorwatcher.js] [game-server_1] receive addServer signal: {"action":"addServer","server":{"main":"d:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app.js","env":"development","id":"connector-server-1","host":"127.0.0.1","port":4050,"clientHost":"127.0.0.1","clientPort":3050,"frontend":"true","args":" --inspect=10001","serverType":"connector","remoterPaths":[{"namespace":"sys","serverType":"connector","path":"d:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\frontend"},{"namespace":"user","serverType":"connector","path":"d:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app\\servers\\connector\\remote"}],"handlerPaths":["d:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app\\servers\\connector\\handler"],"pid":17664}}
+[2020-06-18T19:42:48.500] [INFO] logger - [game-server_1 console] connected
+[2020-06-18T19:42:48.501] [DEBUG] pinus - [game-server_1 channelService.js] [game-server_1] channelService sendMessageByGroup route: onAdd, msg: {"user":"1"}, groups: {}, opts: undefined
+[2020-06-18T19:43:04.935] [DEBUG] pinus - [game-server_1 channelService.js] [game-server_1] channelService sendMessageByGroup route: onChat, msg: {"msg":"1","from":"1*1","target":"*"}, groups: {"connector-server-1":["1*1"]}, opts: {}
+[2020-06-18T19:43:04.949] [INFO] logger - [game-server_1 console] error null
+[2020-06-18T19:43:34.763] [INFO] pinus - [game-server_1 application.js] application inited: "game-server_1"
+[2020-06-18T19:43:34.769] [INFO] pinus - [game-server_1 application.js] "game-server_1" enter before start...
+[2020-06-18T19:43:34.769] [INFO] pinus - [game-server_1 application.js] "game-server_1" enter after start...
+[2020-06-18T19:43:34.773] [INFO] logger - [game-server_1 console] to get
+[2020-06-18T19:43:34.774] [INFO] logger - [game-server_1 console] start: 0.398ms
+[2020-06-18T19:43:34.836] [INFO] logger - [game-server_1 console] redis connect.
+[2020-06-18T19:43:34.840] [INFO] logger - [game-server_1 console] redis ready.
+[2020-06-18T19:43:34.853] [INFO] logger - [game-server_1 console] value: OK
+[2020-06-18T19:43:34.854] [INFO] logger - [game-server_1 console] getResult: I am ok
+[2020-06-18T19:43:34.866] [INFO] logger - [game-server_1 console] to end then data Promise { 'I am okI am okI am ok' }
+[2020-06-18T19:43:34.871] [INFO] pinus - [game-server_1 application.js] "game-server_1" enter after start...
+[2020-06-18T19:43:34.871] [INFO] pinus - [game-server_1 application.js] "game-server_1" finish start
+[2020-06-18T19:43:34.872] [INFO] pinus - [game-server_1 application.js] "game-server_1" startup in 106 ms
+[2020-06-18T19:43:34.880] [DEBUG] pinus - [game-server_1 monitorwatcher.js] [game-server_1] receive addServer signal: {"action":"addServer","server":{"main":"d:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app.js","env":"development","id":"connector-server-1","host":"127.0.0.1","port":4050,"clientHost":"127.0.0.1","clientPort":3050,"frontend":"true","args":" --inspect=10001","serverType":"connector","remoterPaths":[{"namespace":"sys","serverType":"connector","path":"d:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\frontend"},{"namespace":"user","serverType":"connector","path":"d:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app\\servers\\connector\\remote"}],"handlerPaths":["d:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app\\servers\\connector\\handler"],"pid":77624}}
+[2020-06-18T19:43:34.919] [DEBUG] pinus - [game-server_1 monitorwatcher.js] [game-server_1] receive addServer signal: {"action":"addServer","server":{"main":"d:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app.js","env":"development","id":"gate-server-1","host":"127.0.0.1","port":7050,"clientHost":"127.0.0.1","clientPort":3014,"frontend":"true","args":" --inspect=10003","serverType":"gate","remoterPaths":[{"namespace":"sys","serverType":"gate","path":"d:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\frontend"}],"handlerPaths":["d:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app\\servers\\gate\\handler"],"pid":70864}}
+[2020-06-18T19:43:37.121] [INFO] logger - [game-server_1 console] connected
+[2020-06-18T19:43:37.122] [DEBUG] pinus - [game-server_1 channelService.js] [game-server_1] channelService sendMessageByGroup route: onAdd, msg: {"user":"1"}, groups: {}, opts: undefined
+[2020-06-18T19:43:44.434] [DEBUG] pinus - [game-server_1 channelService.js] [game-server_1] channelService sendMessageByGroup route: onChat, msg: {"msg":"1","from":"1*1","target":"*"}, groups: {"connector-server-1":["1*1"]}, opts: {}
+[2020-06-18T19:43:44.450] [INFO] logger - [game-server_1 console] error null
+[2020-06-18T19:43:51.645] [DEBUG] pinus - [game-server_1 channelService.js] [game-server_1] channelService sendMessageByGroup route: onChat, msg: {"msg":"12343","from":"1*1","target":"*"}, groups: {"connector-server-1":["1*1"]}, opts: {}
+[2020-06-18T19:43:51.646] [INFO] logger - [game-server_1 console] error null
+[2020-06-18T19:44:01.775] [DEBUG] pinus - [game-server_1 channelService.js] [game-server_1] channelService sendMessageByGroup route: onChat, msg: {"msg":"1234","from":"1*1","target":"*"}, groups: {"connector-server-1":["1*1"]}, opts: {}
+[2020-06-18T19:44:01.776] [INFO] logger - [game-server_1 console] error null
+[2020-06-18T19:45:17.787] [INFO] pinus - [game-server_1 application.js] application inited: "game-server_1"
+[2020-06-18T19:45:17.793] [INFO] pinus - [game-server_1 application.js] "game-server_1" enter before start...
+[2020-06-18T19:45:17.794] [INFO] pinus - [game-server_1 application.js] "game-server_1" enter after start...
+[2020-06-18T19:45:17.798] [INFO] logger - [game-server_1 console] to get
+[2020-06-18T19:45:17.799] [INFO] logger - [game-server_1 console] start: 0.396ms
+[2020-06-18T19:45:17.856] [INFO] logger - [game-server_1 console] redis connect.
+[2020-06-18T19:45:17.858] [INFO] logger - [game-server_1 console] redis ready.
+[2020-06-18T19:45:17.862] [INFO] logger - [game-server_1 console] value: OK
+[2020-06-18T19:45:17.863] [INFO] logger - [game-server_1 console] getResult: I am ok
+[2020-06-18T19:45:17.870] [INFO] logger - [game-server_1 console] to end then data Promise { 'I am okI am okI am ok' }
+[2020-06-18T19:45:18.113] [INFO] pinus - [game-server_1 application.js] "game-server_1" enter after start...
+[2020-06-18T19:45:18.114] [INFO] pinus - [game-server_1 application.js] "game-server_1" finish start
+[2020-06-18T19:45:18.114] [INFO] pinus - [game-server_1 application.js] "game-server_1" startup in 324 ms
+[2020-06-18T19:45:34.966] [INFO] pinus - [game-server_1 application.js] application inited: "game-server_1"
+[2020-06-18T19:45:34.971] [INFO] pinus - [game-server_1 application.js] "game-server_1" enter before start...
+[2020-06-18T19:45:34.972] [INFO] pinus - [game-server_1 application.js] "game-server_1" enter after start...
+[2020-06-18T19:45:34.976] [INFO] logger - [game-server_1 console] to get
+[2020-06-18T19:45:34.977] [INFO] logger - [game-server_1 console] start: 0.369ms
+[2020-06-18T19:45:35.031] [INFO] logger - [game-server_1 console] redis connect.
+[2020-06-18T19:45:35.036] [INFO] logger - [game-server_1 console] redis ready.
+[2020-06-18T19:45:35.039] [INFO] logger - [game-server_1 console] value: OK
+[2020-06-18T19:45:35.039] [INFO] logger - [game-server_1 console] getResult: I am ok
+[2020-06-18T19:45:35.041] [INFO] logger - [game-server_1 console] to end then data Promise { 'I am okI am okI am ok' }
+[2020-06-18T19:45:35.263] [INFO] pinus - [game-server_1 application.js] "game-server_1" enter after start...
+[2020-06-18T19:45:35.264] [INFO] pinus - [game-server_1 application.js] "game-server_1" finish start
+[2020-06-18T19:45:35.264] [INFO] pinus - [game-server_1 application.js] "game-server_1" startup in 296 ms
+[2020-06-18T19:45:35.270] [DEBUG] pinus - [game-server_1 monitorwatcher.js] [game-server_1] receive addServer signal: {"action":"addServer","server":{"main":"D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app.js","env":"development","id":"gate-server-1","host":"127.0.0.1","port":7050,"clientHost":"127.0.0.1","clientPort":3014,"frontend":"true","args":" --inspect=10003","serverType":"gate","remoterPaths":[{"namespace":"sys","serverType":"gate","path":"D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\frontend"}],"handlerPaths":["D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app\\servers\\gate\\handler"],"pid":87984}}
+[2020-06-18T20:11:34.489] [DEBUG] pinus - [game-server_1 monitorwatcher.js] game-server_1 receive removeServer signal: {"action":"removeServer","id":"master-server-1"}
+[2020-06-18T20:20:35.290] [DEBUG] pinus - [game-server_1 monitorwatcher.js] game-server_1 receive removeServer signal: {"action":"removeServer","id":"gate-server-1"}
+[2020-06-19T10:41:15.316] [ERROR] logger - [game-server_1 console] redis error. error =Error: 
+    at Logger.pLogger.(anonymous function) [as error] (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus-logger\lib\logger.ts:70:34)
+    at RedisProxy.onerror (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\app\src\redis\redis.ts:75:17)
+    at RedisClient.emit (events.js:189:13)
+    at RedisClient.on_error (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\redis\index.js:406:14)
+    at Socket.<anonymous> (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\redis\index.js:279:14)
+    at Socket.emit (events.js:189:13)
+    at emitErrorNT (internal/streams/destroy.js:82:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:50:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19) { Error: Redis connection to 127.0.0.1:6380 failed - read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27) errno: 'ECONNRESET', code: 'ECONNRESET', syscall: 'read' }
+[2020-06-19T10:41:15.522] [INFO] logger - [game-server_1 console] redis reconnecting.
+[2020-06-19T10:41:16.532] [ERROR] logger - [game-server_1 console] redis error. error =Error: 
+    at Logger.pLogger.(anonymous function) [as error] (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus-logger\lib\logger.ts:70:34)
+    at RedisProxy.onerror (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\app\src\redis\redis.ts:75:17)
+    at RedisClient.emit (events.js:189:13)
+    at RedisClient.on_error (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\redis\index.js:406:14)
+    at Socket.<anonymous> (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\redis\index.js:279:14)
+    at Socket.emit (events.js:189:13)
+    at emitErrorNT (internal/streams/destroy.js:82:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:50:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19) { Error: Redis connection to 127.0.0.1:6380 failed - connect ECONNREFUSED 127.0.0.1:6380
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6380 }
+[2020-06-19T10:41:16.873] [INFO] logger - [game-server_1 console] redis reconnecting.
+[2020-06-19T10:41:17.877] [ERROR] logger - [game-server_1 console] redis error. error =Error: 
+    at Logger.pLogger.(anonymous function) [as error] (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus-logger\lib\logger.ts:70:34)
+    at RedisProxy.onerror (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\app\src\redis\redis.ts:75:17)
+    at RedisClient.emit (events.js:189:13)
+    at RedisClient.on_error (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\redis\index.js:406:14)
+    at Socket.<anonymous> (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\redis\index.js:279:14)
+    at Socket.emit (events.js:189:13)
+    at emitErrorNT (internal/streams/destroy.js:82:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:50:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19) { Error: Redis connection to 127.0.0.1:6380 failed - connect ECONNREFUSED 127.0.0.1:6380
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6380 }
+[2020-06-19T10:41:18.457] [INFO] logger - [game-server_1 console] redis reconnecting.
+[2020-06-19T10:41:19.463] [ERROR] logger - [game-server_1 console] redis error. error =Error: 
+    at Logger.pLogger.(anonymous function) [as error] (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus-logger\lib\logger.ts:70:34)
+    at RedisProxy.onerror (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\app\src\redis\redis.ts:75:17)
+    at RedisClient.emit (events.js:189:13)
+    at RedisClient.on_error (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\redis\index.js:406:14)
+    at Socket.<anonymous> (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\redis\index.js:279:14)
+    at Socket.emit (events.js:189:13)
+    at emitErrorNT (internal/streams/destroy.js:82:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:50:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19) { Error: Redis connection to 127.0.0.1:6380 failed - connect ECONNREFUSED 127.0.0.1:6380
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6380 }
+[2020-06-19T10:41:20.447] [INFO] logger - [game-server_1 console] redis reconnecting.
+[2020-06-19T10:41:21.454] [ERROR] logger - [game-server_1 console] redis error. error =Error: 
+    at Logger.pLogger.(anonymous function) [as error] (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus-logger\lib\logger.ts:70:34)
+    at RedisProxy.onerror (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\app\src\redis\redis.ts:75:17)
+    at RedisClient.emit (events.js:189:13)
+    at RedisClient.on_error (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\redis\index.js:406:14)
+    at Socket.<anonymous> (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\redis\index.js:279:14)
+    at Socket.emit (events.js:189:13)
+    at emitErrorNT (internal/streams/destroy.js:82:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:50:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19) { Error: Redis connection to 127.0.0.1:6380 failed - connect ECONNREFUSED 127.0.0.1:6380
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6380 }
+[2020-06-19T10:41:23.127] [INFO] logger - [game-server_1 console] redis reconnecting.
+[2020-06-19T10:41:24.137] [ERROR] logger - [game-server_1 console] redis error. error =Error: 
+    at Logger.pLogger.(anonymous function) [as error] (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus-logger\lib\logger.ts:70:34)
+    at RedisProxy.onerror (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\app\src\redis\redis.ts:75:17)
+    at RedisClient.emit (events.js:189:13)
+    at RedisClient.on_error (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\redis\index.js:406:14)
+    at Socket.<anonymous> (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\redis\index.js:279:14)
+    at Socket.emit (events.js:189:13)
+    at emitErrorNT (internal/streams/destroy.js:82:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:50:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19) { Error: Redis connection to 127.0.0.1:6380 failed - connect ECONNREFUSED 127.0.0.1:6380
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6380 }
+[2020-06-19T10:41:26.979] [INFO] logger - [game-server_1 console] redis reconnecting.
+[2020-06-19T10:41:27.984] [ERROR] logger - [game-server_1 console] redis error. error =Error: 
+    at Logger.pLogger.(anonymous function) [as error] (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus-logger\lib\logger.ts:70:34)
+    at RedisProxy.onerror (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\app\src\redis\redis.ts:75:17)
+    at RedisClient.emit (events.js:189:13)
+    at RedisClient.on_error (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\redis\index.js:406:14)
+    at Socket.<anonymous> (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\redis\index.js:279:14)
+    at Socket.emit (events.js:189:13)
+    at emitErrorNT (internal/streams/destroy.js:82:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:50:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19) { Error: Redis connection to 127.0.0.1:6380 failed - connect ECONNREFUSED 127.0.0.1:6380
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6380 }
+[2020-06-19T10:41:32.815] [INFO] logger - [game-server_1 console] redis reconnecting.
+[2020-06-19T10:41:33.822] [ERROR] logger - [game-server_1 console] redis error. error =Error: 
+    at Logger.pLogger.(anonymous function) [as error] (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus-logger\lib\logger.ts:70:34)
+    at RedisProxy.onerror (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\app\src\redis\redis.ts:75:17)
+    at RedisClient.emit (events.js:189:13)
+    at RedisClient.on_error (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\redis\index.js:406:14)
+    at Socket.<anonymous> (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\redis\index.js:279:14)
+    at Socket.emit (events.js:189:13)
+    at emitErrorNT (internal/streams/destroy.js:82:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:50:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19) { Error: Redis connection to 127.0.0.1:6380 failed - connect ECONNREFUSED 127.0.0.1:6380
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6380 }
+[2020-06-19T10:41:42.034] [INFO] logger - [game-server_1 console] redis reconnecting.
+[2020-06-19T10:41:43.037] [ERROR] logger - [game-server_1 console] redis error. error =Error: 
+    at Logger.pLogger.(anonymous function) [as error] (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus-logger\lib\logger.ts:70:34)
+    at RedisProxy.onerror (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\app\src\redis\redis.ts:75:17)
+    at RedisClient.emit (events.js:189:13)
+    at RedisClient.on_error (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\redis\index.js:406:14)
+    at Socket.<anonymous> (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\redis\index.js:279:14)
+    at Socket.emit (events.js:189:13)
+    at emitErrorNT (internal/streams/destroy.js:82:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:50:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19) { Error: Redis connection to 127.0.0.1:6380 failed - connect ECONNREFUSED 127.0.0.1:6380
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6380 }
+[2020-06-19T10:41:56.998] [INFO] logger - [game-server_1 console] redis reconnecting.
+[2020-06-19T10:41:58.009] [ERROR] logger - [game-server_1 console] redis error. error =Error: 
+    at Logger.pLogger.(anonymous function) [as error] (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus-logger\lib\logger.ts:70:34)
+    at RedisProxy.onerror (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\app\src\redis\redis.ts:75:17)
+    at RedisClient.emit (events.js:189:13)
+    at RedisClient.on_error (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\redis\index.js:406:14)
+    at Socket.<anonymous> (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\redis\index.js:279:14)
+    at Socket.emit (events.js:189:13)
+    at emitErrorNT (internal/streams/destroy.js:82:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:50:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19) { Error: Redis connection to 127.0.0.1:6380 failed - connect ECONNREFUSED 127.0.0.1:6380
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6380 }
+[2020-06-19T10:42:21.740] [INFO] logger - [game-server_1 console] redis reconnecting.
+[2020-06-19T10:42:22.753] [ERROR] logger - [game-server_1 console] redis error. error =Error: 
+    at Logger.pLogger.(anonymous function) [as error] (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus-logger\lib\logger.ts:70:34)
+    at RedisProxy.onerror (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\app\src\redis\redis.ts:75:17)
+    at RedisClient.emit (events.js:189:13)
+    at RedisClient.on_error (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\redis\index.js:406:14)
+    at Socket.<anonymous> (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\redis\index.js:279:14)
+    at Socket.emit (events.js:189:13)
+    at emitErrorNT (internal/streams/destroy.js:82:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:50:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19) { Error: Redis connection to 127.0.0.1:6380 failed - connect ECONNREFUSED 127.0.0.1:6380
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6380 }
+[2020-06-19T10:43:03.094] [INFO] logger - [game-server_1 console] redis reconnecting.
+[2020-06-19T10:43:04.107] [ERROR] logger - [game-server_1 console] redis error. error =Error: 
+    at Logger.pLogger.(anonymous function) [as error] (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus-logger\lib\logger.ts:70:34)
+    at RedisProxy.onerror (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\app\src\redis\redis.ts:75:17)
+    at RedisClient.emit (events.js:189:13)
+    at RedisClient.on_error (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\redis\index.js:406:14)
+    at Socket.<anonymous> (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\redis\index.js:279:14)
+    at Socket.emit (events.js:189:13)
+    at emitErrorNT (internal/streams/destroy.js:82:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:50:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19) { Error: Redis connection to 127.0.0.1:6380 failed - connect ECONNREFUSED 127.0.0.1:6380
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6380 }
+[2020-06-19T10:44:12.688] [INFO] logger - [game-server_1 console] redis reconnecting.
+[2020-06-19T10:44:13.694] [ERROR] logger - [game-server_1 console] redis error. error =Error: 
+    at Logger.pLogger.(anonymous function) [as error] (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus-logger\lib\logger.ts:70:34)
+    at RedisProxy.onerror (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\app\src\redis\redis.ts:75:17)
+    at RedisClient.emit (events.js:189:13)
+    at RedisClient.on_error (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\redis\index.js:406:14)
+    at Socket.<anonymous> (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\redis\index.js:279:14)
+    at Socket.emit (events.js:189:13)
+    at emitErrorNT (internal/streams/destroy.js:82:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:50:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19) { Error: Redis connection to 127.0.0.1:6380 failed - connect ECONNREFUSED 127.0.0.1:6380
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6380 }
+[2020-06-19T10:46:10.281] [INFO] logger - [game-server_1 console] redis reconnecting.
+[2020-06-19T10:46:11.286] [ERROR] logger - [game-server_1 console] redis error. error =Error: 
+    at Logger.pLogger.(anonymous function) [as error] (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus-logger\lib\logger.ts:70:34)
+    at RedisProxy.onerror (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\app\src\redis\redis.ts:75:17)
+    at RedisClient.emit (events.js:189:13)
+    at RedisClient.on_error (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\redis\index.js:406:14)
+    at Socket.<anonymous> (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\redis\index.js:279:14)
+    at Socket.emit (events.js:189:13)
+    at emitErrorNT (internal/streams/destroy.js:82:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:50:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19) { Error: Redis connection to 127.0.0.1:6380 failed - connect ECONNREFUSED 127.0.0.1:6380
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6380 }
+[2020-06-19T10:49:29.494] [INFO] logger - [game-server_1 console] redis reconnecting.
+[2020-06-19T10:49:30.503] [ERROR] logger - [game-server_1 console] redis error. error =Error: 
+    at Logger.pLogger.(anonymous function) [as error] (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus-logger\lib\logger.ts:70:34)
+    at RedisProxy.onerror (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\app\src\redis\redis.ts:75:17)
+    at RedisClient.emit (events.js:189:13)
+    at RedisClient.on_error (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\redis\index.js:406:14)
+    at Socket.<anonymous> (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\redis\index.js:279:14)
+    at Socket.emit (events.js:189:13)
+    at emitErrorNT (internal/streams/destroy.js:82:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:50:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19) { Error: Redis connection to 127.0.0.1:6380 failed - connect ECONNREFUSED 127.0.0.1:6380
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6380 }
+[2020-06-19T10:55:07.437] [INFO] logger - [game-server_1 console] redis reconnecting.
+[2020-06-19T10:55:08.445] [ERROR] logger - [game-server_1 console] redis error. error =Error: 
+    at Logger.pLogger.(anonymous function) [as error] (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\pinus-logger\lib\logger.ts:70:34)
+    at RedisProxy.onerror (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\app\src\redis\redis.ts:75:17)
+    at RedisClient.emit (events.js:189:13)
+    at RedisClient.on_error (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\redis\index.js:406:14)
+    at Socket.<anonymous> (D:\pomelo20200224\testExmaple\pinus-chat-example\game-server\node_modules\redis\index.js:279:14)
+    at Socket.emit (events.js:189:13)
+    at emitErrorNT (internal/streams/destroy.js:82:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:50:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19) { Error: Redis connection to 127.0.0.1:6380 failed - connect ECONNREFUSED 127.0.0.1:6380
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6380 }
+[2020-06-20T17:37:23.693] [INFO] pinus - [game-server_1 application.js] application inited: "game-server_1"
+[2020-06-20T17:37:23.698] [INFO] pinus - [game-server_1 application.js] "game-server_1" enter before start...
+[2020-06-20T17:37:23.698] [INFO] pinus - [game-server_1 application.js] "game-server_1" enter after start...
+[2020-06-20T17:37:23.812] [INFO] pinus - [game-server_1 application.js] "game-server_1" enter after start...
+[2020-06-20T17:37:23.813] [INFO] pinus - [game-server_1 application.js] "game-server_1" finish start
+[2020-06-20T17:37:23.813] [INFO] pinus - [game-server_1 application.js] "game-server_1" startup in 118 ms
+[2020-06-20T17:38:44.920] [INFO] pinus - [game-server_1 application.js] application inited: "game-server_1"
+[2020-06-20T17:38:44.926] [INFO] pinus - [game-server_1 application.js] "game-server_1" enter before start...
+[2020-06-20T17:38:44.926] [INFO] pinus - [game-server_1 application.js] "game-server_1" enter after start...
+[2020-06-20T17:38:44.988] [INFO] pinus - [game-server_1 application.js] "game-server_1" enter after start...
+[2020-06-20T17:38:44.989] [INFO] pinus - [game-server_1 application.js] "game-server_1" finish start
+[2020-06-20T17:38:44.990] [INFO] pinus - [game-server_1 application.js] "game-server_1" startup in 67 ms
+[2020-06-20T17:38:45.003] [DEBUG] pinus - [game-server_1 monitorwatcher.js] [game-server_1] receive addServer signal: {"action":"addServer","server":{"main":"D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app","env":"development","id":"connector-server-1","host":"127.0.0.1","port":4050,"clientHost":"127.0.0.1","clientPort":3050,"frontend":"true","args":" --inspect=10001","serverType":"connector","remoterPaths":[{"namespace":"sys","serverType":"connector","path":"D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\frontend"},{"namespace":"user","serverType":"connector","path":"D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app\\servers\\connector\\remote"}],"handlerPaths":["D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app\\servers\\connector\\handler"],"pid":12516}}
+[2020-06-20T17:38:45.033] [DEBUG] pinus - [game-server_1 monitorwatcher.js] [game-server_1] receive addServer signal: {"action":"addServer","server":{"main":"D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app","env":"development","id":"gate-server-1","host":"127.0.0.1","port":7050,"clientHost":"127.0.0.1","clientPort":3014,"frontend":"true","args":" --inspect=10003","serverType":"gate","remoterPaths":[{"namespace":"sys","serverType":"gate","path":"D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\frontend"}],"handlerPaths":["D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app\\servers\\gate\\handler"],"pid":18964}}

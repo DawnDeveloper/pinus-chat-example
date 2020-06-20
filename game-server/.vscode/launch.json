@@ -47,17 +47,9 @@
         {
             "type": "node",
             "request": "launch",
-            "name": "Dictionary",
-            "program": "${workspaceFolder}\\app\\src\\Dictionary.js",
-            "outFiles": [
-                "${workspaceFolder}/**/*.js"
-            ]
-        },
-        {
-            "type": "node",
-            "request": "launch",
             "name": "test",
-            "program": "${workspaceFolder}\\dist\\app\\src\\redistest\\base.test.js",
+            "sourceMaps": true,
+            "program": "${workspaceFolder}\\app\\src\\util\\test.js",
             "outFiles": [
                 "${workspaceFolder}/**/*.js"
             ]
