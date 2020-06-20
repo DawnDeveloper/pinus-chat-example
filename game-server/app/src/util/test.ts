@@ -1,6 +1,15 @@
 import { ClientOpts } from "redis";
 import { RedisProxy } from "../redis/redis";
 import * as mongoose from 'mongoose';
+import { Mongoose } from "mongoose";
+let mos = mongoose.connect("mongodb://127.0.0.1:27017", connectCall).then((e:Mongoose)=>{
+	e.set("testMogoose", "is a mongoose test");
+	e.get("testMogoose");
+	console.log(e);
+});
+function connectCall(e) {
+	console.log(e);
+}
 let json = {
 	"1":{"Id":1,"Type":1,"Quality":1,"Star":0,"UseType":0,"UseArg":0,"Level":1,"AddNum":-1,"Label":0,"Gift":0,"Source":[]},
 	"100210001":{"Id":100210001,"Type":10,"Quality":2,"Star":1,"UseType":0,"UseArg":0,"Level":1,"AddNum":1,"Label":2,"Gift":0,"Source":[{"Id":2001}]},
