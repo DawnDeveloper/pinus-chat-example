@@ -1995,3 +1995,306 @@
 [2020-06-20T17:38:45.051] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
 [2020-06-20T17:38:45.053] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" finish start
 [2020-06-20T17:38:45.053] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" startup in 99 ms
+[2020-06-24T14:24:44.120] [INFO] pinus - [gate-server-1 application.js] application inited: "gate-server-1"
+[2020-06-24T14:24:44.138] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter before start...
+[2020-06-24T14:24:44.138] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-06-24T14:24:44.209] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-06-24T14:24:44.211] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" finish start
+[2020-06-24T14:24:44.211] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" startup in 88 ms
+[2020-06-24T14:41:15.323] [INFO] pinus - [gate-server-1 application.js] application inited: "gate-server-1"
+[2020-06-24T14:41:15.332] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter before start...
+[2020-06-24T14:41:15.333] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-06-24T14:41:15.430] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-06-24T14:41:15.432] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" finish start
+[2020-06-24T14:41:15.433] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" startup in 108 ms
+[2020-06-24T14:41:47.522] [INFO] pinus - [gate-server-1 application.js] application inited: "gate-server-1"
+[2020-06-24T14:41:47.532] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter before start...
+[2020-06-24T14:41:47.532] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-06-24T14:41:47.609] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-06-24T14:41:47.611] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" finish start
+[2020-06-24T14:41:47.611] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" startup in 86 ms
+[2020-06-24T14:46:48.387] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] getSession session is created with session id: 1
+[2020-06-24T14:46:48.395] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] send message reqId: 1, route: gate.gateHandler.queryEntry, msg: {"code":200,"host":"127.0.0.1","port":3050}, receivers: [1], opts: {"type":"response"}
+[2020-06-24T14:46:48.452] [DEBUG] pinus - [gate-server-1 sessionService.js] session on [gate-server-1] is closed with session id: 1,uid:null,reason:1005
+[2020-06-24T14:47:34.158] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] getSession session is created with session id: 2
+[2020-06-24T14:50:37.015] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] send message reqId: 3, route: gate.gateHandler.queryEntry, msg: {"code":200,"host":"127.0.0.1","port":3050}, receivers: [2], opts: {"type":"response"}
+[2020-06-24T14:50:37.017] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] getSession session is created with session id: 3
+[2020-06-24T14:50:37.029] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] getSession session is created with session id: 4
+[2020-06-24T14:50:37.041] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] getSession session is created with session id: 5
+[2020-06-24T14:50:37.053] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] getSession session is created with session id: 6
+[2020-06-24T14:50:37.065] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] getSession session is created with session id: 7
+[2020-06-24T14:50:40.975] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] getSession session is created with session id: 8
+[2020-06-24T14:50:40.977] [DEBUG] pinus - [gate-server-1 switcher.js] connection error:read ECONNRESET, the remote ip is ::ffff:127.0.0.1 && port is 52791
+[2020-06-24T14:50:40.978] [DEBUG] pinus - [gate-server-1 sessionService.js] session on [gate-server-1] is closed with session id: 8,uid:null,reason:1001
+[2020-06-24T14:50:45.415] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] getSession session is created with session id: 9
+[2020-06-24T14:50:45.416] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] send message reqId: 4, route: gate.gateHandler.queryEntry, msg: {"code":200,"host":"127.0.0.1","port":3050}, receivers: [9], opts: {"type":"response"}
+[2020-06-24T14:50:45.418] [DEBUG] pinus - [gate-server-1 sessionService.js] session on [gate-server-1] is closed with session id: 9,uid:null,reason:1005
+[2020-06-24T14:50:46.720] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] getSession session is created with session id: 10
+[2020-06-24T14:50:46.722] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] send message reqId: 5, route: gate.gateHandler.queryEntry, msg: {"code":200,"host":"127.0.0.1","port":3050}, receivers: [10], opts: {"type":"response"}
+[2020-06-24T14:50:46.724] [DEBUG] pinus - [gate-server-1 sessionService.js] session on [gate-server-1] is closed with session id: 10,uid:null,reason:1005
+[2020-06-24T14:50:47.894] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] getSession session is created with session id: 11
+[2020-06-24T14:50:47.895] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] send message reqId: 6, route: gate.gateHandler.queryEntry, msg: {"code":200,"host":"127.0.0.1","port":3050}, receivers: [11], opts: {"type":"response"}
+[2020-06-24T14:50:47.897] [DEBUG] pinus - [gate-server-1 sessionService.js] session on [gate-server-1] is closed with session id: 11,uid:null,reason:1005
+[2020-06-24T14:50:55.054] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] getSession session is created with session id: 12
+[2020-06-24T14:50:55.056] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] send message reqId: 7, route: gate.gateHandler.queryEntry, msg: {"code":200,"host":"127.0.0.1","port":3050}, receivers: [12], opts: {"type":"response"}
+[2020-06-24T14:50:55.058] [DEBUG] pinus - [gate-server-1 sessionService.js] session on [gate-server-1] is closed with session id: 12,uid:null,reason:1005
+[2020-06-24T14:50:56.136] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] getSession session is created with session id: 13
+[2020-06-24T14:50:56.138] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] send message reqId: 8, route: gate.gateHandler.queryEntry, msg: {"code":200,"host":"127.0.0.1","port":3050}, receivers: [13], opts: {"type":"response"}
+[2020-06-24T14:50:56.140] [DEBUG] pinus - [gate-server-1 sessionService.js] session on [gate-server-1] is closed with session id: 13,uid:null,reason:1005
+[2020-06-24T14:50:56.839] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] getSession session is created with session id: 14
+[2020-06-24T14:50:56.841] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] send message reqId: 9, route: gate.gateHandler.queryEntry, msg: {"code":200,"host":"127.0.0.1","port":3050}, receivers: [14], opts: {"type":"response"}
+[2020-06-24T14:50:56.843] [DEBUG] pinus - [gate-server-1 sessionService.js] session on [gate-server-1] is closed with session id: 14,uid:null,reason:1005
+[2020-06-24T14:50:57.475] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] getSession session is created with session id: 15
+[2020-06-24T14:50:57.476] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] send message reqId: 10, route: gate.gateHandler.queryEntry, msg: {"code":200,"host":"127.0.0.1","port":3050}, receivers: [15], opts: {"type":"response"}
+[2020-06-24T14:50:57.478] [DEBUG] pinus - [gate-server-1 sessionService.js] session on [gate-server-1] is closed with session id: 15,uid:null,reason:1005
+[2020-06-24T14:50:58.031] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] getSession session is created with session id: 16
+[2020-06-24T14:50:58.033] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] send message reqId: 11, route: gate.gateHandler.queryEntry, msg: {"code":200,"host":"127.0.0.1","port":3050}, receivers: [16], opts: {"type":"response"}
+[2020-06-24T14:50:58.036] [DEBUG] pinus - [gate-server-1 sessionService.js] session on [gate-server-1] is closed with session id: 16,uid:null,reason:1005
+[2020-06-24T14:50:58.806] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] getSession session is created with session id: 17
+[2020-06-24T14:50:58.808] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] send message reqId: 12, route: gate.gateHandler.queryEntry, msg: {"code":200,"host":"127.0.0.1","port":3050}, receivers: [17], opts: {"type":"response"}
+[2020-06-24T14:50:58.810] [DEBUG] pinus - [gate-server-1 sessionService.js] session on [gate-server-1] is closed with session id: 17,uid:null,reason:1005
+[2020-06-24T14:51:02.832] [DEBUG] pinus - [gate-server-1 switcher.js] connection error:read ECONNRESET, the remote ip is ::ffff:127.0.0.1 && port is 52440
+[2020-06-24T14:51:02.834] [DEBUG] pinus - [gate-server-1 sessionService.js] session on [gate-server-1] is closed with session id: 2,uid:null,reason:1001
+[2020-06-24T14:51:02.834] [DEBUG] pinus - [gate-server-1 switcher.js] connection error:read ECONNRESET, the remote ip is ::ffff:127.0.0.1 && port is 52481
+[2020-06-24T14:51:02.835] [DEBUG] pinus - [gate-server-1 switcher.js] connection error:read ECONNRESET, the remote ip is ::ffff:127.0.0.1 && port is 52781
+[2020-06-24T14:51:02.836] [DEBUG] pinus - [gate-server-1 switcher.js] connection error:read ECONNRESET, the remote ip is ::ffff:127.0.0.1 && port is 52782
+[2020-06-24T14:51:02.837] [DEBUG] pinus - [gate-server-1 sessionService.js] session on [gate-server-1] is closed with session id: 5,uid:null,reason:1001
+[2020-06-24T14:51:02.838] [DEBUG] pinus - [gate-server-1 sessionService.js] session on [gate-server-1] is closed with session id: 4,uid:null,reason:1001
+[2020-06-24T14:51:02.838] [DEBUG] pinus - [gate-server-1 sessionService.js] session on [gate-server-1] is closed with session id: 3,uid:null,reason:1001
+[2020-06-24T14:51:02.839] [DEBUG] pinus - [gate-server-1 switcher.js] connection error:read ECONNRESET, the remote ip is ::ffff:127.0.0.1 && port is 52783
+[2020-06-24T14:51:02.839] [DEBUG] pinus - [gate-server-1 switcher.js] connection error:read ECONNRESET, the remote ip is ::ffff:127.0.0.1 && port is 52784
+[2020-06-24T14:51:02.840] [DEBUG] pinus - [gate-server-1 sessionService.js] session on [gate-server-1] is closed with session id: 7,uid:null,reason:1001
+[2020-06-24T14:51:02.840] [DEBUG] pinus - [gate-server-1 sessionService.js] session on [gate-server-1] is closed with session id: 6,uid:null,reason:1001
+[2020-06-24T14:51:06.311] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] getSession session is created with session id: 18
+[2020-06-24T14:51:06.313] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] send message reqId: 1, route: gate.gateHandler.queryEntry, msg: {"code":200,"host":"127.0.0.1","port":3050}, receivers: [18], opts: {"type":"response"}
+[2020-06-24T14:51:06.315] [DEBUG] pinus - [gate-server-1 sessionService.js] session on [gate-server-1] is closed with session id: 18,uid:null,reason:1005
+[2020-06-24T14:51:08.571] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] getSession session is created with session id: 19
+[2020-06-24T14:51:08.572] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] send message reqId: 2, route: gate.gateHandler.queryEntry, msg: {"code":200,"host":"127.0.0.1","port":3050}, receivers: [19], opts: {"type":"response"}
+[2020-06-24T14:51:08.574] [DEBUG] pinus - [gate-server-1 sessionService.js] session on [gate-server-1] is closed with session id: 19,uid:null,reason:1005
+[2020-06-24T14:51:29.520] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] getSession session is created with session id: 20
+[2020-06-24T14:51:29.522] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] send message reqId: 3, route: gate.gateHandler.queryEntry, msg: {"code":200,"host":"127.0.0.1","port":3050}, receivers: [20], opts: {"type":"response"}
+[2020-06-24T14:51:29.524] [DEBUG] pinus - [gate-server-1 sessionService.js] session on [gate-server-1] is closed with session id: 20,uid:null,reason:1005
+[2020-06-24T14:51:32.359] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] getSession session is created with session id: 21
+[2020-06-24T14:51:32.360] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] send message reqId: 4, route: gate.gateHandler.queryEntry, msg: {"code":200,"host":"127.0.0.1","port":3050}, receivers: [21], opts: {"type":"response"}
+[2020-06-24T14:51:32.362] [DEBUG] pinus - [gate-server-1 sessionService.js] session on [gate-server-1] is closed with session id: 21,uid:null,reason:1005
+[2020-06-24T14:51:34.264] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] getSession session is created with session id: 22
+[2020-06-24T14:51:34.266] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] send message reqId: 5, route: gate.gateHandler.queryEntry, msg: {"code":200,"host":"127.0.0.1","port":3050}, receivers: [22], opts: {"type":"response"}
+[2020-06-24T14:51:34.268] [DEBUG] pinus - [gate-server-1 sessionService.js] session on [gate-server-1] is closed with session id: 22,uid:null,reason:1005
+[2020-06-24T14:51:36.750] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] getSession session is created with session id: 23
+[2020-06-24T14:51:36.752] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] send message reqId: 6, route: gate.gateHandler.queryEntry, msg: {"code":200,"host":"127.0.0.1","port":3050}, receivers: [23], opts: {"type":"response"}
+[2020-06-24T14:51:36.754] [DEBUG] pinus - [gate-server-1 sessionService.js] session on [gate-server-1] is closed with session id: 23,uid:null,reason:1005
+[2020-06-24T14:51:46.683] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] getSession session is created with session id: 24
+[2020-06-24T14:51:46.685] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] send message reqId: 7, route: gate.gateHandler.queryEntry, msg: {"code":200,"host":"127.0.0.1","port":3050}, receivers: [24], opts: {"type":"response"}
+[2020-06-24T14:51:46.686] [DEBUG] pinus - [gate-server-1 sessionService.js] session on [gate-server-1] is closed with session id: 24,uid:null,reason:1005
+[2020-06-24T14:51:53.265] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] getSession session is created with session id: 25
+[2020-06-24T14:51:53.266] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] send message reqId: 8, route: gate.gateHandler.queryEntry, msg: {"code":200,"host":"127.0.0.1","port":3050}, receivers: [25], opts: {"type":"response"}
+[2020-06-24T14:51:53.268] [DEBUG] pinus - [gate-server-1 sessionService.js] session on [gate-server-1] is closed with session id: 25,uid:null,reason:1005
+[2020-06-24T14:52:09.936] [INFO] pinus - [gate-server-1 application.js] application inited: "gate-server-1"
+[2020-06-24T14:52:09.962] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter before start...
+[2020-06-24T14:52:09.962] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-06-24T14:52:10.026] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-06-24T14:52:10.027] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" finish start
+[2020-06-24T14:52:10.027] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" startup in 74 ms
+[2020-06-24T14:52:33.517] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] getSession session is created with session id: 1
+[2020-06-24T14:52:33.525] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] send message reqId: 1, route: gate.gateHandler.queryEntry, msg: {"code":200,"host":"127.0.0.1","port":3050}, receivers: [1], opts: {"type":"response"}
+[2020-06-24T14:52:33.529] [DEBUG] pinus - [gate-server-1 sessionService.js] session on [gate-server-1] is closed with session id: 1,uid:null,reason:1005
+[2020-06-24T14:56:29.009] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] getSession session is created with session id: 2
+[2020-06-24T14:56:30.063] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] send message reqId: 1, route: gate.gateHandler.queryEntry, msg: {"code":200,"host":"127.0.0.1","port":3050}, receivers: [2], opts: {"type":"response"}
+[2020-06-24T14:56:30.065] [DEBUG] pinus - [gate-server-1 sessionService.js] session on [gate-server-1] is closed with session id: 2,uid:null,reason:1005
+[2020-06-24T14:56:40.535] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] getSession session is created with session id: 3
+[2020-06-24T14:56:40.537] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] send message reqId: 2, route: gate.gateHandler.queryEntry, msg: {"code":200,"host":"127.0.0.1","port":3050}, receivers: [3], opts: {"type":"response"}
+[2020-06-24T14:56:40.539] [DEBUG] pinus - [gate-server-1 sessionService.js] session on [gate-server-1] is closed with session id: 3,uid:null,reason:1005
+[2020-06-24T14:56:49.006] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] getSession session is created with session id: 4
+[2020-06-24T14:56:49.008] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] send message reqId: 3, route: gate.gateHandler.queryEntry, msg: {"code":200,"host":"127.0.0.1","port":3050}, receivers: [4], opts: {"type":"response"}
+[2020-06-24T14:56:49.010] [DEBUG] pinus - [gate-server-1 sessionService.js] session on [gate-server-1] is closed with session id: 4,uid:null,reason:1005
+[2020-06-24T14:56:49.800] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] getSession session is created with session id: 5
+[2020-06-24T14:56:49.803] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] send message reqId: 4, route: gate.gateHandler.queryEntry, msg: {"code":200,"host":"127.0.0.1","port":3050}, receivers: [5], opts: {"type":"response"}
+[2020-06-24T14:56:49.804] [DEBUG] pinus - [gate-server-1 sessionService.js] session on [gate-server-1] is closed with session id: 5,uid:null,reason:1005
+[2020-06-24T14:56:50.238] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] getSession session is created with session id: 6
+[2020-06-24T14:56:50.240] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] send message reqId: 5, route: gate.gateHandler.queryEntry, msg: {"code":200,"host":"127.0.0.1","port":3050}, receivers: [6], opts: {"type":"response"}
+[2020-06-24T14:56:50.242] [DEBUG] pinus - [gate-server-1 sessionService.js] session on [gate-server-1] is closed with session id: 6,uid:null,reason:1005
+[2020-06-24T14:56:50.456] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] getSession session is created with session id: 7
+[2020-06-24T14:56:50.458] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] send message reqId: 6, route: gate.gateHandler.queryEntry, msg: {"code":200,"host":"127.0.0.1","port":3050}, receivers: [7], opts: {"type":"response"}
+[2020-06-24T14:56:50.460] [DEBUG] pinus - [gate-server-1 sessionService.js] session on [gate-server-1] is closed with session id: 7,uid:null,reason:1005
+[2020-06-24T14:56:50.680] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] getSession session is created with session id: 8
+[2020-06-24T14:56:50.681] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] send message reqId: 7, route: gate.gateHandler.queryEntry, msg: {"code":200,"host":"127.0.0.1","port":3050}, receivers: [8], opts: {"type":"response"}
+[2020-06-24T14:56:50.683] [DEBUG] pinus - [gate-server-1 sessionService.js] session on [gate-server-1] is closed with session id: 8,uid:null,reason:1005
+[2020-06-24T14:56:55.661] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] getSession session is created with session id: 9
+[2020-06-24T14:56:55.664] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] send message reqId: 1, route: gate.gateHandler.queryEntry, msg: {"code":200,"host":"127.0.0.1","port":3050}, receivers: [9], opts: {"type":"response"}
+[2020-06-24T14:56:55.667] [DEBUG] pinus - [gate-server-1 sessionService.js] session on [gate-server-1] is closed with session id: 9,uid:null,reason:1005
+[2020-06-24T14:57:00.627] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] getSession session is created with session id: 10
+[2020-06-24T14:57:16.110] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] send message reqId: 2, route: gate.gateHandler.queryEntry, msg: {"code":200,"host":"127.0.0.1","port":3050}, receivers: [10], opts: {"type":"response"}
+[2020-06-24T14:57:16.112] [DEBUG] pinus - [gate-server-1 sessionService.js] session on [gate-server-1] is closed with session id: 10,uid:null,reason:1005
+[2020-06-24T14:57:38.934] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] getSession session is created with session id: 11
+[2020-06-24T14:57:41.406] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] send message reqId: 3, route: gate.gateHandler.queryEntry, msg: {"code":200,"host":"127.0.0.1","port":3050}, receivers: [11], opts: {"type":"response"}
+[2020-06-24T14:57:41.407] [DEBUG] pinus - [gate-server-1 sessionService.js] session on [gate-server-1] is closed with session id: 11,uid:null,reason:1005
+[2020-06-24T14:57:46.377] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] getSession session is created with session id: 12
+[2020-06-24T14:57:46.379] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] send message reqId: 4, route: gate.gateHandler.queryEntry, msg: {"code":200,"host":"127.0.0.1","port":3050}, receivers: [12], opts: {"type":"response"}
+[2020-06-24T14:57:46.380] [DEBUG] pinus - [gate-server-1 sessionService.js] session on [gate-server-1] is closed with session id: 12,uid:null,reason:1005
+[2020-06-24T15:00:06.410] [INFO] pinus - [gate-server-1 application.js] application inited: "gate-server-1"
+[2020-06-24T15:00:06.419] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter before start...
+[2020-06-24T15:00:06.419] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-06-24T15:00:06.526] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-06-24T15:00:06.528] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" finish start
+[2020-06-24T15:00:06.529] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" startup in 117 ms
+[2020-06-24T15:00:29.069] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] getSession session is created with session id: 1
+[2020-06-24T15:00:29.076] [INFO] logger - [gate-server-1 console] come in queryEntry
+[2020-06-24T15:00:29.077] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] send message reqId: 1, route: gate.gateHandler.queryEntry, msg: {"code":200,"host":"127.0.0.1","port":3050}, receivers: [1], opts: {"type":"response"}
+[2020-06-24T15:00:29.081] [DEBUG] pinus - [gate-server-1 sessionService.js] session on [gate-server-1] is closed with session id: 1,uid:null,reason:1005
+[2020-06-24T15:10:07.298] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] getSession session is created with session id: 2
+[2020-06-24T15:10:07.301] [INFO] logger - [gate-server-1 console] come in queryEntry
+[2020-06-24T15:10:07.302] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] send message reqId: 3, route: gate.gateHandler.queryEntry, msg: {"code":200,"host":"127.0.0.1","port":3050}, receivers: [2], opts: {"type":"response"}
+[2020-06-24T15:10:07.305] [DEBUG] pinus - [gate-server-1 sessionService.js] session on [gate-server-1] is closed with session id: 2,uid:null,reason:1005
+[2020-06-24T15:10:08.510] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] getSession session is created with session id: 3
+[2020-06-24T15:10:08.512] [INFO] logger - [gate-server-1 console] come in queryEntry
+[2020-06-24T15:10:08.513] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] send message reqId: 4, route: gate.gateHandler.queryEntry, msg: {"code":200,"host":"127.0.0.1","port":3050}, receivers: [3], opts: {"type":"response"}
+[2020-06-24T15:10:08.515] [DEBUG] pinus - [gate-server-1 sessionService.js] session on [gate-server-1] is closed with session id: 3,uid:null,reason:1005
+[2020-06-24T15:10:09.070] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] getSession session is created with session id: 4
+[2020-06-24T15:10:09.072] [INFO] logger - [gate-server-1 console] come in queryEntry
+[2020-06-24T15:10:09.073] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] send message reqId: 5, route: gate.gateHandler.queryEntry, msg: {"code":200,"host":"127.0.0.1","port":3050}, receivers: [4], opts: {"type":"response"}
+[2020-06-24T15:10:09.075] [DEBUG] pinus - [gate-server-1 sessionService.js] session on [gate-server-1] is closed with session id: 4,uid:null,reason:1005
+[2020-07-06T20:21:47.675] [INFO] pinus - [gate-server-1 application.js] application inited: "gate-server-1"
+[2020-07-06T20:21:47.702] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter before start...
+[2020-07-06T20:21:47.702] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-07-06T20:21:47.763] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-07-06T20:21:47.765] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" finish start
+[2020-07-06T20:21:47.765] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" startup in 71 ms
+[2020-07-07T09:38:09.718] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] getSession session is created with session id: 1
+[2020-07-07T09:38:09.731] [INFO] logger - [gate-server-1 console] come in queryEntry
+[2020-07-07T09:38:09.733] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] send message reqId: 1, route: gate.gateHandler.queryEntry, msg: {"code":200,"host":"127.0.0.1","port":3050}, receivers: [1], opts: {"type":"response"}
+[2020-07-07T09:38:09.738] [DEBUG] pinus - [gate-server-1 sessionService.js] session on [gate-server-1] is closed with session id: 1,uid:null,reason:1005
+[2020-07-07T09:41:26.660] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] getSession session is created with session id: 2
+[2020-07-07T09:41:26.663] [INFO] logger - [gate-server-1 console] come in queryEntry
+[2020-07-07T09:41:26.663] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] send message reqId: 1, route: gate.gateHandler.queryEntry, msg: {"code":200,"host":"127.0.0.1","port":3050}, receivers: [2], opts: {"type":"response"}
+[2020-07-07T09:41:26.665] [DEBUG] pinus - [gate-server-1 sessionService.js] session on [gate-server-1] is closed with session id: 2,uid:null,reason:1005
+[2020-07-07T09:42:02.273] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] getSession session is created with session id: 3
+[2020-07-07T09:42:02.275] [INFO] logger - [gate-server-1 console] come in queryEntry
+[2020-07-07T09:42:02.275] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] send message reqId: 3, route: gate.gateHandler.queryEntry, msg: {"code":200,"host":"127.0.0.1","port":3050}, receivers: [3], opts: {"type":"response"}
+[2020-07-07T09:42:02.275] [DEBUG] pinus - [gate-server-1 sessionService.js] session on [gate-server-1] is closed with session id: 3,uid:null,reason:1005
+[2020-07-07T09:42:17.219] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] getSession session is created with session id: 4
+[2020-07-07T09:42:17.221] [INFO] logger - [gate-server-1 console] come in queryEntry
+[2020-07-07T09:42:17.221] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] send message reqId: 1, route: gate.gateHandler.queryEntry, msg: {"code":200,"host":"127.0.0.1","port":3050}, receivers: [4], opts: {"type":"response"}
+[2020-07-07T09:42:17.224] [DEBUG] pinus - [gate-server-1 sessionService.js] session on [gate-server-1] is closed with session id: 4,uid:null,reason:1005
+[2020-07-07T10:16:44.948] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] getSession session is created with session id: 5
+[2020-07-07T10:16:44.951] [INFO] logger - [gate-server-1 console] come in queryEntry
+[2020-07-07T10:16:44.951] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] send message reqId: 1, route: gate.gateHandler.queryEntry, msg: {"code":200,"host":"127.0.0.1","port":3050}, receivers: [5], opts: {"type":"response"}
+[2020-07-07T10:16:44.952] [DEBUG] pinus - [gate-server-1 sessionService.js] session on [gate-server-1] is closed with session id: 5,uid:null,reason:1005
+[2020-07-07T14:56:40.117] [INFO] pinus - [gate-server-1 application.js] application inited: "gate-server-1"
+[2020-07-07T14:56:40.127] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter before start...
+[2020-07-07T14:56:40.127] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-07-07T14:56:40.185] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-07-07T14:56:40.187] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" finish start
+[2020-07-07T14:56:40.187] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" startup in 67 ms
+[2020-07-07T20:13:41.925] [INFO] pinus - [gate-server-1 application.js] application inited: "gate-server-1"
+[2020-07-07T20:13:41.935] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter before start...
+[2020-07-07T20:13:41.935] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-07-07T20:13:42.026] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-07-07T20:13:42.028] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" finish start
+[2020-07-07T20:13:42.028] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" startup in 100 ms
+[2020-07-07T20:15:55.030] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] getSession session is created with session id: 1
+[2020-07-07T20:15:55.036] [INFO] logger - [gate-server-1 console] come in queryEntry
+[2020-07-07T20:15:55.037] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] send message reqId: 3, route: gate.gateHandler.queryEntry, msg: {"code":200,"host":"127.0.0.1","port":3050}, receivers: [1], opts: {"type":"response"}
+[2020-07-07T20:15:55.040] [DEBUG] pinus - [gate-server-1 sessionService.js] session on [gate-server-1] is closed with session id: 1,uid:null,reason:1005
+[2020-07-07T20:21:10.096] [INFO] pinus - [gate-server-1 application.js] application inited: "gate-server-1"
+[2020-07-07T20:21:10.123] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter before start...
+[2020-07-07T20:21:10.123] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-07-07T20:21:10.172] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-07-07T20:21:10.174] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" finish start
+[2020-07-07T20:21:10.174] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" startup in 59 ms
+[2020-07-07T20:21:26.048] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] getSession session is created with session id: 1
+[2020-07-07T20:21:26.053] [INFO] logger - [gate-server-1 console] come in queryEntry
+[2020-07-07T20:21:26.054] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] send message reqId: 5, route: gate.gateHandler.queryEntry, msg: {"code":200,"host":"127.0.0.1","port":3050}, receivers: [1], opts: {"type":"response"}
+[2020-07-07T20:21:26.057] [DEBUG] pinus - [gate-server-1 sessionService.js] session on [gate-server-1] is closed with session id: 1,uid:null,reason:1005
+[2020-07-07T20:22:25.787] [INFO] pinus - [gate-server-1 application.js] application inited: "gate-server-1"
+[2020-07-07T20:22:25.795] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter before start...
+[2020-07-07T20:22:25.795] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-07-07T20:22:25.845] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-07-07T20:22:25.846] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" finish start
+[2020-07-07T20:22:25.847] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" startup in 58 ms
+[2020-07-07T20:25:08.225] [INFO] pinus - [gate-server-1 application.js] application inited: "gate-server-1"
+[2020-07-07T20:25:08.234] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter before start...
+[2020-07-07T20:25:08.235] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-07-07T20:25:08.305] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-07-07T20:25:08.307] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" finish start
+[2020-07-07T20:25:08.307] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" startup in 79 ms
+[2020-07-07T20:38:33.259] [INFO] pinus - [gate-server-1 application.js] application inited: "gate-server-1"
+[2020-07-07T20:38:33.270] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter before start...
+[2020-07-07T20:38:33.271] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-07-07T20:38:33.353] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-07-07T20:38:33.355] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" finish start
+[2020-07-07T20:38:33.355] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" startup in 94 ms
+[2020-07-08T10:36:23.872] [INFO] pinus - [gate-server-1 application.js] application inited: "gate-server-1"
+[2020-07-08T10:36:23.883] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter before start...
+[2020-07-08T10:36:23.883] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-07-08T10:36:23.975] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-07-08T10:36:23.977] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" finish start
+[2020-07-08T10:36:23.977] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" startup in 103 ms
+[2020-07-08T10:36:23.978] [DEBUG] pinus - [gate-server-1 monitorwatcher.js] [gate-server-1] receive addServer signal: {"action":"addServer","server":{"main":"D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app","env":"development","id":"game-server_1","host":"127.0.0.1","port":6050,"args":" --inspect=10002","serverType":"game","remoterPaths":[{"namespace":"sys","serverType":"game","path":"D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\backend"},{"namespace":"user","serverType":"game","path":"D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app\\servers\\game\\remote"}],"handlerPaths":["D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app\\servers\\game\\handler"],"pid":25844}}
+[2020-07-08T10:36:46.072] [INFO] pinus - [gate-server-1 application.js] application inited: "gate-server-1"
+[2020-07-08T10:36:46.081] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter before start...
+[2020-07-08T10:36:46.081] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-07-08T10:36:46.126] [DEBUG] pinus - [gate-server-1 monitorwatcher.js] gate-server-1 receive removeServer signal: {"action":"removeServer","id":"game-server_1"}
+[2020-07-08T10:36:46.146] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-07-08T10:36:46.148] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" finish start
+[2020-07-08T10:36:46.148] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" startup in 73 ms
+[2020-07-08T10:43:14.615] [DEBUG] pinus - [gate-server-1 monitorwatcher.js] gate-server-1 receive removeServer signal: {"action":"removeServer","id":"connector-server-1"}
+[2020-07-08T10:43:52.521] [DEBUG] pinus - [gate-server-1 monitorwatcher.js] gate-server-1 receive removeServer signal: {"action":"removeServer","id":"game-server_1"}
+[2020-07-08T11:03:42.024] [INFO] pinus - [gate-server-1 application.js] application inited: "gate-server-1"
+[2020-07-08T11:03:42.033] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter before start...
+[2020-07-08T11:03:42.034] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-07-08T11:03:42.127] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-07-08T11:03:42.129] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" finish start
+[2020-07-08T11:03:42.129] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" startup in 103 ms
+[2020-07-08T11:09:59.193] [INFO] pinus - [gate-server-1 application.js] application inited: "gate-server-1"
+[2020-07-08T11:09:59.204] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter before start...
+[2020-07-08T11:09:59.205] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-07-08T11:09:59.287] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-07-08T11:09:59.288] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" finish start
+[2020-07-08T11:09:59.289] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" startup in 94 ms
+[2020-07-08T11:13:07.180] [INFO] pinus - [gate-server-1 application.js] application inited: "gate-server-1"
+[2020-07-08T11:13:07.190] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter before start...
+[2020-07-08T11:13:07.199] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-07-08T11:13:07.261] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-07-08T11:13:07.262] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" finish start
+[2020-07-08T11:13:07.263] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" startup in 80 ms
+[2020-07-08T11:13:31.038] [INFO] pinus - [gate-server-1 application.js] application inited: "gate-server-1"
+[2020-07-08T11:13:31.049] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter before start...
+[2020-07-08T11:13:31.050] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-07-08T11:13:31.148] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-07-08T11:13:31.150] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" finish start
+[2020-07-08T11:13:31.150] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" startup in 109 ms
+[2020-07-08T11:21:01.310] [INFO] pinus - [gate-server-1 application.js] application inited: "gate-server-1"
+[2020-07-08T11:21:01.337] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter before start...
+[2020-07-08T11:21:01.337] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-07-08T11:23:10.826] [INFO] pinus - [gate-server-1 application.js] application inited: "gate-server-1"
+[2020-07-08T11:23:10.834] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter before start...
+[2020-07-08T11:23:10.834] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-07-08T11:24:40.965] [INFO] pinus - [gate-server-1 application.js] application inited: "gate-server-1"
+[2020-07-08T11:24:40.973] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter before start...
+[2020-07-08T11:24:40.974] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-07-08T11:27:11.625] [INFO] pinus - [gate-server-1 application.js] application inited: "gate-server-1"
+[2020-07-08T11:27:11.634] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter before start...
+[2020-07-08T11:27:11.634] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-07-08T11:27:13.464] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-07-08T11:27:13.466] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" finish start
+[2020-07-08T11:27:13.466] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" startup in 1839 ms
+[2020-07-08T11:37:09.808] [INFO] pinus - [gate-server-1 application.js] application inited: "gate-server-1"
+[2020-07-08T11:37:09.820] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter before start...
+[2020-07-08T11:37:09.820] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-07-08T11:37:09.883] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-07-08T11:37:09.885] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" finish start
+[2020-07-08T11:37:09.885] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" startup in 74 ms
+[2020-07-08T16:24:09.383] [DEBUG] pinus - [gate-server-1 monitorwatcher.js] gate-server-1 receive removeServer signal: {"action":"removeServer","id":"master-server-1"}
+[2020-07-08T20:23:13.687] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] getSession session is created with session id: 1
+[2020-07-08T20:23:13.697] [INFO] logger - [gate-server-1 console] come in queryEntry
+[2020-07-08T20:23:13.698] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] send message reqId: 1, route: gate.gateHandler.queryEntry, msg: {"code":200,"host":"127.0.0.1","port":3050}, receivers: [1], opts: {"type":"response"}
+[2020-07-08T20:23:13.702] [DEBUG] pinus - [gate-server-1 sessionService.js] session on [gate-server-1] is closed with session id: 1,uid:null,reason:1005
+[2020-07-09T05:17:14.777] [DEBUG] pinus - [gate-server-1 monitorwatcher.js] gate-server-1 receive removeServer signal: {"action":"removeServer","id":"connector-server-1"}
+[2020-07-09T05:53:07.537] [DEBUG] pinus - [gate-server-1 monitorwatcher.js] gate-server-1 receive removeServer signal: {"action":"removeServer","id":"game-server_1"}
+[2020-07-13T11:09:10.198] [INFO] pinus - [gate-server-1 application.js] application inited: "gate-server-1"
+[2020-07-13T11:09:10.211] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter before start...
+[2020-07-13T11:09:10.211] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-07-13T11:09:10.320] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2020-07-13T11:09:10.322] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" finish start
+[2020-07-13T11:09:10.323] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" startup in 123 ms
+[2020-07-13T11:09:10.327] [DEBUG] pinus - [gate-server-1 monitorwatcher.js] [gate-server-1] receive addServer signal: {"action":"addServer","server":{"main":"D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app","env":"development","id":"connector-server-1","host":"127.0.0.1","port":4050,"clientHost":"127.0.0.1","clientPort":3050,"frontend":"true","args":" --inspect=10001","serverType":"connector","remoterPaths":[{"namespace":"sys","serverType":"connector","path":"D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\node_modules\\pinus\\dist\\lib\\common\\remote\\frontend"},{"namespace":"user","serverType":"connector","path":"D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app\\servers\\connector\\remote"}],"handlerPaths":["D:\\pomelo20200224\\testExmaple\\pinus-chat-example\\game-server\\dist\\app\\servers\\connector\\handler"],"pid":13692}}

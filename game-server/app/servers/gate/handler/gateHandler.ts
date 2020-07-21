@@ -13,7 +13,7 @@ export class Handler {
 
     async queryEntry(msg:any,Session:FrontendSession){
         let uid = msg.uid;
-
+        console.log("come in queryEntry")
         if(!uid){
             return {code:500}
         }

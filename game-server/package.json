@@ -15,6 +15,7 @@
     "dependencies": {
         "@types/bluebird": "^3.5.32",
         "@types/mocha": "^7.0.2",
+        "@types/mongoose": "^5.7.32",
         "@types/node": "8.5.7",
         "@types/redis": "^2.8.14",
         "@types/should": "^13.0.0",
@@ -24,6 +25,7 @@
         "mongoose": "^5.9.19",
         "pinus": "1.4.1",
         "pm2": "^4.4.0",
+        "pomelo-cli": "^0.1.4",
         "reflect-metadata": "^0.1.10",
         "should": "^13.2.3",
         "source-map-support": "^0.5.0",

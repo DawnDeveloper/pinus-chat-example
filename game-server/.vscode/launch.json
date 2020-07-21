@@ -53,6 +53,16 @@
             "outFiles": [
                 "${workspaceFolder}/**/*.js"
             ]
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "testMongo",
+            "sourceMaps": true,
+            "program": "${workspaceFolder}\\app\\src\\util\\testMongoose.js",
+            "outFiles": [
+                "${workspaceFolder}/**/*.js"
+            ]
         }
     ]
 }
