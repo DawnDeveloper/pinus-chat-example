@@ -13,14 +13,14 @@
         "test": "mocha -r ts-node/register ./app/src/redistest/*.ts --exit --timeout 2000"
     },
     "dependencies": {
-        "@types/bluebird": "^3.5.32",
+        "@types/bluebird": "^3.5.19",
         "@types/mocha": "^7.0.2",
         "@types/mongoose": "^5.7.32",
-        "@types/node": "8.5.7",
+        "@types/node": "8.10.54",
         "@types/redis": "^2.8.14",
         "@types/should": "^13.0.0",
         "@types/underscore": "^1.10.0",
-        "bluebird": "^3.7.2",
+        "bluebird": "^3.5.1",
         "mocha": "^7.2.0",
         "mongoose": "^5.9.19",
         "pinus": "1.4.1",
@@ -35,7 +35,7 @@
     "devDependencies": {
         "nodemon": "^2.0.4",
         "redis": "^2.8.0",
-        "tslint": "^5.9.1",
-        "typescript": "^2.9.2"
+        "tslint": "5.20.1",
+        "typescript": "3.7.3"
     }
 }
