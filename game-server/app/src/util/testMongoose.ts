@@ -15,15 +15,28 @@ function connectCall(e) {
 		sex: String,
 	});
 	nameSchema.methods.speak = function () {
-		console.log('我的名字叫' + this.name);
-	}
-	let nameModel = mongoose.model("nameModel", nameSchema);
-	let person: People = {
+		console.log('我的名字叫speak');
+	};
+	nameSchema.statics.speak = function () {
+		console.log('我的名字叫statics speak');
+	};
+	nameSchema.virtual("name.full").set((name) => {
+		var split = name.split(' ');
+		this.name.first = split[0];
+		this.name.last = split[1];
+		console.log('name:', name);
+	});
+	nameSchema.virtualpath("name.full").applySetters("zhan san", "zhan san");
+	var nameModel = mongoose.model("nameModel", nameSchema);
+	var person = {
 		name: "zhansan",
 		age: 18,
 		sex: "nan"
 	};
-	nameModel
+
+	nameModel.schema.methods.speak();
+	nameModel.schema.statics.speak();
+
 	let zhangsan = new nameModel(person);
 	console.log(zhangsan["name"]);
 	zhangsan.save((err, zhansan) => {
