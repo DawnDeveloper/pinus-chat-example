@@ -14,12 +14,16 @@ function connectCall(e) {
 		age: Number,
 		sex: String,
 	});
+	nameSchema.methods.speak = function () {
+		console.log('我的名字叫' + this.name);
+	}
 	let nameModel = mongoose.model("nameModel", nameSchema);
 	let person: People = {
 		name: "zhansan",
 		age: 18,
 		sex: "nan"
 	};
+	nameModel
 	let zhangsan = new nameModel(person);
 	console.log(zhangsan["name"]);
 	zhangsan.save((err, zhansan) => {
@@ -28,6 +32,6 @@ function connectCall(e) {
 	nameModel.find({
 		name: "zhansan"
 	}, (err, res) => {
-		
+
 	})
 }
