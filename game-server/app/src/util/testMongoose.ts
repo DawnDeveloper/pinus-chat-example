@@ -1,7 +1,8 @@
 import * as mongoose from 'mongoose';
-let mos = mongoose.connect("mongodb://127.0.0.1:27017/test", connectCall).then((e: mongoose.Mongoose) => {
+let mos = mongoose.connect("mongodb://127.0.0.1:27017/test", { useNewUrlParser: true, useUnifiedTopology: true }, connectCall).then((e: mongoose.Mongoose) => {
 	console.log(e);
 });
+var name1 = <{ first: string, last: string }>{};
 interface People {
 	name: string,
 	age: number,
@@ -22,9 +23,9 @@ function connectCall(e) {
 	};
 	nameSchema.virtual("name.full").set((name) => {
 		var split = name.split(' ');
-		this.name.first = split[0];
-		this.name.last = split[1];
-		console.log('name:', name);
+		name1.first = split[0];
+		name1.last = split[1];
+		console.log('name:', name1);
 	});
 	nameSchema.virtualpath("name.full").applySetters("zhan san", "zhan san");
 	var nameModel = mongoose.model("nameModel", nameSchema);
