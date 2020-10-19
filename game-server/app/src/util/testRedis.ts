@@ -7,4 +7,9 @@ let opt: ClientOpts = {
     port: 6380,
 };
 let redisClient = new RedisProxy(opt, console);
-redisClient.ping("that is right");
+redisClient.exists("age").then((value) => {
+    console.log("value:",value);
+})
+redisClient.set("age", "18").then((value) => {
+    console.log("value:",value);
+});
