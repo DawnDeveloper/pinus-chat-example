@@ -63,6 +63,16 @@
             "outFiles": [
                 "${workspaceFolder}/**/*.js"
             ]
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "testRedis",
+            "sourceMaps": true,
+            "program": "${workspaceFolder}\\app\\src\\util\\testRedis.js",
+            "outFiles": [
+                "${workspaceFolder}/**/*.js"
+            ]
         }
     ]
 }
