@@ -26,6 +26,7 @@
         "pinus": "1.4.1",
         "pm2": "^4.4.0",
         "pomelo-cli": "^0.1.4",
+        "pomelo-masterha-plugin": "0.0.4",
         "reflect-metadata": "^0.1.10",
         "should": "^13.2.3",
         "source-map-support": "^0.5.0",

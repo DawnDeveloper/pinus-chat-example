@@ -1,4 +1,5 @@
 import * as mongoose from 'mongoose';
+import UserModel from './UserModel';
 let mos = mongoose.connect("mongodb://127.0.0.1:27017/test", { useNewUrlParser: true, useUnifiedTopology: true }, connectCall).then((e: mongoose.Mongoose) => {
 	console.log(e);
 });

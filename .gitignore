@@ -12,3 +12,11 @@ game-server/dist/logs/pinus-connector-server-1.log
 game-server/dist/logs/pinus-game-server_1.log
 game-server/dist/logs/pinus-gate-server-1.log
 game-server/dist/logs/pinus-master-server-1.log
+game-server/dist/logs/admin.log
+game-server/dist/logs/admin.log
+game-server/dist/logs/crash.log
+game-server/dist/logs/pinus-admin.log
+game-server/dist/logs/pinus-connector-server-1.log
+game-server/dist/logs/pinus-game-server_1.log
+game-server/dist/logs/pinus-gate-server-1.log
+game-server/dist/logs/pinus-master-server-1.log
