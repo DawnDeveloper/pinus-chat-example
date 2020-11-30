@@ -73,6 +73,16 @@
             "outFiles": [
                 "${workspaceFolder}/**/*.js"
             ]
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "testFnc",
+            "sourceMaps": true,
+            "program": "${workspaceFolder}\\app\\src\\util\\testFnc.js",
+            "outFiles": [
+                "${workspaceFolder}/**/*.js"
+            ]
         }
     ]
 }
