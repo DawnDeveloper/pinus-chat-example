@@ -43,6 +43,7 @@ app.configure('production|development', 'gate', function () {
         });
 });
 
+
 // start app
 app.start();
 
