@@ -5,7 +5,7 @@
       // add node as an option
       "node"
     ],
-    "module": "commonjs", //指定生成哪个模块系统代码
+    "module": "commonjs",       //指定生成哪个模块系统代码
     "target": "es2017",
     "lib": [
       "es2015",
@@ -13,19 +13,19 @@
       "es2017",
       "esnext.asynciterable"
     ],
-    "noImplicitAny": false, //在表达式和声明上有隐含的'any'类型时报错。
+    "noImplicitAny": false,     //在表达式和声明上有隐含的'any'类型时报错。
     "noImplicitThis": false,
-    // "inlineSourceMap": true,
-    "sourceMap": true,
+    // "inlineSourceMap": true, //生成单个的map
+    "sourceMap": true,          //为每个ts生成map
     "rootDirs": [
       "."
-    ], //仅用来控制输出的目录结构--outDir。
-    "outDir": "./dist", //重定向输出目录。
-    // "declaration": true,//自动生成声明文件
+    ],                          //仅用来控制输出的目录结构--outDir。
+    "outDir": "./dist",         //重定向输出目录。
+    // "declaration": true,     //自动生成声明文件
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
     "moduleResolution": "node",
-    "watch": false //在监视模式下运行编译器。会监视输出文件，在它们改变时重新编译。
+    "watch": false              //在监视模式下运行编译器。会监视输出文件，在它们改变时重新编译。
   },
   "include": [
     "./**/*.ts"
