@@ -21,7 +21,7 @@ app.configure('production|development', 'connector', function () {
     app.set('connectorConfig',
         {
             connector: pinus.connectors.hybridconnector,
-            heartbeat: 3,
+            // heartbeat: 3,
             useDict: true,
             useProtobuf: true
         });
@@ -31,6 +31,7 @@ app.configure('production|development', 'game', function () {
     app.set('connectorConfig',
         {
             connector: pinus.connectors.hybridconnector,
+            useDict: true,
             useProtobuf: true
         });
 });
