@@ -7,10 +7,19 @@
 			"problemMatcher": [],
 			"label": "npm: start",
 			"detail": "npm run build && cd dist &&  node app",
+			"group": "build"
+		},
+		{
+			"type": "typescript",
+			"tsconfig": "tsconfig.json",
+			"problemMatcher": [
+				"$tsc"
+			],
 			"group": {
 				"kind": "build",
 				"isDefault": true
-			}
+			},
+			"label": "tsc: 构建 - tsconfig.json"
 		}
 	]
 }
