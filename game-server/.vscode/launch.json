@@ -104,7 +104,7 @@
                 "Attach to Game",
                 "Attach to Gate",
             ],
-            "preLaunchTask": "tsc: 构建 - tsconfig.json",
+            "preLaunchTask": "tsc: 监视 - tsconfig.json",
             "stopAll": true,
         }
     ]

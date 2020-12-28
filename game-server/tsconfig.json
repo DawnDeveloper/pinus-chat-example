@@ -15,8 +15,8 @@
     ],
     "noImplicitAny": false,     //在表达式和声明上有隐含的'any'类型时报错。
     "noImplicitThis": false,
-    // "inlineSourceMap": true, //生成单个的map
-    "sourceMap": true,          //为每个ts生成map
+    "inlineSourceMap": true, //生成单个的map
+    // "sourceMap": true,          //为每个ts生成map
     "rootDirs": [
       "."
     ],                          //仅用来控制输出的目录结构--outDir。
